@@ -9,7 +9,7 @@ Bienvenido a la lista oficial de mods para **Rener's Golden: Classic**, un modpa
 
 ---
 
-## Tabla de Contenidos
+## Tabla de Contenidos | Sin contar optimizaciones y configuraciones, hay **67** mods de contenido.
 1. [Núcleo, Motor y Librerías](#núcleo-motor-y-librerías)
 2. [Rendimiento y Optimización](#rendimiento-y-optimización)
 3. [Interfaz de Usuario y Mejoras de Cliente](#interfaz-de-usuario-y-mejoras-de-cliente)
