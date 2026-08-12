@@ -3,13 +3,13 @@
 # Rener's Golden: Classic — Lista de Mods (Modlist)
 
 > [!WARNING]
-> *Último cambio: 08/08/2026 - WIP - Fase de optimización - Sujeto a cambios.*
+> *Último cambio: 12/08/2026 - WIP - Fase de optimización - Sujeto a cambios.*
 
 Bienvenido a la lista oficial de mods para **Rener's Golden: Classic**, un modpack cuidadosamente seleccionado para Minecraft 1.12.2 diseñado para combinar la jugabilidad clásica y nostálgica con mejoras modernas, estabilidad de rendimiento y profundidad de contenido.
 
 ---
 
-## Tabla de Contenidos | Sin contar optimizaciones y configuraciones, hay **67** mods de contenido.
+## Tabla de Contenidos
 1. [Núcleo, Motor y Librerías](#núcleo-motor-y-librerías)
 2. [Rendimiento y Optimización](#rendimiento-y-optimización)
 3. [Interfaz de Usuario y Mejoras de Cliente](#interfaz-de-usuario-y-mejoras-de-cliente)
@@ -30,6 +30,7 @@ Cargadores principales, iniciadores de Mixin y librerías de dependencias esenci
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
 | **CrashAssistant** | `!!!CrashAssistant-forge-1.12.2-1.11.11.jar` | Asistente de diagnóstico y gestión de cierres inesperados |
+| **FermiumBooter** | ``FermiumBooter-1.4.1.jar` | Motor de optimización y cargador de Mixins de alto rendimiento |
 | **MixinBooter** | `!mixinbooter-11.13.jar` | Librería principal de carga de Mixins para 1.12.2 |
 | **Red Core** | `!Red-Core-MC-1.8-1.12-0.7.1.jar` | Librería base de bajo nivel |
 | **MixinCompat** | `[___MixinCompat-1.1-1.12.2___].jar` | Capa de compatibilidad para Mixins |
@@ -39,18 +40,23 @@ Cargadores principales, iniciadores de Mixin y librerías de dependencias esenci
 | **AutoRegLib** | `AutoRegLib-1.3-32.jar` | Librería de registro automatizado para los mods de Vazkii |
 | **Baubles** | `Baubles-1.12-1.5.2.jar` | Sistema esencial de ranuras adicionales para accesorios |
 | **CarbonConfig** | `CarbonConfig-1.12.2-2.0.2.1.jar` | Librería para la gestión de configuraciones |
+| **Chameleon** | `Chameleon-1.12-4.1.3.jar` | Librería de renderizado compartida requerida por Storage Drawers |
 | **Citadel** | `citadel-1.12.2-1.1.0.jar` | Librería avanzada de modelado y animación de entidades |
+| **CodeChicken Lib** | `CodeChickenLib-1.12.2-3.2.3.358-universal.jar` | Librería base indispensable para EnderStorage, AE2 y mods de CodeChicken |
 | **Collective** | `collective-1.12.2-3.0.jar` | Código compartido para los mods desarrollados por Serilum |
 | **Common Capabilities** | `CommonCapabilities-1.12.2-2.4.8.jar` | Integración de capacidades cruzadas entre diferentes mods |
 | **CoroUtil** | `coroutil-1.12.1-1.2.37.jar` | Motor base para mods de clima y comportamiento de monstruos |
 | **CreativeCore** | `CreativeCore_v1.10.71_mc1.12.2.jar` | Librería principal requerida por los mods de CreativeMD |
 | **Cucumber Library** | `Cucumber-1.12.2-1.1.3.jar` | Código base compartido para los mods de BlakeBr0 |
 | **Cyclops Core** | `CyclopsCore-1.12.2-1.6.7.jar` | Librería base requerida por los mods de Kroeser |
+| **EnderCore** | `EnderCore-1.12.2-0.5.78.jar` | Librería base requerida para el funcionamiento de Ender IO |
 | **Forgelin** | `Forgelin-1.8.4.jar` | Adaptador del lenguaje Kotlin para Minecraft Forge |
+| **FTB Library** | `FTBLib-5.4.7.2.jar` | Librería base para las utilidades y comandos de FTB |
 | **GottschCore** | `GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar` | Librería base para los mods de Gottsch |
 | **iChunUtil** | `iChunUtil-1.12.2-7.2.2.jar` | Framework principal para los mods de iChun |
 | **LLibrary** | `llibrary-1.7.20-1.12.2.jar` | API avanzada de animación utilizada por mods de criaturas |
 | **LibraryEx** | `LibraryEx-1.12.2-1.2.2.jar` | Librería base para los mods de LogicTechCorp |
+| **MCEF (Chromium Embedded Framework)** | `mcef-1.12.2-1.11.jar` | Framework de renderizado web integrado |
 | **Mantle** | `Mantle-1.12-1.3.3.55.jar` | Base compartida para los mods desarrollados por SlimeKnights |
 | **MultiMob Library** | `multimob-1.0.5.jar` | Framework para el control de generación de entidades |
 | **MysticalLib** | `mysticallib-1.12.2-1.13.0.jar` | Librería base para mods como Roots y Mystical World |
@@ -71,9 +77,8 @@ Correcciones de rendimiento, optimización de memoria, culling de entidades, pro
 
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
-| **Async Logger** | `asynclogger-2.2.1+1.12.2-forge.jar` | Escritura asíncrona de registros para evitar congelamientos por I/O |
+| **AI Improvements** | `AIImprovements-1.12-0.0.1b3.jar` | Optimiza rutinas de la IA de entidades para liberar carga de CPU |
 | **AttributeFix** | `AttributeFix-Forge-1.12.2-1.0.12.jar` | Elimina los límites arbitrarios en los atributos de vanilla |
-| **BetterFps** | `BetterFps-1.4.8.jar` | Ajuste de algoritmos matemáticos para mejorar el rendimiento de FPS |
 | **Chunk-Pregenerator** | `Chunk-Pregenerator-1.12.2-4.4.9.2.jar` | Utilidad de pregeneración de mundo para eliminar el lag por carga de chunks |
 | **Clumps** | `Clumps-3.1.2.jar` | Agrupa los orbes de experiencia en un solo objeto para reducir el lag |
 | **Dynamic View Distance** | `dynviewdist-1.12-1.3.jar` | Ajusta dinámicamente la distancia de visión según la carga del servidor |
@@ -85,14 +90,13 @@ Correcciones de rendimiento, optimización de memoria, culling de entidades, pro
 | **FoamFix** | `foamfix-0.10.15-1.12.2.jar` | Reducción masiva del consumo de memoria RAM en Java |
 | **Get It Together Drops** | `getittogetherdrops-1.12.2-v1.0.2.jar` | Une ítems tirados en el suelo en un solo stack para optimizar entidades |
 | **GPU Tape** | `GPUTape-1.12.2-1.0.4.jar` | Optimización de memoria de la tarjeta gráfica y sincronización de ticks |
-| **Let Me Despawn** | `letmedespawn-1.12.2-forge-1.0.2.jar` | Fuerza el despawn adecuado de mobs agresivos con armadura u objetos |
 | **LolASM** | `loliasm-5.33.jar` | Carga de chunks bajo demanda y optimizaciones avanzadas de ASM |
+| **Naughthirium** | `naughthirium-2.3.0.jar` | Capa de compatibilidad para renderizadores modernos |
+| **NoiseThreader** | `NoiseThreader-1.1.3.jar` | Procesamiento multihilo para la generación de ruido del terreno |
 | **Nothirium** | `Nothirium-1.12.2-0.4.9-beta.jar` | Reemplazo moderno del motor de renderizado de chunks en OpenGL |
 | **Particle Culling** | `particleculling-1.12.2-v1.4.3.jar` | Omite el renderizado de partículas no visibles para el jugador |
-| **Performant** | `performant-1.11.jar` | Optimización de la IA de entidades y eventos del servidor |
 | **Roughly Enough IDs** | `RoughlyEnoughIDs-2.3.1.jar` | Ampla el límite interno de IDs de bloques e ítems |
 | **Spark** | `spark-forge1122.jar` | Herramienta de perfilado de alto rendimiento para CPU y memoria |
-| **Tiquality** | `Tiquality-FAT-1.12.2-GAMMA-1.8.1-124.jar` | Estabilizador del TPS del servidor y asignación equitativa de ticks |
 
 ---
 
@@ -108,6 +112,7 @@ Actualizaciones visuales del HUD, control de inventario, interfaces de mapas, de
 | **BetterChat** | `betterchat-1.4.jar` | Chat mejorado con pestañas, personalización visual e historial |
 | **Better Third Person** | `BetterThirdPerson-Forge-1.12.2-1.9.0.jar` | Rotación libre de cámara a 360 grados en tercera persona |
 | **Biome Info** | `biomeinfo-1.12.2-v1.2.5.jar` | Muestra el nombre del bioma actual en pantalla |
+| **Colorful Health Bar** | `colorfulhealthbar-0.0.4a.jar` | Renderiza barras de vida por capas de colores según la salud máxima |
 | **Controlling** | `Controlling-3.0.12.4.jar` | Menú con buscador para gestionar y configurar controles fácilmente |
 | **Custom Cursor Mod** | `CustomCursorMod-1.2.2.jar` | Permite usar punteros de ratón personalizados en el juego |
 | **Default Options** | `DefaultOptions_1.12.2-9.2.8.jar` | Guarda y fuerza la configuración predeterminada de controles del modpack |
@@ -115,8 +120,12 @@ Actualizaciones visuales del HUD, control de inventario, interfaces de mapas, de
 | **Enchantment Descriptions** | `EnchantmentDescriptions-1.12.2-1.1.15.jar` | Añade información sobre lo que hace cada encantamiento en los libros |
 | **FancyMenu** | `fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar` | Motor para personalizar por completo los menús principales |
 | **Forced Resource Packs** | `forcedresourcepacks-1.1.jar` | Enlaza y fuerza paquetes de recursos del modpack en el cliente |
+| **FTB Utilities Xaero Compatibility** | `ftbuxaerocompat-1.1.1.jar` | Muestra las reclamaciones de chunk de FTB directamente en el mapa de Xaero |
+| **Googly Eyes** | `GooglyEyes-1.12.2-7.1.1.jar` | Divertidos ojos saltones animados en la cara de las entidades |
 | **Highlighter** | `Highlighter-1.12.2-forge-1.1.7.jar` | Resalta los objetos recién obtenidos en el inventario |
 | **Hwyla** | `Hwyla-1.8.26-B41_1.12.2.jar` | Muestra una ventana con la información del bloque o entidad que estás mirando |
+| **Inventory HUD+** | `InventoryHUD-1.12.2.forge-3.4.4.jar` | Muestra el inventario, durabilidad de armadura y pociones en pantalla |
+| **Inventory Tweaks** | `InventoryTweaks-1.63.jar` | Ordenación automática de inventarios y reemplazo de herramientas gastadas |
 | **Item Borders** | `ItemBorders-1.12.2-forge-1.2.0.jar` | Renderiza bordes de colores en las casillas según la rareza del ítem |
 | **Item Scroller** | `itemscroller-1.12.2-0.12.0.jar` | Movimiento rápido de objetos en inventarios mediante la rueda del ratón |
 | **Jade** | `Jade-0.1.0.jar` | Marco alternativo para la visualización de información de bloques |
@@ -124,7 +133,6 @@ Actualizaciones visuales del HUD, control de inventario, interfaces de mapas, de
 | **Just Enough Botania** | `Just-Enough-Botania-1.12.2-v0.2.jar` | Integración de recetas de Botania dentro de JEI |
 | **Just Enough Resources (JER)** | `JustEnoughResources-1.12.2-0.9.2.60.jar` | Muestra probabilidades de drops y generación de minerales en JEI |
 | **Konkrete** | `konkrete_forge_1.6.1_MC_1.12-1.12.2.jar` | Librería de interfaz requerida por FancyMenu |
-| **Loading Progress Bar** | `Loading-Progress-Bar-v1.0-mc[1.8-1.12.2].jar` | Barra de progreso personalizada durante la carga inicial del juego |
 | **Map Tooltip** | `maptooltip-1.12.2-1.0.jar` | Previsualiza el contenido de un mapa directamente al pasar el ratón |
 | **Mouse Tweaks** | `MouseTweaks-2.10-mc1.12.2.jar` | Mejora el arrastre e interacción con objetos en los inventarios |
 | **Name Pain** | `namepain-1.5.0 forge-1.12.x.jar` | Cambia el color del nombre de las entidades según su nivel de vida |
@@ -132,8 +140,13 @@ Actualizaciones visuales del HUD, control de inventario, interfaces de mapas, de
 | **Obscure Tooltips** | `obscure_tooltips-forge-1.12.2-3.10.2.jar` | Rediseño estético para las tarjetas de información de ítems |
 | **Overloaded Armor Bar** | `overloadedarmorbar-1.0.4g.jar` | Permite mostrar valores altos de armadura mediante barras de colores |
 | **PickUp Notifier** | `PickUpNotifier-v1.1.5-1.12.2.jar` | Muestra notificaciones flotantes de los ítems recogidos |
+| **Screenshot Viewer** | `screenshot_viewer-1.1.1-forge-mc1.12.2.jar` | Visor y gestor integrado para las capturas de pantalla tomadas |
+| **Server Tab Info** | `ServerTabInfo-1.12.2-1.2.6.jar` | Muestra el ping, TPS del servidor e información de jugadores en el Tabulador |
 | **Tips** | `Tips-1.12.2-1.0.9.jar` | Sistema de consejos configurables en la pantalla de carga |
 | **ToroHealth Damage Indicators** | `torohealth-1.12.2-11.jar` | Indicadores de daño e interfaz con la barra de vida del objetivo |
+| **Toughness Bar** | `toughnessbar-2.4.jar` | Muestra la resistencia/dureza de la armadura en el HUD |
+| **Visual Ores** | `visualores-0.2.8.jar` | Dibuja la ubicación de las vetas de minerales descubiertas en los mapas de Xaero |
+| **Waila Harvestability** | `WailaHarvestability-mc1.12-1.1.12.jar` | Muestra la herramienta y nivel necesario para picar un bloque |
 | **WI Zoom** | `wi-zoom-v1.1-MC1.12.2-release.jar` | Zoom ultrasuave y ajustable asignable a una tecla |
 | **Xaero's Minimap** | `xaerominimap-forge-1.12.2-26.4.2.jar` | Minimapa en pantalla con marcas de posición y puntos de interés |
 | **Xaero's World Map** | `xaeroworldmap-forge-1.12.2-1.44.2.jar` | Mapa del mundo interactivo a pantalla completa |
@@ -146,17 +159,20 @@ Artes mágicas, automatización tecnológica, redes de energía y maquinaria esp
 
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
-| **Applied Energistics 2** | `appliedenergistics2-rv6-stable-7.jar` | Almacenamiento digital de materia a energía y autocrafting masivo |
+| **AbyssalCraft** | `AbyssalCraft-1.12.2-1.11.3.jar` | Magia arcana de Lovecraft, libro Necronomicon y dimensiones oscuras |
+| **Applied Energistics 2 (Unofficial Extended Life)** | `ae2-uel-v0.56.6.jar` | Fork optimizado de AE2 para almacenamiento digital de materia a energía |
 | **Astral Sorcery** | `astralsorcery-1.12.2-1.10.27.jar` | Magia basada en la luz estelar, altares y alineación de constelaciones |
-| **Bewitchment** | `bewitchment-1.12.2-0.0.22.65.jar` | Sucesor espiritual de Witchery; rituales, maldiciones y demonios |
 | **Botania** | `Botania r1.10-364.4.jar` | Mod de tecnología natural basada en el uso de maná y flores mágicas |
+| **BuildCraft** | `buildcraft-all-8.0.0.jar` | Canteras automáticas, tuberías de transporte, motores y automatización mecánica |
+| **Ender IO** | `EnderIO-1.12.2-5.3.72.jar` | Conductos compactos multicanal, máquinas de procesamiento y generación de energía |
 | **Energy Converters** | `energyconverters_1.12.2-1.3.7.30.jar` | Convierte energía entre sistemas EU, FE, RF y MJ sin pérdidas |
+| **Extra Utilities 2** | `extrautils2-1.12-1.9.9.jar` | Máquinas de utilidad, energía Grid Power, tuberías y bloques útiles |
 | **IndustrialCraft 2** | `industrialcraft-2-2.8.170-ex112.jar` | Clásico mod tecnológico con reactores nucleares, cables y maquinaria |
-| **Integrated Dynamics** | `IntegratedDynamics-1.12.2-1.1.11.jar` | Redes lógicas complejas y automatización de datos |
-| **Integrated Terminals** | `IntegratedTerminals-1.12.2-1.0.14.jar` | Terminal central para gestionar redes de Integrated Dynamics |
-| **Integrated Tunnels** | `IntegratedTunnels-1.12.2-1.6.14.jar` | Transporte ultra rápido de ítems, fluidos y energía |
+| **OpenBlocks Reopened** | `OpenBlocksReopened-1.12.2-1.8.3.1.jar` | Bloques utilitarios, elevadores, guías de construcción y tanques de experiencia |
 | **Patchouli** | `Patchouli-1.0-23.6.jar` | Sistema para crear libros de guía y manuales interactivos |
 | **Thaumcraft 6** | `Thaumcraft-1.12.2-6.1.BETA26.jar` | Investigación mágica, manipulación de vis, alquimia y aspectos |
+| **Witchery Resurrected** | `WitcheryResurrected-1.12.2-0.5.2.4-forge-all.jar` | Recreación fiel del mítico mod de brujería Witchery para 1.12.2 |
+| **Witchery Companion** | `witcherycompanion-0.36.2-beta.jar` | Mod de compatibilidad y extensiones para Witchery Resurrected |
 
 ---
 
@@ -192,20 +208,21 @@ Enemigos, bestias mitológicas, fauna pacífica, mascotas y mecánicas de jefes.
 | **ChocoCraft Plus** | `ChocoCraftPlus-1.12.2-4.5.10.jar` | Crianza, montura y equipamiento de Chocobos |
 | **Doggy Talents** | `DoggyTalents-1.12.2-1.15.1.6.jar` | Árbol de habilidades, niveles y cuidado avanzado para perros |
 | **Dragon Mounts 2** | `DragonMounts2-1.12.2-2.1.2.jar` | Permite eclosionar, criar y volar en distintas razas de dragones |
+| **Eyes in the Darkness** | `EyesInTheDarkness-0.1.0.jar` | Misteriosas miradas acechantes que aparecen en la oscuridad |
 | **Fish's Undead Rising** | `Fish's Undead Rising-1.6.2.jar` | Gran variedad de monstruos no-muertos y criaturas mitológicas |
 | **Frozen Fiend** | `Frozen-Fiend-1.5.3.jar` | Criaturas hostiles adaptadas a biomas helados |
 | **Good Skeletons Don't Strafe** | `GoodSkeletonsDontStrafe-v1.1.1-1.12.2.jar` | Elimina la molesta IA de movimiento lateral continuo en los esqueletos |
-| **Hunter Illager** | `hunterillager-1.12.2-1.2.jar` | Añade cabañas de cazadores illager en los bosques |
 | **Ice and Fire: Dragons** | `iceandfire-1.9.1-1.12.2.jar` | Dragones legendarios, gorgonas, serpientes marinas y bestias mitológicas |
 | **Illagers+** | `IllagersPlus-1.12.2-1.1.3.jar` | Nuevos tipos de illagers y fortalezas enemigas |
-| **Koopa's Critters** | `Koopa's Critters 1.12 II V1.3.jar` | Variedad de fauna realista pacífica y agresiva |
+| **Instrumental Mobs** | `Instrumental-Mobs-1.2.1.jar` | Mobs hostiles armados con instrumentos musicales letales |
 | **Magma Monsters** | `MagmaMonsters-0.3.0.jar` | Monstruos hechos de lava y fuego |
+| **Mo' Creatures** | `mocreatures-12.5.1.jar` | Clásico mod de fauna silvestre, monturas y animales exóticos |
 | **Mowzie's Mobs** | `mowziesmobs-1.5.8.jar` | Jefes y criaturas únicas con animaciones y mecánicas complejas |
+| **Mystical World** | `mysticalworld-1.12.2-1.11.0.jar` | Criaturas fantásticas, zorros de plata, escarabajos y materiales |
 | **Primitive Mobs** | `primitivemobs-1.2.3a.jar` | Criaturas útiles y hostiles de estilo clásico |
 | **Rats** | `rats-3.2.14-1.12.2.jar` | Ratas adiestrables para automatización, combate y peleas contra jefes |
 | **Simply Cats** | `simplycats-1.12.2-0.2.2.jar` | Sistema detallado de genética y crianza de gatos |
-| **Slimy Boyos** | `SlimyBoyos-1.0.0.jar` | Variantes de slimes con mecánicas y mascotas |
-| **Scape and Run: Parasites** | `SRParasites-1.12.2v1.9.21.jar` | Infección parasitaria evolutiva que amenaza al mundo |
+| **Spiders 2.0** | `spiders-2.0-1.12.2-1.0.3.jar` | Rediseño de las físicas para que las arañas trepen paredes de forma realista |
 | **Straw Golem Rebaland** | `strawgolem-1.4.2.ED.jar` | Pequeños golems de paja que cosechan cultivos automáticamente |
 | **Wyrms of Nyrus** | `wyrmsofnyrus-0.9.3.jar` | Gusanos subterráneos y monstruosidades alienígenas |
 
@@ -236,29 +253,32 @@ Armas, armaduras, accesorios, físicas de combate y ajustes para el jugador.
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
 | **Aqua Acrobatics** | `AquaAcrobatics-1.15.4.jar` | Adapta las mecánicas modernas de nadar y agacharse de 1.13+ |
+| **Armored Arms** | `ArmoredArms-v1.5.3-1.12.2-release.jar` | Renderiza las mangas de la armadura en la vista en primera persona |
 | **Artifacts** | `artifacts-1.12.2-1.2.4.jar` | Accesorios únicos no fabricables con habilidades especiales |
+| **Better Builder's Wands** | `BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar` | Varas de construcción para colocar bloques de forma masiva |
 | **Bountiful Baubles** | `Bountiful Baubles-1.12.2-0.1.8.jar` | Objetos y accesorios inspirados en mecánicas de Terraria |
 | **Colytra** | `colytra-1.12.2-1.2.0.4.jar` | Permite fusionar las Elytras directamente en las pecheras |
 | **Cosmetic Armor Reworked** | `CosmeticArmorReworked-1.12.2-v5a.jar` | Ranuras de armadura visuales independientes de las estadísticas |
 | **Easy Anvils** | `easyanvils-1.1.0.jar` | Mejora el yunque reteniendo los objetos al cerrar la interfaz |
 | **Easy Elytra Takeoff** | `easyeletratakeoff_1.12.2-2.1.jar` | Permite despegar con cohetes desde el suelo sin saltar de un borde |
 | **Easy Magic** | `easymagic-1.2.4.jar` | Mantiene los objetos flotando en la mesa de encantamientos |
+| **EnderStorage** | `EnderStorage-1.12.2-2.4.6.137-universal.jar` | Cofres, tanques y bolsas del Ender vinculados por frecuencias de color |
 | **Forgiving Void** | `ForgivingVoid_1.12.2-1.1.0.jar` | Caer al vacío te reaparece cayendo desde el cielo sin morir |
 | **Grappling Hook Mod** | `grappling_hook_mod-1.12.2-v13.jar` | Ganchos de agarre con físicas para desplazamiento rápido |
 | **Hammers** | `hammers-2.1.5-1.12.2-forge.jar` | Martillos de minería para excavar en áreas de 3x3 |
+| **Improved Backpacks** | `ImprovedBackpacks-1.12.2-1.5.0.0.jar` | Mochilas personalizables, pintables y equipables en la espalda |
 | **Iron Jetpacks** | `IronJetpacks-1.12-2-1.1.0.jar` | Jetpacks escalables alimentados por energía |
 | **MmmMmmMmmMmm** | `MmmMmmMmmMmm-1.12-2.0.7.jar` | Muñeco de pruebas para medir daño y DPS |
 | **Paraglider** | `Paraglider-1.12.2-1.0.1.5.jar` | Paravela al estilo de Zelda para planear consumiendo estamina |
 | **Parry** | `parry-1.0-hotfix.jar` | Mecánica para desviar ataques con la espada con precisión |
 | **Responsive Shields** | `responsiveshields-2.3-mc1.12.x.jar` | Elimina la demora al bloquear con el escudo |
-| **Spartan Bewitchment** | `spartanbewitchment-1.0.jar` | Compatibilidad entre armas de Spartan Weaponry y Bewitchment |
 | **Spartan Shields** | `SpartanShields-1.12.2-1.5.5.jar` | Escudos variados de diferentes materiales y niveles |
 | **Spartan Twilight** | `spartantwilight-1.12.2-1.2.0.jar` | Armas de Spartan Weaponry con materiales de Twilight Forest |
 | **Spartan Weaponry** | `SpartanWeaponry-1.12.2-1.6.1.jar` | Extenso arsenal de armas (alabardas, estoques, espadones) |
 | **Tinkers' Construct** | `TConstruct-1.12.2-2.13.0.183.jar` | Creación de herramientas personalizadas mediante fundiciones |
+| **Tinker Tool Leveling** | `TinkerToolLeveling-1.12.2-1.1.0.jar` | Otorga ranuras de modificadores extra a medida que las herramientas ganan XP |
 | **The Aether Baubles** | `TheAetherBaubles-2.0.1.jar` | Integra los accesorios de The Aether en las ranuras de Baubles |
 | **Tombstone** | `tombstone-1.12.2-4.7.6.jar` | Genera tumbas al morir para recuperar los objetos con magia de almas |
-| **Traveler's Backpack** | `TravelersBackpack-1.12.2-1.0.35.jar` | Mochilas equipables con tanques de fluidos y saco de dormir |
 | **Weapon Master** | `weaponmaster_ydm-forge-1.12.2-4.2.3.jar` | Muestra las armas no equipadas en la espalda y cintura del jugador |
 | **Wither Skeleton Tweaks** | `WitherSkeletonTweaks-1.12.2-2.6.3.jar` | Fragmentos de calavera y ajustes en la generación de esqueletos wither |
 | **XP Tome** | `xptome-1.12.2-v2.0.1.jar` | Libros para almacenar y recuperar experiencia |
@@ -272,10 +292,11 @@ Artes culinarias, agricultura expandida, bloques decorativos y herramientas de c
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
 | **Aquaculture 2** | `Aquaculture-1.12.2-1.6.8.jar` | Sistema de pesca expandido con nuevos peces y cañas |
+| **Blockcraftery** | `blockcraftery-1.12.2-1.3.1.jar` | Bloques personalizables para construcción con pendientes y esquinas |
 | **Cherry On Top** | `Cherry_on-1.12.2-1.3.35.jar` | Postres y dulces decorativos |
 | **Comforts** | `comforts-1.12.2-1.4.1.3.jar` | Sacos de dormir y hamacas para pasar el día o la noche |
 | **Culinary Construct** | `culinaryconstruct-1.3.4.jar` | Creación modular de sándwiches y hamburguesas personalizadas |
-| **Decocraft** | `Decocraft-2.6.3.7_1.12.2.jar` | Gran colección de objetos decorativos y muebles en 3D |
+| **Ender Crop** | `endercrop-1.12.2-1.6.0.jar` | Cultivo especial que permite cosechar Perlas del Ender a partir de semillas |
 | **End's Delight Legacy** | `ends-delight-legacy-1.0.3.jar` | Expansión de cocina para Farmer's Delight con ingredientes del End |
 | **Farmer's Delight Legacy** | `FarmersDelightLegacy-1.1.3-fix1.jar` | Sistema completo de cocina, ollas y cultivos |
 | **Future MC** | `Future-MC-0.2.21.jar` | Adapta bloques de construcción y herramientas de versiones 1.14+ |
@@ -290,7 +311,7 @@ Artes culinarias, agricultura expandida, bloques decorativos y herramientas de c
 | **Macaw's Windows** | `mcw-windows-1.0.0-mc1.12.2.jar` | Ventanas arquitectónicas y persianas |
 | **Nether's Delight Legacy** | `nethers-delight-legacy-1.0.7.jar` | Recetas y cocina con ingredientes del Nether |
 | **Quark** | `Quark-r1.6-179.jar` | Colección modular de mejoras para la experiencia vanilla |
-| **Saplanting** | `saplanting-forge-1.12.2-0.2.jar` | Los brotes caídos al suelo se replantan solos automáticamente |
+| **Storage Drawers** | `StorageDrawers-1.12.2-5.5.3.jar` | Bloques de cajones altamente escalables para almacenamiento masivo |
 | **TreeChop** | `TreeChop-1.12.2-0.14.7.jar` | Talar árboles de forma progresiva con animaciones físicas |
 | **Twilight Delight Legacy** | `TwilightDelightLegacy-1.2.0.jar` | Recetas de Farmer's Delight usando ingredientes de Twilight Forest |
 
@@ -302,19 +323,21 @@ Efectos de sonido ambientales, iluminación dinámica, mejoras de utilidad y com
 
 | Nombre del Mod | Nombre del Archivo | Categoría / Descripción |
 | :--- | :--- | :--- |
+| **Ambient Environment** | `AmbientEnvironment-1.0.2.jar` | Mejora las tonalidades de color del follaje e inmersión biómica |
 | **AmbientSounds 3** | `AmbientSounds_v3.1.7_mc1.12.2.jar` | Sonidos ambientales e inmersión acústica según el bioma |
 | **Armor Sound Tweak** | `ArmorSoundTweak-2.1.0.jar` | Efectos de sonido detallados al equipar y desequipar armadura |
-| **Celeritas Dynamic Lights** | `celeritasdynamiclights-1.2.10.jar` | Iluminación dinámica para antorchas y objetos luminosos sostenidos |
 | **CTM (Connected Textures Mod)** | `CTM-MC1.12.2-1.0.2.31.jar` | Soporte para texturas conectadas en bloques |
 | **Dynamic Surroundings** | `DynamicSurroundings-1.12.2-3.6.1.0.jar` | Efectos visuales de clima, pisadas e inmersión acústica |
+| **Falling Leaves** | `fallingleaves-2.1.2.2.jar` | Partículas estéticas de hojas cayendo de las copas de los árboles |
 | **Friendly Fire** | `FriendlyFire-1.12.2-1.5.10.jar` | Evita infligir daño accidental a mascotas domesticadas |
+| **FTB Utilities** | `FTBUtilities-5.4.1.131.jar` | Sistema de reclamo de terrenos, equipos, copias de seguridad y comandos de servidor |
 | **Galacticraft** | `Galacticraft-1.12.2-4.0.7.jar` | Exploración espacial, cohetes y viaje a otros planetas |
 | **Gnetum** | `gnetum-1.4.3.jar` | Ajustes secundarios y herramientas para el mundo |
 | **Hats** | `Hats-1.12.2-7.1.1.jar` | Sombreros cosméticos coleccionables para mobs y jugadores |
 | **Healing Bed** | `HealingBed 1.12.2 forge.jar` | Regenera gradualmente la salud mientras el jugador descansa |
-| **Lumen** | `lumen-Beta 0.4.1.jar` | Luces ambientales, luciérnagas y organismos bioluminiscentes |
 | **My Server Is Compatible** | `MyServerIsCompatible-1.12.2-1.0.jar` | Corrección del protocolo de conexión cliente-servidor |
 | **NetherPortalFix** | `NetherPortalFix_1.12.1-5.3.17.jar` | Soluciona errores de destino e interconexión con portales del Nether |
+| **SecurityCraft** | `[1.12.2] SecurityCraft v1.10.1.jar` | Lasers, teclados numéricos, cámaras de seguridad y defensas de base |
 | **Smart Particles** | `smart_particles+mc1.12.2-12.02.9-Forge.jar` | Partículas optimizadas con físicas de colisión |
 | **Sound Filters** | `SoundFilters-0.12.1_for_1.12.jar` | Repercusión acústica, eco en cuevas y filtrado detrás de paredes |
 | **Sulfur & Potassium** | `sulfur-potassium-1.12-1.1.jar` | Minerales alternativos para la fabricación de pólvora |
