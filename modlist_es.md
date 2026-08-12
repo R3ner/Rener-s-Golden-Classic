@@ -3,7 +3,7 @@
 # Rener's Golden: Classic — Lista de Mods (Modlist)
 
 > [!WARNING]
-> *Último cambio: 12/08/2026 - WIP - Fase de optimización - Sujeto a cambios.*
+> *Último cambio: 12/08/2026 - WIP - Fase de últimos retoques - Sujeto a cambios.*
 
 Bienvenido/a a la lista oficial de mods para **Rener's Golden: Classic**, un modpack cuidadosamente seleccionado para Minecraft 1.12.2 diseñado para combinar la jugabilidad clásica y nostálgica con mejoras modernas, estabilidad de rendimiento y profundidad de contenido.
 
