@@ -3,13 +3,13 @@
 # Rener's Golden: Classic — Modlist
 
 > [!WARNING]
-> *Last change: 12/08/2026 - WIP - Optimization phase - subject to change.*
+> *Last change: 12/08/2026 - WIP - Last Touches Phase - subject to change.*
 
 Welcome to the official modlist for **Rener's Golden: Classic**, a curated 1.12.2 Minecraft modpack designed to blend nostalgic classic gameplay with modern enhancements, performance stability, and content depth.
 
 ---
 
-## Table of Contents
+## Table of Contents | Playable Content Mods: 76 mods | Optimization, Performance, and Multi-threading: 15 mods | The rest are QoL, APIs, and Libraries/Dependencies
 1. [Core, Engine & Libraries](#core-engine--libraries)
 2. [Performance & Optimization](#performance--optimization)
 3. [User Interface & Client Enhancements](#user-interface--client-enhancements)
