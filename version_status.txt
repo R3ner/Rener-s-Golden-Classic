@@ -1,7 +1,3 @@
-&6&lMODPACK
-&fTu version es:
-&fYour version is:
-
 &7[EN] &e&lLast version on GitHub: &aV1.1
 &7[ES] &e&lÚltima verѕión en GitHub: &aV1.1
 
