@@ -1,7 +1,7 @@
 &7[EN] &e&lLast version on GitHub: &aV1.1
 &7[ES] &e&lÚltima verѕión en GitHub: &aV1.1
 
-&9&lCHANGELOG:
+&9&lCHANGELOG V1.1:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
 &l&c▬ &7Eliminado &fToroQuest
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
