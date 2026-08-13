@@ -1,4 +1,4 @@
-ʟᴀѕᴛ ᴠᴇʀѕɪᴏɴ ᴏɴ ɢɪᴛʜᴜʙ ɪѕ: 1.1
-Úʟᴛɪᴍᴀ ᴠᴇʀѕɪᴏɴ ᴇɴ ɢɪᴛʜᴜʙ ᴇѕ: 1.1
-¿ᴅᴇѕᴀᴄᴛᴜᴀʟɪᴢᴀᴅᴏ? / ᴏᴜᴛᴅᴀᴛᴇᴅ?
+Last version on GitHub is: 1.1
+Última version en GitHub es: 1.1
+¿Desactualizado? / Outdated?
 -> 
