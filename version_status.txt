@@ -6,6 +6,6 @@
 &7[ES] &e&lÚʟᴛɪᴍᴀ ᴠᴇʀѕɪᴏɴ ᴇɴ ɢɪᴛʜᴜʙ ᴇѕ: &a1.1
 
 &9&lᴄʜᴀɴɢᴇʟᴏɢ:
-&l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
-&l&2✚ &7Añadido &fSpellbound Spire Towers
+&l&c▬ &7Eliminado &f
+&l&2✚ &7Añadido &fBattle Towers Fixes
 &l&b✔ &7Arreglado &fInterfaz menu principal
