@@ -7,5 +7,5 @@
 
 &9&lᴄʜᴀɴɢᴇʟᴏɢ:
 &c▬ &7Eliminado &fAtomicStryker's Battle Towers
-&e✚ &7Añadido &fSpellbound Spire Towers
+&a✚ &7Añadido &fSpellbound Spire Towers
 &b✔ &7Arreglado &fInterfaz menu principal
