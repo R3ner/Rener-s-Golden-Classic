@@ -1,4 +1,14 @@
-Last version on GitHub is: 1.1
-Última version en GitHub es: 1.1
-¿Desactualizado? / Outdated?
--> 
+&6&l[ CONTROL DE VERSIÓN / VERSION CONTROL]
+&fÚltima versión en GitHub / Last version on GitHub: &a&l1.1
+&8---------------------------------
+&7[ES] Compara con tu versión abajo
+&7a la izquierda. Si no coincide,
+&7estás desactualizado.
+&e¡Haz clic en el botón de GitHub
+&epara descargar la nueva versión!
+
+&7[EN] Compare with your version at
+&7the bottom left. If it doesn't match,
+&7you are outdated.
+&eClick the GitHub button below
+&eto download the new update!
