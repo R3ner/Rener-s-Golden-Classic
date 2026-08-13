@@ -2,8 +2,8 @@
 &fTu version es:
 &fYour version is:
 
-&7[EN] &e&lLast version on GitHub is: &a1.1
-&7[ES] &e&lLa última verѕión en GitHub es: &a1.1
+&7[EN] &e&lLast version on GitHub: &a1.1
+&7[ES] &e&lÚltima verѕión en GitHub: &a1.1
 
 &9&lCHANGELOG:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
