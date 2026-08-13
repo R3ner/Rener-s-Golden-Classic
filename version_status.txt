@@ -1,11 +1,11 @@
-&6&lᴍᴏᴅᴘᴀᴄᴋ
-&fᴛᴜ ᴠᴇʀѕɪóɴ ᴇѕ:
-&fʏᴏᴜʀ ᴠᴇʀѕɪᴏɴ ɪѕ:
+&6&lMODPACK
+&fTu version es:
+&fYour version is:
 
-&7[EN] &e&lʟᴀѕᴛ ᴠᴇʀѕɪᴏɴ ᴏɴ ɢɪᴛʜᴜʙ ɪѕ: &a1.1
-&7[ES] &e&lÚʟᴛɪᴍᴀ ᴠᴇʀѕɪᴏɴ ᴇɴ ɢɪᴛʜᴜʙ ᴇѕ: &a1.1
+&7[EN] &e&lLast version on GitHub is: &a1.1
+&7[ES] &e&lLa última verѕión en GitHub es: &a1.1
 
-&9&lᴄʜᴀɴɢᴇʟᴏɢ:
+&9&lCHANGELOG:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
 &l&c▬ &7Eliminado &fToroQuest
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
