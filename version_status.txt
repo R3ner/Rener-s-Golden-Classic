@@ -1,2 +1,12 @@
-✔ MODPACK UP TO DATE
-✔ MODPACK ACTUALIZADO
++-----------------------------------------------------------------------------------------+
+| [!] RENER'S GOLDEN: CLASSIC - VERSION CHECK / CONTROL DE VERSION                        |
++-----------------------------------------------------------------------------------------+
+|                                                                                         |
+| [ES] La nueva version del modpack es: 1.1                                               |
+| Si tu modpack no esta en esta version, esta desactualizado. Actualiza en:               |
+
+| [EN] The latest version of the modpack is: 1.1                                          |
+| If your modpack is not on this version, it is outdated. Update at:                      |
+
+|                                                                                         |
++-----------------------------------------------------------------------------------------+
