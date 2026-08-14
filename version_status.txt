@@ -4,6 +4,7 @@
 &9&lCHANGELOG V1.1:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
 &l&c▬ &7Eliminado &fToroQuest
+&l&c▬ &7Eliminado &fTips
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&b✔ &7Arreglado &fInterfaz menu principal
 &l&b✔ &7Arreglado &fTEST
