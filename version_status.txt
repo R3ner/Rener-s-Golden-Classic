@@ -8,6 +8,8 @@
 &l&c▬ &7Eliminado &fScreenshot Viewer
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&2✚ &7Añadido &fNe-Carpenter's Blocks
+&l&2✚ &7Añadido &fCustomSkinLoader
+&l&2✚ &7Añadido &fInstantSkin
 &l&b✔ &7Arreglado &fInterfaz menu principal
 &l&d▼ &7Actualizado &fCorail Tombstone
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
