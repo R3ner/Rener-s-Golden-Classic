@@ -9,7 +9,12 @@
 &l&c▬ &7Eliminado &fScreenshot Viewer
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&2✚ &7Añadido &fNe-Carpenter's Blocks
-&l&b✔ &7Arreglado &fInterfaz menu principal
+&l&b✓ &7Arreglado &fInterfaz menu principal
+&l&d↓ &7Actualizado &fCorail Tombstone
+&l&d↓ &7Actualizado &fFarmer's Delight Legacy
+&l&d↓ &7Actualizado &fFermiumBooter
+&l&d↓ &7Actualizado &fSuperMartijn642's Core Lib
+&l&d↓ &7Actualizado &fCrash Assistant
 &l&b✔ &7Arreglado &fTEST
 &l&b✔ &7Arreglado &fTEST
 &l&b✔ &7Arreglado &fTEST
