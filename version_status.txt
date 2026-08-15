@@ -5,7 +5,9 @@
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
 &l&c▬ &7Eliminado &fToroQuest
 &l&c▬ &7Eliminado &fTips
+&l&c▬ &7Eliminado &fBlockcraftery
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
+&l&2✚ &7Añadido &fNe-Carpenter's Blocks
 &l&b✔ &7Arreglado &fInterfaz menu principal
 &l&b✔ &7Arreglado &fTEST
 &l&b✔ &7Arreglado &fTEST
