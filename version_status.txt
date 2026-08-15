@@ -1,5 +1,4 @@
-&7[EN] &e&lLast version on GitHub: &aV1.1
-&7[ES] &e&lÚltima verѕión en GitHub: &aV1.1
+&e&lÚLTIMA VERSIIÓN EN GITHUB ES: &a&lV1.1
 
 &9&lCHANGELOG V1.1:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
@@ -9,22 +8,13 @@
 &l&c▬ &7Eliminado &fScreenshot Viewer
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&2✚ &7Añadido &fNe-Carpenter's Blocks
-&l&b✓ &7Arreglado &fInterfaz menu principal
-&l&d↓ &7Actualizado &fCorail Tombstone
-&l&d↓ &7Actualizado &fFarmer's Delight Legacy
-&l&d↓ &7Actualizado &fFermiumBooter
-&l&d↓ &7Actualizado &fSuperMartijn642's Core Lib
-&l&d↓ &7Actualizado &fCrash Assistant
+&l&b✔ &7Arreglado &fInterfaz menu principal
+&l&d▼ &7Actualizado &fCorail Tombstone
+&l&d▼ &7Actualizado &fFarmer's Delight Legacy
+&l&d▼ &7Actualizado &fFermiumBooter
+&l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
+&l&d▼ &7Actualizado &fCrash Assistant
 &l&b✔ &7Arreglado &fTEST
 &l&b✔ &7Arreglado &fTEST
 &l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
+
