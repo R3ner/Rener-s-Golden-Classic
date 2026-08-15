@@ -14,7 +14,13 @@
 &l&d▼ &7Actualizado &fFermiumBooter
 &l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
 &l&d▼ &7Actualizado &fCrash Assistant
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-&l&b✔ &7Arreglado &fTEST
-
+&l&b✔ &7Arreglado &fTEST 001
+&l&b✔ &7Arreglado &fTEST 002
+&l&b✔ &7Arreglado &fTEST 003
+&l&b✔ &7Arreglado &fTEST 004
+&l&b✔ &7Arreglado &fTEST 005
+&l&b✔ &7Arreglado &fTEST 006
+&l&b✔ &7Arreglado &fTEST 007
+&l&b✔ &7Arreglado &fTEST 008
+&l&b✔ &7Arreglado &fTEST 009
+&l&b✔ &7Arreglado &fTEST 010
