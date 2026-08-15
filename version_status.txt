@@ -1,4 +1,4 @@
-&e&lULTIMA VERSIION EN GITHUB ES: &a&lV1.1
+&e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1
 
 &9&lCHANGELOG V1.1:
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
