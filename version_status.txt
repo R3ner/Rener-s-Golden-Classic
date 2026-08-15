@@ -21,7 +21,7 @@
 &l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
 &l&d▼ &7Actualizado &fCrash Assistant
 &l&d▼ &7Actualizado &fWitchery
-&l&b✔ &7Arreglado &fTEST 001
+&l&b✔ &7Arreglado &fError de texturas en efectos
 &l&b✔ &7Arreglado &fTEST 002
 &l&b✔ &7Arreglado &fTEST 003
 &l&b✔ &7Arreglado &fTEST 004
