@@ -9,6 +9,8 @@
 &l&c▬ &7Eliminado &fIce and Fire: Dragons
 &l&c▬ &7Eliminado &fCorail Tombstone
 &l&c▬ &7Eliminado &fRare Ice
+&l&c▬ &7Eliminado &fBountifulBaubles
+&l&c▬ &7Eliminado &fHats
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&2✚ &7Añadido &fNe-Carpenter's Blocks
 &l&2✚ &7Añadido &fCustomSkinLoader
