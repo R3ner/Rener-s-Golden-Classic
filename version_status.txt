@@ -8,26 +8,18 @@
 &l&c▬ &7Eliminado &fScreenshot Viewer
 &l&c▬ &7Eliminado &fIce and Fire: Dragons
 &l&c▬ &7Eliminado &fCorail Tombstone
+&l&c▬ &7Eliminado &fRare Ice
 &l&2✚ &7Añadido &fFossils and Archeology: Revival
 &l&2✚ &7Añadido &fNe-Carpenter's Blocks
 &l&2✚ &7Añadido &fCustomSkinLoader
 &l&2✚ &7Añadido &fInstantSkin
 &l&2✚ &7Añadido &fCorpse
 &l&2✚ &7Añadido &fBlue Skies
+&l&2✚ &7Añadido &fAdvent of Ascension
 &l&b✔ &7Arreglado &fInterfaz menu principal
-&l&d▼ &7Actualizado &fCorail Tombstone
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
 &l&d▼ &7Actualizado &fFermiumBooter
 &l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
 &l&d▼ &7Actualizado &fCrash Assistant
 &l&d▼ &7Actualizado &fWitchery
 &l&b✔ &7Arreglado &fError de texturas en efectos
-&l&b✔ &7Arreglado &fTEST 002
-&l&b✔ &7Arreglado &fTEST 003
-&l&b✔ &7Arreglado &fTEST 004
-&l&b✔ &7Arreglado &fTEST 005
-&l&b✔ &7Arreglado &fTEST 006
-&l&b✔ &7Arreglado &fTEST 007
-&l&b✔ &7Arreglado &fTEST 008
-&l&b✔ &7Arreglado &fTEST 009
-&l&b✔ &7Arreglado &fTEST 010
