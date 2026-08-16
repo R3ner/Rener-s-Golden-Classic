@@ -14,8 +14,6 @@
 &l&2✚ &7Añadido &fCustomSkinLoader
 &l&2✚ &7Añadido &fInstantSkin
 &l&2✚ &7Añadido &fCorpse
-&l&2✚ &7Añadido &fBlue Skies
-&l&2✚ &7Añadido &fAdvent of Ascension
 &l&b✔ &7Arreglado &fInterfaz menu principal
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
 &l&d▼ &7Actualizado &fFermiumBooter
