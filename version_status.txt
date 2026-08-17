@@ -4,6 +4,7 @@
 &l&c▬ &7Eliminado &fAtomicStryker's Battle Towers
 &l&c▬ &7Eliminado &fToroQuest
 &l&c▬ &7Eliminado &fTips
+&l&c▬ &7Eliminado &fCherry_on_1.12.2
 &l&c▬ &7Eliminado &fBlockcraftery
 &l&c▬ &7Eliminado &fScreenshot Viewer
 &l&c▬ &7Eliminado &fIce and Fire: Dragons
@@ -16,6 +17,7 @@
 &l&2✚ &7Añadido &fCustomSkinLoader
 &l&2✚ &7Añadido &fInstantSkin
 &l&2✚ &7Añadido &fCorpse
+&l&2✚ &7Añadido &fBlue Skies
 &l&b✔ &7Arreglado &fInterfaz menu principal
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
 &l&d▼ &7Actualizado &fFermiumBooter
