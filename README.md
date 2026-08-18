@@ -1,4 +1,5 @@
-<img width="1024" height="247" alt="reners_golde_classic" src="https://github.com/user-attachments/assets/73442643-ea24-4f04-847e-4fb19dd4b7ea" />
+<img width="1024" height="217" alt="title_classic" src="https://github.com/user-attachments/assets/813f7b65-2cc9-4dd7-9f8a-00bb5371e217" />
+
 
 **Rener's Golden: Classic** is a meticulously engineered 1.12.2 Minecraft modpack designed to bridge the golden era of classic modded gameplay with modern performance standards, fluid quality-of-life features, and deep progression systems.
 
