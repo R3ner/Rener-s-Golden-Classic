@@ -1,350 +1,272 @@
-<img width="1024" height="247" alt="reners_golde_classic" src="https://github.com/user-attachments/assets/73442643-ea24-4f04-847e-4fb19dd4b7ea" />
+# 📦 Modpack Modlist
 
-# Rener's Golden: Classic — Modlist
-
-> [!WARNING]
-> *Last change: 12/08/2026 - WIP - Last Touches Phase - subject to change.*
-
-Welcome to the official modlist for **Rener's Golden: Classic**, a curated 1.12.2 Minecraft modpack designed to blend nostalgic classic gameplay with modern enhancements, performance stability, and content depth.
+> **Status:** Release Phase[cite: 7]  
+> **Minecraft Version:** 1.12.2[cite: 7]  
+> **Modloader:** Minecraft Forge (14.23.5.2859+)[cite: 7]  
+> **Total Mods:** 175[cite: 7]
 
 ---
 
-## Table of Contents | Playable Content Mods: 76 mods | Optimization, Performance, and Multi-threading: 15 mods | The rest are QoL, APIs, and Libraries/Dependencies
-1. [Core, Engine & Libraries](#core-engine--libraries)
-2. [Performance & Optimization](#performance--optimization)
-3. [User Interface & Client Enhancements](#user-interface--client-enhancements)
-4. [Magic & Tech Systems](#magic--tech-systems)
-5. [Dimensions & World Generation](#dimensions--world-generation)
-6. [Mobs, Creatures & Bosses](#mobs-creatures--bosses)
-7. [Structures, Dungeons & Loot](#structures-dungeons--loot)
-8. [Equipment, Combat & Mechanics](#equipment-combat--mechanics)
-9. [Farming, Food & Building](#farming-food--building)
-10. [Utilities & Audio-Visuals](#utilities--audio-visuals)
+## ⚙️ Core, Libraries & Mixin Frameworks
+* **`FermiumBooter** (`FermiumBooter-1.5.0.jar`)[cite: 7]
+* **!CrashAssistant** (`!CrashAssistant-forge-1.12.2-1.11.12.jar`)[cite: 7]
+* **!mixinbooter** (`!mixinbooter-11.14.jar`)[cite: 7]
+* **!Red-Core-MC** (`!Red-Core-MC-1.8-1.12-0.7.1.jar`)[cite: 7]
+* **_MixinBootstrap** (`_MixinBootstrap-1.1.0.jar`)[cite: 7]
+* **_supermartijn642corelib** (`_supermartijn642corelib-1.1.24a-forge-mc1.12.jar`)[cite: 7]
+* **___MixinCompat___** (`[___MixinCompat-1.1-1.12.2___].jar`)[cite: 7]
+* **Atlas-Lib** (`Atlas-Lib-1.12.2-1.1.11.jar`)[cite: 7]
+* **AutoRegLib** (`AutoRegLib-1.3-32.jar`)[cite: 7]
+* **CarbonConfig** (`CarbonConfig-1.12.2-2.0.2.1.jar`)[cite: 7]
+* **Chameleon** (`Chameleon-1.12-4.1.3.jar`)[cite: 7]
+* **Citadel** (`citadel-1.12.2-1.1.0.jar`)[cite: 7]
+* **CodeChickenLib** (`CodeChickenLib-1.12.2-3.2.3.358-universal.jar`)[cite: 7]
+* **Collective** (`collective-1.12.2-3.0.jar`)[cite: 7]
+* **CommonCapabilities** (`CommonCapabilities-1.12.2-2.4.8.jar`)[cite: 7]
+* **CoroUtil** (`coroutil-1.12.1-1.2.37.jar`)[cite: 7]
+* **CreativeCore** (`CreativeCore_v1.10.71_mc1.12.2.jar`)[cite: 7]
+* **CTM** (`CTM-MC1.12.2-1.0.2.31.jar`)[cite: 7]
+* **Cucumber Library** (`Cucumber-1.12.2-1.1.3.jar`)[cite: 7]
+* **CyclopsCore** (`CyclopsCore-1.12.2-1.6.7.jar`)[cite: 7]
+* **EnderCore** (`EnderCore-1.12.2-0.5.78.jar`)[cite: 7]
+* **Forgelin** (`Forgelin-1.8.4.jar`)[cite: 7]
+* **FTBLib** (`FTBLib-5.4.7.2.jar`)[cite: 7]
+* **FTB Utilities: Xaero Compat** (`ftbuxaerocompat-1.1.1.jar`)[cite: 7]
+* **GottschCore** (`GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar`)[cite: 7]
+* **iChunUtil** (`iChunUtil-1.12.2-7.2.2.jar`)[cite: 7]
+* **IronCore** (`IronCore1.12.2-V1.2.jar`)[cite: 7]
+* **Konkrete** (`konkrete_forge_1.6.1_MC_1.12-1.12.2.jar`)[cite: 7]
+* **LibraryEx** (`LibraryEx-1.12.2-1.2.2.jar`)[cite: 7]
+* **LLibrary** (`llibrary-1.7.20-1.12.2.jar`)[cite: 7]
+* **Mantle** (`Mantle-1.12-1.3.3.55.jar`)[cite: 7]
+* **MysticalLib** (`mysticallib-1.12.2-1.13.0.jar`)[cite: 7]
+* **Nether-API** (`Nether-API-v1.4.5-mc1.12.2.jar`)[cite: 7]
+* **OreLib** (`OreLib-1.12.2-3.6.0.1.jar`)[cite: 7]
+* **Patchouli** (`Patchouli-1.0-23.6.jar`)[cite: 7]
+* **Placebo** (`Placebo-1.12.2-1.6.1.jar`)[cite: 7]
+* **PTRLib** (`PTRLib-1.0.5.jar`)[cite: 7]
+* **RenderLib** (`RenderLib-1.12.2-1.4.5.jar`)[cite: 7]
+* **SuperMartijn642's Config Lib** (`supermartijn642configlib-1.1.8-forge-mc1.12.jar`)[cite: 7]
+* **SynLib** (`synlib-4.0.jar`)[cite: 7]
+* **XaeroLib** (`xaerolib-forge-1.12.2-1.7.1.jar`)[cite: 7]
 
 ---
 
-## Core, Engine & Libraries
-
-Essential core loaders, mixin bootstraps, and dependency libraries required for modpack stability and cross-mod functionality.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **CrashAssistant** | `!!!CrashAssistant-forge-1.12.2-1.11.11.jar` | Diagnostic / Crash handling helper |
-| **FermiumBooter** | ``FermiumBooter-1.4.1.jar` | Core optimization and mixin loader framework |
-| **MixinBooter** | `!mixinbooter-11.13.jar` | Core Mixin loading library for 1.12.2 |
-| **Red Core** | `!Red-Core-MC-1.8-1.12-0.7.1.jar` | Low-level core mod library |
-| **MixinCompat** | `[___MixinCompat-1.1-1.12.2___].jar` | Mixin compatibility layer |
-| **MixinBootstrap** | `_MixinBootstrap-1.1.0.jar` | Mixin initialization library |
-| **SuperMartijn642's Core Lib** | `_supermartijn642corelib-1.1.22-forge-mc1.12.jar` | Dependency library for SuperMartijn642's mods |
-| **Atlas Lib** | `Atlas-Lib-1.12.2-1.1.11.jar` | Dependency library for animation & UI rendering |
-| **AutoRegLib** | `AutoRegLib-1.3-32.jar` | Automated registry library for Vazkii's mods |
-| **Baubles** | `Baubles-1.12-1.5.2.jar` | Essential accessory slot framework |
-| **CarbonConfig** | `CarbonConfig-1.12.2-2.0.2.1.jar` | Configuration management library |
-| **Chameleon** | `Chameleon-1.12-4.1.3.jar` | Shared rendering library for Storage Drawers |
-| **Citadel** | `citadel-1.12.2-1.1.0.jar` | Advanced entity animation & modeling library |
-| **CodeChicken Lib** | `CodeChickenLib-1.12.2-3.2.3.358-universal.jar` | Base library for EnderStorage, AE2, and CodeChicken mods |
-| **Collective** | `collective-1.12.2-3.0.jar` | Shared code library for Serilum's mods |
-| **Common Capabilities** | `CommonCapabilities-1.12.2-2.4.8.jar` | Cross-mod capability integration |
-| **CoroUtil** | `coroutil-1.12.1-1.2.37.jar` | Dependency engine for weather/monster mods |
-| **CreativeCore** | `CreativeCore_v1.10.71_mc1.12.2.jar` | Core library for CreativeMD mods |
-| **Cucumber Library** | `Cucumber-1.12.2-1.1.3.jar` | Shared code library for BlakeBr0 mods |
-| **Cyclops Core** | `CyclopsCore-1.12.2-1.6.7.jar` | Base library for Kroeser's mods |
-| **EnderCore** | `EnderCore-1.12.2-0.5.78.jar` | Core library required for Ender IO |
-| **Forgelin** | `Forgelin-1.8.4.jar` | Kotlin language adapter for Forge |
-| **FTB Library** | `FTBLib-5.4.7.2.jar` | Base framework library for FTB Utilities |
-| **GottschCore** | `GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar` | Core library for Gottsch's mods |
-| **iChunUtil** | `iChunUtil-1.12.2-7.2.2.jar` | Core framework for iChun's mods |
-| **LLibrary** | `llibrary-1.7.20-1.12.2.jar` | Advanced animation API for mob mods |
-| **LibraryEx** | `LibraryEx-1.12.2-1.2.2.jar` | Base library for LogicTechCorp mods |
-| **MCEF (Chromium Embedded Framework)** | `mcef-1.12.2-1.11.jar` | Web browser rendering framework dependency |
-| **Mantle** | `Mantle-1.12-1.3.3.55.jar` | Shared foundation library for SlimeKnights mods |
-| **MultiMob Library** | `multimob-1.0.5.jar` | Entity spawning control framework |
-| **MysticalLib** | `mysticallib-1.12.2-1.13.0.jar` | Core library for Roots / Mystical World |
-| **Nether API** | `Nether-API-v1.4.5-mc1.12.2.jar` | Compatibility layer for Nether biomes |
-| **OreLib** | `OreLib-1.12.2-3.6.0.1.jar` | Math & rendering engine dependency |
-| **Placebo** | `Placebo-1.12.2-1.6.1.jar` | Shared library for Shadows_of_Fire mods |
-| **PTRLib** | `PTRLib-1.0.5.jar` | Model parsing and rendering framework |
-| **RenderLib** | `RenderLib-1.12.2-1.4.5.jar` | Rendering system helper library |
-| **SuperMartijn642's Config Lib** | `supermartijn642configlib-1.1.8-forge-mc1.12.jar` | Configuration reader library |
-| **SynLib** | `synlib-4.0.jar` | Auxiliary framework library |
-| **XaeroLib** | `xaerolib-forge-1.12.2-1.7.1.jar` | Essential core engine for Xaero's map mods |
+## ⚡ Performance, Fixes & Optimization
+* **AI Improvements** (`AIImprovements-1.12-0.0.1b3.jar`)[cite: 7]
+* **AttributeFix** (`AttributeFix-Forge-1.12.2-1.0.12.jar`)[cite: 7]
+* **Chunk-Pregenerator** (`Chunk-Pregenerator-1.12.2-4.4.9.2.jar`)[cite: 7]
+* **Clumps** (`Clumps-3.1.2.jar`)[cite: 7]
+* **Dynamic View Distance** (`dynviewdist-1.12-1.3.jar`)[cite: 7]
+* **Entity Culling** (`entityculling-1.12.2-1.6.3.jar`)[cite: 7]
+* **ExperienceBugFix** (`ExperienceBugFix-1.12.2-1.0.0.0.jar`)[cite: 7]
+* **Farsight** (`farsight-1.6.jar`)[cite: 7]
+* **FastFurnace** (`FastFurnace-1.12.2-1.3.1.jar`)[cite: 7]
+* **FastLeafDecay** (`FastLeafDecay-v14.jar`)[cite: 7]
+* **Get It Together Drops** (`getittogetherdrops-1.12.2-v1.0.2.jar`)[cite: 7]
+* **GPUTape** (`GPUTape-1.12.2-1.0.4.jar`)[cite: 7]
+* **LoliASM** (`loliasm-5.33.jar`)[cite: 7]
+* **NetherPortalFix** (`NetherPortalFix_1.12.1-5.3.17.jar`)[cite: 7]
+* **NoiseThreader** (`NoiseThreader-1.1.3.jar`)[cite: 7]
+* **Nothirium** (`Nothirium-1.12.2-0.4.9-beta.jar`)[cite: 7]
+* **Particle Culling** (`particleculling-1.12.2-v1.4.3.jar`)[cite: 7]
+* **RamGuard** (`RamGuard-1.12.2-1.0.0.jar`)[cite: 7]
+* **RoughlyEnoughIDs** (`RoughlyEnoughIDs-2.3.1.jar`)[cite: 7]
+* **Spark** (`spark-forge1122.jar`)[cite: 7]
+* **STG (SwingThroughGrass)** (`stg-1.12.2-1.2.3.jar`)[cite: 7]
+* **VintageFix** (`vintagefix-0.7.0.jar`)[cite: 7]
 
 ---
 
-## Performance & Optimization
-
-Performance fixes, memory optimization, entity culling, multi-threading, and FPS enhancement mods.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **AI Improvements** | `AIImprovements-1.12-0.0.1b3.jar` | Optimizes entity AI routines to reduce tick overhead |
-| **AttributeFix** | `AttributeFix-Forge-1.12.2-1.0.12.jar` | Removes hardcoded vanilla attribute caps |
-| **Chunk-Pregenerator** | `Chunk-Pregenerator-1.12.2-4.4.9.2.jar` | World pre-generation utility to stop chunk lag |
-| **Clumps** | `Clumps-3.1.2.jar` | Groups experience orbs together to reduce lag |
-| **Dynamic View Distance** | `dynviewdist-1.12-1.3.jar` | Dynamic render distance tuner based on server load |
-| **Entity Culling** | `entityculling-1.12.2-1.6.3.jar` | Asynchronous raytracing to skip rendering hidden entities |
-| **ExperienceBugFix** | `ExperienceBugFix-1.12.2-1.0.0.0.jar` | Resolves XP orb jitter and desync issues |
-| **Farsight** | `farsight-1.6.jar` | Client-side chunk caching for high render distances |
-| **FastFurnace** | `FastFurnace-1.12.2-1.3.1.jar` | Furnace tile entity tick performance overhaul |
-| **FastLeafDecay** | `FastLeafDecay-v14.jar` | Accelerates leaf decay upon wood destruction |
-| **FoamFix** | `foamfix-0.10.15-1.12.2.jar` | Massive Java heap memory usage optimization |
-| **Get It Together Drops** | `getittogetherdrops-1.12.2-v1.0.2.jar` | Aggregates item drops into single stacks |
-| **GPU Tape** | `GPUTape-1.12.2-1.0.4.jar` | GPU memory optimization and tick synchronization |
-| **LolASM** | `loliasm-5.33.jar` | On-demand chunk loading and ASM optimizations |
-| **Naughthirium** | `naughthirium-2.3.0.jar` | Modernized renderer compatibility layer |
-| **NoiseThreader** | `NoiseThreader-1.1.3.jar` | Multi-threaded world noise terrain generation |
-| **Nothirium** | `Nothirium-1.12.2-0.4.9-beta.jar` | Modernized OpenGL chunk renderer |
-| **Particle Culling** | `particleculling-1.12.2-v1.4.3.jar` | Skips rendering occluded particles |
-| **Roughly Enough IDs** | `RoughlyEnoughIDs-2.3.1.jar` | Expands block, item, and blockstate limits |
-| **Spark** | `spark-forge1122.jar` | High-performance CPU and memory profiler tool |
+## 🗺️ Dimensions, World Generation & Dungeons
+* **AbyssalCraft** (`AbyssalCraft-1.12.2-1.11.3.jar`)[cite: 7]
+* **Alfheim (Botania Addon)** (`Alfheim-1.6.jar`)[cite: 7]
+* **Basic Nether Ores** (`BasicNetherOres-1.12.2-1.0.5.0.jar`)[cite: 7]
+* **BetterEnd (Unofficial Port)** (`BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar`)[cite: 7]
+* **BetterNether** (`betternether-0.1.8.6.jar`)[cite: 7]
+* **Better Strongholds** (`BetterStronghold -0.1.jar`)[cite: 7]
+* **Blue Skies** (`blue_skies-1.12.2-v1.1.3.jar`)[cite: 7]
+* **Doomlike Dungeons** (`dldungeonsjbg-1.14.17-MC1.12.2.jar`)[cite: 7]
+* **Lost Aether Content** (`lost-aether-content-1.12.2-1.0.2.jar`)[cite: 7]
+* **NetherEx** (`NetherEx-1.12.2-2.2.5.jar`)[cite: 7]
+* **Novam Terram** (`NovamTerram-7.3.6.3.jar`)[cite: 7]
+* **Oceanic Expanse** (`OceanicExpanse-1.2.2.jar`)[cite: 7]
+* **Rex's Additional Structures** (`Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar`)[cite: 7]
+* **Roguelike Dungeons - Fnar Edition** (`RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar`)[cite: 7]
+* **The Aether** (`aether-1.12.2-v1.5.4.1.jar`)[cite: 7]
+* **The Twilight Forest** (`twilightforest-1.12.2-3.11.1021-universal.jar`)[cite: 7]
+* **Unseen's Nether Backport** (`unseens-nether-backport-0.7.jar`)[cite: 7]
+* **Wesley's Roguelike Dungeons** (`Wesley's Roguelike Dungeons V0.8.1.jar`)[cite: 7]
 
 ---
 
-## User Interface & Client Enhancements
-
-Visual HUD updates, inventory controls, map interfaces, tooltips, and customizable menus.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **3D Skin Layers** | `3dSkinLayers-forge-mc1.12.2-1.2.0.jar` | Replaces flat player skin overlays with 3D models |
-| **AppleSkin** | `AppleSkin-mc1.12-1.0.14.jar` | Displays accurate saturation and exhaustion HUD values |
-| **Better Advancements** | `BetterAdvancements-1.12.2-0.1.0.77.jar` | Fullscreen advancement UI overhaul |
-| **BetterChat** | `betterchat-1.4.jar` | Enhanced chat box with tabs, styling, and history |
-| **Better Third Person** | `BetterThirdPerson-Forge-1.12.2-1.9.0.jar` | 360-degree rotation in third-person camera mode |
-| **Biome Info** | `biomeinfo-1.12.2-v1.2.5.jar` | On-screen current biome notification display |
-| **Colorful Health Bar** | `colorfulhealthbar-0.0.4a.jar` | Tiered colored health bars for high player health |
-| **Controlling** | `Controlling-3.0.12.4.jar` | Searchable keybinding configuration menu |
-| **Custom Cursor Mod** | `CustomCursorMod-1.2.2.jar` | Custom hardware mouse cursor support |
-| **Default Options** | `DefaultOptions_1.12.2-9.2.8.jar` | Forces modpack default keybinds and settings |
-| **Durability Tooltip** | `durabilitytooltip-1.1.6-forge-mc1.12.jar` | Shows numerical durability on item mouseover |
-| **Enchantment Descriptions** | `EnchantmentDescriptions-1.12.2-1.1.15.jar` | Adds descriptive tooltips to enchanted books |
-| **FancyMenu** | `fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar` | Custom main menu layout engine |
-| **Forced Resource Packs** | `forcedresourcepacks-1.1.jar` | Enforces modpack client-side resource packs |
-| **FTB Utilities Xaero Compatibility** | `ftbuxaerocompat-1.1.1.jar` | Integrates FTB claim boundaries onto Xaero's maps |
-| **Googly Eyes** | `GooglyEyes-1.12.2-7.1.1.jar` | Funny googly eyes rendering on entities |
-| **Highlighter** | `Highlighter-1.12.2-forge-1.1.7.jar` | Highlights newly acquired items in inventory |
-| **Hwyla** | `Hwyla-1.8.26-B41_1.12.2.jar` | What-Am-I-Looking-At block and entity information overlay |
-| **Inventory HUD+** | `InventoryHUD-1.12.2.forge-3.4.4.jar` | On-screen inventory, armor status, and potion HUD |
-| **Inventory Tweaks** | `InventoryTweaks-1.63.jar` | Inventory auto-sorting and replacement mechanics |
-| **Item Borders** | `ItemBorders-1.12.2-forge-1.2.0.jar` | Renders rarity color borders around item slots |
-| **Item Scroller** | `itemscroller-1.12.2-0.12.0.jar` | Fast inventory item movement with mouse scroll |
-| **Jade** | `Jade-0.1.0.jar` | Alternative overlay element display framework |
-| **Just Enough Items (JEI)** | `jei_1.12.2-4.16.1.301.jar` | Core recipe and item search index engine |
-| **Just Enough Botania** | `Just-Enough-Botania-1.12.2-v0.2.jar` | JEI integration plugin for Botania recipes |
-| **Just Enough Resources (JER)** | `JustEnoughResources-1.12.2-0.9.2.60.jar` | World generation drop rates and mob loot for JEI |
-| **Konkrete** | `konkrete_forge_1.6.1_MC_1.12-1.12.2.jar` | UI interface library required by FancyMenu |
-| **Map Tooltip** | `maptooltip-1.12.2-1.0.jar` | Renders map preview directly from inventory slot |
-| **Mouse Tweaks** | `MouseTweaks-2.10-mc1.12.2.jar` | Enhanced drag-and-click inventory management |
-| **Name Pain** | `namepain-1.5.0 forge-1.12.x.jar` | Recolors player nametags dynamically by health |
-| **Nimble** | `Nimble-0.0.2.jar` | Automatic third-person camera during Elytra flights |
-| **Obscure Tooltips** | `obscure_tooltips-forge-1.12.2-3.10.2.jar` | Visual overhaul for item tooltip cards |
-| **Overloaded Armor Bar** | `overloadedarmorbar-1.0.4g.jar` | Renders high armor points with multi-tier colors |
-| **PickUp Notifier** | `PickUpNotifier-v1.1.5-1.12.2.jar` | On-screen toast notifications for acquired items |
-| **Screenshot Viewer** | `screenshot_viewer-1.1.1-forge-mc1.12.2.jar` | In-game screenshot browser and manager |
-| **Server Tab Info** | `ServerTabInfo-1.12.2-1.2.6.jar` | Displays server ping, TPS, and player info on Tab |
-| **Tips** | `Tips-1.12.2-1.0.9.jar` | Configurable loading screen tip system |
-| **ToroHealth Damage Indicators** | `torohealth-1.12.2-11.jar` | Entity health bar and damage number overlays |
-| **Toughness Bar** | `toughnessbar-2.4.jar` | Displays armor toughness stats in the HUD |
-| **Visual Ores** | `visualores-0.2.8.jar` | Renders discovered ore veins directly on Xaero's Maps |
-| **Waila Harvestability** | `WailaHarvestability-mc1.12-1.1.12.jar` | Shows tool requirements and harvest levels in Hwyla |
-| **WI Zoom** | `wi-zoom-v1.1-MC1.12.2-release.jar` | Ultra-smooth adjustable zoom keybind |
-| **Xaero's Minimap** | `xaerominimap-forge-1.12.2-26.4.2.jar` | On-screen minimap HUD with waypoints |
-| **Xaero's World Map** | `xaeroworldmap-forge-1.12.2-1.44.2.jar` | Fullscreen interactive world map engine |
+## 🔮 Magic, Technology & Mechanics
+* **Applied Energistics 2: Extended Life** (`ae2-uel-v0.56.6.jar`)[cite: 7]
+* **Astral Sorcery** (`astralsorcery-1.12.2-1.10.27.jar`)[cite: 7]
+* **Botania** (`Botania r1.10-364.4.jar`)[cite: 7]
+* **BuildCraft** (`buildcraft-all-8.0.0.jar`)[cite: 7]
+* **Ender IO** (`EnderIO-1.12.2-5.3.72.jar`)[cite: 7]
+* **Ender Storage** (`EnderStorage-1.12.2-2.4.6.137-universal.jar`)[cite: 7]
+* **Energy Converters** (`energyconverters_1.12.2-1.3.7.30.jar`)[cite: 7]
+* **Extra Utilities 2** (`extrautils2-1.12-1.9.9.jar`)[cite: 7]
+* **Galacticraft** (`Galacticraft-1.12.2-4.0.7.jar`)[cite: 7]
+* **IndustrialCraft 2** (`industrialcraft-2-2.8.170-ex112.jar`)[cite: 7]
+* **OpenBlocks Reopened** (`OpenBlocksReopened-1.12.2-1.8.3.1.jar`)[cite: 7]
+* **Quark** (`Quark-r1.6-179.jar`)[cite: 7]
+* **SecurityCraft** (`[1.12.2] SecurityCraft v1.10.1.jar`)[cite: 7]
+* **Storage Drawers** (`StorageDrawers-1.12.2-5.5.3.jar`)[cite: 7]
+* **Thaumcraft 6** (`Thaumcraft-1.12.2-6.1.BETA26.jar`)[cite: 7]
+* **Tinkers' Construct** (`TConstruct-1.12.2-2.13.0.183.jar`)[cite: 7]
+* **Tinkers' Tool Leveling** (`TinkerToolLeveling-1.12.2-1.1.0.jar`)[cite: 7]
+* **Witchery: Resurrected** (`WitcheryResurrected-1.12.2-0.5.2.4-forge-all.jar`)[cite: 7]
+* **Witchery Companion** (`witcherycompanion-0.36.2-beta.jar`)[cite: 7]
 
 ---
 
-## Magic & Tech Systems
-
-Magical arts, technological automation, energy grids, and specialized crafting machinery.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **AbyssalCraft** | `AbyssalCraft-1.12.2-1.11.3.jar` | Eldritch magic, Necronomicon rituals, and dark dimensions |
-| **Applied Energistics 2 (Unofficial Extended Life)** | `ae2-uel-v0.56.6.jar` | High-performance fork of AE2 digital storage and auto-crafting |
-| **Astral Sorcery** | `astralsorcery-1.12.2-1.10.27.jar` | Starlight-driven magic, starlight altars, and constellations |
-| **Botania** | `Botania r1.10-364.4.jar` | Mana-based natural tech and magic mod |
-| **BuildCraft** | `buildcraft-all-8.0.0.jar` | Classic quarrying, pipes, engines, and mechanical automation |
-| **Ender IO** | `EnderIO-1.12.2-5.3.72.jar` | Compact multi-conduits, machines, power generation, and farming |
-| **Energy Converters** | `energyconverters_1.12.2-1.3.7.30.jar` | Converts energy between EU, FE, RF, and MJ systems |
-| **Extra Utilities 2** | `extrautils2-1.12-1.9.9.jar` | Utility machines, Grid Power, pipes, and specialized blocks |
-| **IndustrialCraft 2** | `industrialcraft-2-2.8.170-ex112.jar` | Classic tech mod with nuclear reactors and machines |
-| **OpenBlocks Reopened** | `OpenBlocksReopened-1.12.2-1.8.3.1.jar` | Utility blocks, elevator blocks, building guides, and tanks |
-| **Patchouli** | `Patchouli-1.0-23.6.jar` | In-game documentation and tutorial manual framework |
-| **Thaumcraft 6** | `Thaumcraft-1.12.2-6.1.BETA26.jar` | Essential magical research, vis manipulation, and alchemy |
-| **Witchery Resurrected** | `WitcheryResurrected-1.12.2-0.5.2.4-forge-all.jar` | Faithful 1.12.2 port of the classic Witchery mod |
-| **Witchery Companion** | `witcherycompanion-0.36.2-beta.jar` | Helper integration mod for Witchery Resurrected |
-
----
-
-## Dimensions & World Generation
-
-New dimensions, biome overhauls, underground world gen, and terrain expansions.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **The Aether** | `aether-1.12.2-v1.5.4.1.jar` | Legendary cloud paradise dimension |
-| **Alfheim** | `Alfheim-1.6.jar` | Botania endgame dimension extension |
-| **Basic Nether Ores** | `BasicNetherOres-1.12.2-1.0.5.0.jar` | Adds vanilla ore variants to the Nether |
-| **BetterEnd Forge Unofficial** | `BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar` | Port of Modern End dimension biomes and structures |
-| **Better Nether** | `betternether-0.1.8.6.jar` | Overhauls Nether dimension with flora, biomes, and blocks |
-| **Lost Aether Content** | `lost-aether-content-1.12.2-1.0.2.jar` | Restores cut features and items to The Aether |
-| **NetherEx** | `NetherEx-1.12.2-2.2.5.jar` | Comprehensive Nether re-exploration and sub-biomes |
-| **Novam Terram** | `NovamTerram-7.3.6.3.jar` | Terrain and biome generation extension |
-| **Oceanic Expanse** | `OceanicExpanse-1.2.2.jar` | Backports Modern 1.13 aquatic ocean updates |
-| **Rare Ice** | `rare-ice-0.1.1.jar` | Adds rare ice variants to cold biomes |
-| **The Twilight Forest** | `twilightforest-1.12.2-3.11.1021-universal.jar` | Mystical realm dimension filled with dungeons and bosses |
-| **Unseen's Nether Backport** | `unseens-nether-backport-0.7.jar` | Backports 1.16+ Nether features and blocks to 1.12.2 |
+## 🐉 Mobs, Bosses & Creatures
+* **Beast Slayer** (`beastslayer-not.2.0.03.release.jar`)[cite: 7]
+* **Champions** (`champions-1.12.2-1.0.11.10.jar`)[cite: 7]
+* **ChocoCraft Plus** (`ChocoCraftPlus-1.12.2-4.5.10.jar`)[cite: 7]
+* **Doggy Talents** (`DoggyTalents-1.12.2-1.15.1.6.jar`)[cite: 7]
+* **Dragon Mounts 2** (`DragonMounts2-1.12.2-2.1.2.jar`)[cite: 7]
+* **Eyes in the Darkness** (`EyesInTheDarkness-0.1.0.jar`)[cite: 7]
+* **Fish's Undead Rising** (`Fish's Undead Rising-1.6.2.jar`)[cite: 7]
+* **Fossils and Archaeology Revival** (`fossilsarcheology-8.0.6.jar`)[cite: 7]
+* **Frozen Fiend** (`Frozen-Fiend-1.5.3.jar`)[cite: 7]
+* **Ice and Fire: Dragons** (`iceandfire-1.9.1-1.12.2.jar`)[cite: 7]
+* **Illagers+** (`IllagersPlus-1.12.2-1.1.3.jar`)[cite: 7]
+* **Magma Monsters** (`MagmaMonsters-0.3.0.jar`)[cite: 7]
+* **Mo' Creatures** (`mocreatures-12.5.1.jar`)[cite: 7]
+* **Mowzie's Mobs** (`mowziesmobs-1.5.8.jar`)[cite: 7]
+* **MultiMob** (`multimob-1.0.5.jar`)[cite: 7]
+* **Mystical World** (`mysticalworld-1.12.2-1.11.0.jar`)[cite: 7]
+* **Primitive Mobs** (`primitivemobs-1.2.3a.jar`)[cite: 7]
+* **Rats** (`rats-3.2.14-1.12.2.jar`)[cite: 7]
+* **Simply Cats** (`simplycats-1.12.2-0.2.2.jar`)[cite: 7]
+* **Spiders 2.0** (`spiders-2.0-1.12.2-1.0.3.jar`)[cite: 7]
+* **Straw Golem Reborn** (`strawgolem-1.4.2.ED.jar`)[cite: 7]
+* **Two Players One Horse** (`twoplayersonehorse-1.12.2-1.0.3.jar`)[cite: 7]
+* **Wither Skeleton Tweaks** (`WitherSkeletonTweaks-1.12.2-2.6.3.jar`)[cite: 7]
+* **Wyrms of Nyrus** (`wyrmsofnyrus-0.9.3.jar`)[cite: 7]
 
 ---
 
-## Mobs, Creatures & Bosses
-
-Enemies, mythical beasts, ambient wildlife, companion mobs, and boss mechanics.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **Beast Slayer** | `beastslayer-not.2.0.03.release.jar` | Adds aggressive fantasy creatures and mini-bosses |
-| **Champions** | `champions-1.12.2-1.0.11.10.jar` | Affix-based champion mob scaling framework |
-| **ChocoCraft Plus** | `ChocoCraftPlus-1.12.2-4.5.10.jar` | Chocobo breeding, riding, and armor mechanics |
-| **Doggy Talents** | `DoggyTalents-1.12.2-1.15.1.6.jar` | Deep leveling, skill trees, and care for dogs |
-| **Dragon Mounts 2** | `DragonMounts2-1.12.2-2.1.2.jar` | Hatch, raise, and ride various Ender Dragon strains |
-| **Eyes in the Darkness** | `EyesInTheDarkness-0.1.0.jar` | Creepy stalking eyes mob in dark caves |
-| **Fish's Undead Rising** | `Fish's Undead Rising-1.6.2.jar` | Undead and mythical aquatic/land monster system |
-| **Frozen Fiend** | `Frozen-Fiend-1.5.3.jar` | Arctic hostile mob encounter expansion |
-| **Good Skeletons Don't Strafe** | `GoodSkeletonsDontStrafe-v1.1.1-1.12.2.jar` | Removes annoying skeleton strafing movement AI |
-| **Ice and Fire: Dragons** | `iceandfire-1.9.1-1.12.2.jar` | Mythological dragons, gorgons, sea serpents, and bosses |
-| **Illagers+** | `IllagersPlus-1.12.2-1.1.3.jar` | Expands illager variants and fortification spawns |
-| **Instrumental Mobs** | `Instrumental-Mobs-1.2.1.jar` | Musical instrument-wielding hostile mobs |
-| **Magma Monsters** | `MagmaMonsters-0.3.0.jar` | Fire-based lava creatures |
-| **Mo' Creatures** | `mocreatures-12.5.1.jar` | Classic wildlife, mythical mounts, and creature expansion |
-| **Mowzie's Mobs** | `mowziesmobs-1.5.8.jar` | High-quality animated custom boss encounters |
-| **Mystical World** | `mysticalworld-1.12.2-1.11.0.jar` | Mythical creatures, silver foxes, beetles, and materials |
-| **Primitive Mobs** | `primitivemobs-1.2.3a.jar` | Classic style utility and hostile creatures |
-| **Rats** | `rats-3.2.14-1.12.2.jar` | Tameable utility rat companions and rat boss fights |
-| **Simply Cats** | `simplycats-1.12.2-0.2.2.jar` | Detailed cat breeding and genetics system |
-| **Spiders 2.0** | `spiders-2.0-1.12.2-1.0.3.jar` | Dynamic spider wall-climbing physics overhaul |
-| **Straw Golem Rebaland** | `strawgolem-1.4.2.ED.jar` | Helpful crop-harvesting straw golems |
-| **Wyrms of Nyrus** | `wyrmsofnyrus-0.9.3.jar` | Alien subterranean worms and monstrous creatures |
+## ⚔️ Equipment, Combat & Curios
+* **Armored Arms** (`ArmoredArms-v1.5.3-1.12.2-release.jar`)[cite: 7]
+* **Artifacts** (`artifacts-1.12.2-1.2.4.jar`)[cite: 7]
+* **Baubles** (`Baubles-1.12-1.5.2.jar`)[cite: 7]
+* **Bountiful Baubles** (`Bountiful Baubles-1.12.2-0.1.8.jar`)[cite: 7]
+* **Colytra** (`colytra-1.12.2-1.2.0.4.jar`)[cite: 7]
+* **Cosmetic Armor Reworked** (`CosmeticArmorReworked-1.12.2-v5a.jar`)[cite: 7]
+* **Easy Anvils** (`easyanvils-1.1.0.jar`)[cite: 7]
+* **Easy Elytra Takeoff** (`easyelytratakeoff_1.12.2-2.1.jar`)[cite: 7]
+* **Easy Magic** (`easymagic-1.2.4.jar`)[cite: 7]
+* **Forgiving Void** (`ForgivingVoid_1.12.2-1.1.0.jar`)[cite: 7]
+* **Grappling Hook Mod** (`grappling_hook_mod-1.12.2-v13.jar`)[cite: 7]
+* **Hammers** (`hammers-2.1.5-1.12.2-forge.jar`)[cite: 7]
+* **Improved Backpacks** (`ImprovedBackpacks-1.12.2-1.5.0.0.jar`)[cite: 7]
+* **Iron Jetpacks** (`IronJetpacks-1.12-2-1.1.0.jar`)[cite: 7]
+* **Paraglider** (`Paraglider-1.12.2-1.0.1.5.jar`)[cite: 7]
+* **Parry** (`parry-1.0-hotfix.jar`)[cite: 7]
+* **Responsive Shields** (`responsiveshields-2.3-mc1.12.x.jar`)[cite: 7]
+* **Spartan Shields** (`SpartanShields-1.12.2-1.5.5.jar`)[cite: 7]
+* **Spartan Twilight** (`spartantwilight-1.12.2-1.2.0.jar`)[cite: 7]
+* **Spartan Weaponry** (`SpartanWeaponry-1.12.2-1.6.1.jar`)[cite: 7]
+* **The Aether Baubles** (`TheAetherBaubles-2.0.1.jar`)[cite: 7]
+* **Weapon Master** (`weaponmaster_ydm-forge-1.12.2-4.2.3.jar`)[cite: 7]
+* **XP Tome** (`xptome-1.12.2-v2.0.1.jar`)[cite: 7]
 
 ---
 
-## Structures, Dungeons & Loot
-
-Generated structures, roguelike dungeons, treasure chests, and loot table additions.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **Battle Towers** | `BattleTower-1.12.2.jar` | Classic multi-floor tower dungeons capped with boss fights |
-| **Better Strongholds** | `BetterStronghold -0.1.jar` | Complete architectural revamp of End Strongholds |
-| **Bountiful** | `Bountiful-2.2.2.jar` | Town bounty boards with quest rewards |
-| **Doomlike Dungeons** | `dldungeonsjbg-1.14.17-MC1.12.2.jar` | Procedural maze-like dungeon generator |
-| **Lootr** | `lootr-1.12.2-0.6.2.jar` | Per-player instantiated loot chests for multiplayer |
-| **Rex's Additional Structures** | `Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar` | Spawns small natural ruins and world details |
-| **Roguelike Dungeons (Fnar Edition)** | `RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar` | Deep underground procedural dungeon complexes |
-| **ToroQuest** | `toroquest-1.12.2-5.3.jar` | Civilization rep, village kingdoms, and quests |
-| **Wesley's Roguelike Dungeons** | `Wesley's Roguelike Dungeons V0.8.1.jar` | Massive multi-theme rogue dungeon dungeons |
-
----
-
-## Equipment, Combat & Mechanics
-
-Weapons, armors, accessories, combat mechanics, and player balance tweaks.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **Aqua Acrobatics** | `AquaAcrobatics-1.15.4.jar` | Backports Modern 1.13 swimming/crawling animations |
-| **Armored Arms** | `ArmoredArms-v1.5.3-1.12.2-release.jar` | Renders armor sleeves on first-person player hands |
-| **Artifacts** | `artifacts-1.12.2-1.2.4.jar` | Powerful uncraftable Bauble accessories found in loot |
-| **Better Builder's Wands** | `BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar` | Handy builder's wands for rapid block placement |
-| **Bountiful Baubles** | `Bountiful Baubles-1.12.2-0.1.8.jar` | Terraria-inspired accessories and bauble items |
-| **Colytra** | `colytra-1.12.2-1.2.0.4.jar` | Combines Elytra wings directly onto chestplates |
-| **Cosmetic Armor Reworked** | `CosmeticArmorReworked-1.12.2-v5a.jar` | Secondary armor slots for visual appearance without stat loss |
-| **Easy Anvils** | `easyanvils-1.1.0.jar` | Modernized anvil mechanics; keeps items on interface |
-| **Easy Elytra Takeoff** | `easyeletratakeoff_1.12.2-2.1.jar` | Launch with fireworks from stationary standing position |
-| **Easy Magic** | `easymagic-1.2.4.jar` | Modern enchanting table mechanics; retains floating items |
-| **EnderStorage** | `EnderStorage-1.12.2-2.4.6.137-universal.jar` | Color-coded Ender Chests, Ender Tanks, and Ender Pouches |
-| **Forgiving Void** | `ForgivingVoid_1.12.2-1.1.0.jar` | Falling into the void teleports players to the sky |
-| **Grappling Hook Mod** | `grappling_hook_mod-1.12.2-v13.jar` | Physics-based grappling hooks and movement tools |
-| **Hammers** | `hammers-2.1.5-1.12.2-forge.jar` | 3x3 mining hammer tools |
-| **Improved Backpacks** | `ImprovedBackpacks-1.12.2-1.5.0.0.jar` | Upgradable, paintable backpacks with quick wearable slots |
-| **Iron Jetpacks** | `IronJetpacks-1.12-2-1.1.0.jar` | Tiered power-based jetpacks |
-| **MmmMmmMmmMmm** | `MmmMmmMmmMmm-1.12-2.0.7.jar` | Target dummy for DPS and damage testing |
-| **Paraglider** | `Paraglider-1.12.2-1.0.1.5.jar` | Zelda-style stamina-draining paraglider |
-| **Parry** | `parry-1.0-hotfix.jar` | Sword timing-based parry mechanic |
-| **Responsive Shields** | `responsiveshields-2.3-mc1.12.x.jar` | Eliminates shield block activation delays |
-| **Spartan Shields** | `SpartanShields-1.12.2-1.5.5.jar` | Multi-tier specialized shields |
-| **Spartan Twilight** | `spartantwilight-1.12.2-1.2.0.jar` | Twilight Forest materials for Spartan weapons |
-| **Spartan Weaponry** | `SpartanWeaponry-1.12.2-1.6.1.jar` | Expanded weapon arsenal (halberds, rapiers, longswords) |
-| **Tinkers' Construct** | `TConstruct-1.12.2-2.13.0.183.jar` | Custom tool forging with smelteries and unique traits |
-| **Tinker Tool Leveling** | `TinkerToolLeveling-1.12.2-1.1.0.jar` | Grants bonus modifier slots as Tinkers' tools gain XP |
-| **The Aether Baubles** | `TheAetherBaubles-2.0.1.jar` | Integrates Aether accessory equipment into Baubles |
-| **Tombstone** | `tombstone-1.12.2-4.7.6.jar` | Player graves on death with soul magic system |
-| **Weapon Master** | `weaponmaster_ydm-forge-1.12.2-4.2.3.jar` | Visually renders unequipped weapons on player body |
-| **Wither Skeleton Tweaks** | `WitherSkeletonTweaks-1.12.2-2.6.3.jar` | Drops skull fragments and balances wither spawning |
-| **XP Tome** | `xptome-1.12.2-v2.0.1.jar` | Storage books for player experience levels |
+## 🍲 Farming, Food & Building
+* **Aquaculture** (`Aquaculture-1.12.2-1.6.8.jar`)[cite: 7]
+* **Better Builder's Wands** (`BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar`)[cite: 7]
+* **Bountiful** (`Bountiful-2.2.2.jar`)[cite: 7]
+* **Comforts** (`comforts-1.12.2-1.4.1.3.jar`)[cite: 7]
+* **Culinary Construct** (`culinaryconstruct-1.3.4.jar`)[cite: 7]
+* **Ender Crop** (`endercrop-1.12.2-1.6.0.jar`)[cite: 7]
+* **End's Delight Legacy** (`ends-delight-legacy-1.0.3.jar`)[cite: 7]
+* **Farmer's Delight Legacy** (`FarmersDelightLegacy-1.1.6.jar`)[cite: 7]
+* **Future MC** (`Future-MC-0.2.21.jar`)[cite: 7]
+* **Gnetum** (`gnetum-1.4.3.jar`)[cite: 7]
+* **Healing Bed** (`HealingBed 1.12.2 forge.jar`)[cite: 7]
+* **Iron Barrels** (`IronBarrels1.12.2-V2.0.jar`)[cite: 7]
+* **Iron Chests** (`ironchest-1.12.2-7.0.72.847.jar`)[cite: 7]
+* **Iron Furnaces** (`ironfurnaces-1.3.5.jar`)[cite: 7]
+* **KleeSlabs** (`KleeSlabs_1.12.2-5.4.12.jar`)[cite: 7]
+* **Lootr** (`lootr-1.12.2-0.6.2.jar`)[cite: 7]
+* **Macaw's Bridges** (`mcw-bridges-1.0.6b-mc1.12.2.jar`)[cite: 7]
+* **Macaw's Doors** (`mcw-doors-1.0.3-mc1.12.2.jar`)[cite: 7]
+* **Macaw's Fences** (`mcw-fences-1.0.0-mc1.12.2.jar`)[cite: 7]
+* **Macaw's Windows** (`mcw-windows-1.0.0-mc1.12.2.jar`)[cite: 7]
+* **MmmMmmMmmMmm (Target Dummy)** (`MmmMmmMmmMmm-1.12-2.0.7.jar`)[cite: 7]
+* **Ne-Carpenters-Blocks** (`Ne-Carpenters-Blocks-0.1.4-fix.jar`)[cite: 7]
+* **Nether's Delight Legacy** (`nethers-delight-legacy-1.0.7.jar`)[cite: 7]
+* **Sulfur & Potassium** (`sulfur-potassium-1.12-1.1.jar`)[cite: 7]
+* **Torchmaster** (`torchmaster_1.12.2-1.8.5.0.jar`)[cite: 7]
+* **TreeChop** (`TreeChop-1.12.2-0.14.7.jar`)[cite: 7]
+* **Twilight Delight Legacy** (`TwilightDelightLegacy-1.2.0.jar`)[cite: 7]
+* **YARCF** (`YARCF-0.14(1.12.2).jar`)[cite: 7]
 
 ---
 
-## Farming, Food & Building
-
-Culinary arts, expanded farming, decorative blocks, and building tools.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **Aquaculture 2** | `Aquaculture-1.12.2-1.6.8.jar` | Expanded fishing engine, rare catches, and tackle box |
-| **Blockcraftery** | `blockcraftery-1.12.2-1.3.1.jar` | Custom sloped, framed, and textured building blocks |
-| **Cherry On Top** | `Cherry_on-1.12.2-1.3.35.jar` | Aesthetic treats and dessert items |
-| **Comforts** | `comforts-1.12.2-1.4.1.3.jar` | Sleeping bags and hammocks for day/night passing |
-| **Culinary Construct** | `culinaryconstruct-1.3.4.jar` | Custom modular sandwich and burger creation |
-| **Ender Crop** | `endercrop-1.12.2-1.6.0.jar` | Crop that allows farming Ender Pearls from seeds |
-| **End's Delight Legacy** | `ends-delight-legacy-1.0.3.jar` | Farmer's Delight expansion for End dimension ingredients |
-| **Farmer's Delight Legacy** | `FarmersDelightLegacy-1.1.3-fix1.jar` | Culinary farming, cooking pot, and soil overhaul |
-| **Future MC** | `Future-MC-0.2.21.jar` | Backports 1.14+ building blocks, barrels, and lanterns |
-| **Iron Barrels** | `IronBarrels1.12.2-V2.0.jar` | Tiered high-capacity barrels |
-| **Iron Chests** | `ironchest-1.12.2-7.0.72.847.jar` | Tiered high-capacity metal chests |
-| **Iron Core** | `IronCore1.12.2-V1.2.jar` | Shared chest/barrel/furnace logic library |
-| **Iron Furnaces** | `ironfurnaces-1.3.5.jar` | Fast, high-tier smelters |
-| **KleeSlabs** | `KleeSlabs_1.12.2-5.4.12.jar` | Break individual half-slabs without breaking both |
-| **Macaw's Bridges** | `mcw-bridges-1.0.6b-mc1.12.2.jar` | Modular rope and stone bridge construction |
-| **Macaw's Doors** | `mcw-doors-1.0.3-mc1.12.2.jar` | Wooden and metal door varieties |
-| **Macaw's Fences and Walls** | `mcw-fences-1.0.0-mc1.12.2.jar` | Diverse fencing and wall designs |
-| **Macaw's Windows** | `mcw-windows-1.0.0-mc1.12.2.jar` | Architectural window panes and shutters |
-| **Nether's Delight Legacy** | `nethers-delight-legacy-1.0.7.jar` | Nether food cooking expansion |
-| **Quark** | `Quark-r1.6-179.jar` | Modular vanilla overhaul: building, automation, tweak features |
-| **Storage Drawers** | `StorageDrawers-1.12.2-5.5.3.jar` | Highly scalable drawer blocks for mass single-item storage |
-| **TreeChop** | `TreeChop-1.12.2-0.14.7.jar` | Dynamic tree chopping and falling animations |
-| **Twilight Delight Legacy** | `TwilightDelightLegacy-1.2.0.jar` | Farmer's Delight cooking with Twilight Forest ingredients |
-
----
-
-## Utilities & Audio-Visuals
-
-Atmospheric soundscapes, dynamic lighting, utility tweaks, and server compatibility tools.
-
-| Mod Name | File Name | Category / Description |
-| :--- | :--- | :--- |
-| **Ambient Environment** | `AmbientEnvironment-1.0.2.jar` | Enhances biome foliage colors and noise variations |
-| **AmbientSounds 3** | `AmbientSounds_v3.1.7_mc1.12.2.jar` | Immersive spatial biome audio engine |
-| **Armor Sound Tweak** | `ArmorSoundTweak-2.1.0.jar` | Realistic gear equipped/unequipped sound effects |
-| **CTM (Connected Textures Mod)** | `CTM-MC1.12.2-1.0.2.31.jar` | Connected block texture rendering framework |
-| **Dynamic Surroundings** | `DynamicSurroundings-1.12.2-3.6.1.0.jar` | Dynamic weather visuals, footstep audio, and visual FX |
-| **Falling Leaves** | `fallingleaves-2.1.2.2.jar` | Aesthetic falling leaf particles under tree canopies |
-| **Friendly Fire** | `FriendlyFire-1.12.2-1.5.10.jar` | Prevents accidentally hitting tamed pets |
-| **FTB Utilities** | `FTBUtilities-5.4.1.131.jar` | Chunk claiming, team system, backup tools, and server admin commands |
-| **Galacticraft** | `Galacticraft-1.12.2-4.0.7.jar` | Space exploration, rockets, and celestial bodies |
-| **Gnetum** | `gnetum-1.4.3.jar` | World utility and tweak helper |
-| **Hats** | `Hats-1.12.2-7.1.1.jar` | Collectible cosmetic headwear for entities |
-| **Healing Bed** | `HealingBed 1.12.2 forge.jar` | Slowly restores player health while resting in bed |
-| **My Server Is Compatible** | `MyServerIsCompatible-1.12.2-1.0.jar` | Protocol handshake fix for client-server connection |
-| **NetherPortalFix** | `NetherPortalFix_1.12.1-5.3.17.jar` | Corrects Nether portal destination pairing errors |
-| **SecurityCraft** | `[1.12.2] SecurityCraft v1.10.1.jar` | Laser blocks, keypads, cameras, and base defense |
-| **Smart Particles** | `smart_particles+mc1.12.2-12.02.9-Forge.jar` | Optimized collision-aware particle mechanics |
-| **Sound Filters** | `SoundFilters-0.12.1_for_1.12.jar` | Acoustic reverb and muffled audio behind walls |
-| **Sulfur & Potassium** | `sulfur-potassium-1.12-1.1.jar` | Alternative ingredients for crafting gunpowder |
-| **Swap To Garbage (STG)** | `stg-1.12.2-1.2.3.jar` | Swaps broken tools with matching replacement from inventory |
-| **Torchmaster** | `torchmaster_1.12.2-1.8.5.0.jar` | Mega torches to prevent mob spawning in large areas |
-| **TrashSlot** | `TrashSlot_1.12.2-8.4.10.jar` | Dedicated trash deletion slot in player inventory |
-| **Two Players One Horse** | `twoplayersonehorse-1.12.2-1.0.3.jar` | Allows two players to ride the same horse simultaneously |
-| **Waystones** | `Waystones_1.12.2-4.1.0.jar` | Fast travel waystone teleporters |
-| **WTS (What's That Song)** | `WTS-1.1.0.jar` | HUD display showing currently playing background music |
-| **YARCF** | `YARCF-0.14(1.12.2).jar` | Yet Another Recipe Conflict Fixer utility |
+## 🖥️ UI, Visuals, Audio & Quality of Life
+* **3D Skin Layers** (`3dSkinLayers-forge-mc1.12.2-1.2.0.jar`)[cite: 7]
+* **Ambient Environment** (`AmbientEnvironment-1.0.2.jar`)[cite: 7]
+* **AmbientSounds** (`AmbientSounds_v3.1.7_mc1.12.2.jar`)[cite: 7]
+* **AppleSkin** (`AppleSkin-mc1.12-1.0.14.jar`)[cite: 7]
+* **Aqua Acrobatics** (`AquaAcrobatics-1.15.4.jar`)[cite: 7]
+* **Armor Sound Tweak** (`ArmorSoundTweak-2.1.0.jar`)[cite: 7]
+* **Better Advancements** (`BetterAdvancements-1.12.2-0.1.0.77.jar`)[cite: 7]
+* **Better Chat** (`betterchat-1.4.jar`)[cite: 7]
+* **Better Third Person** (`BetterThirdPerson-Forge-1.12.2-1.9.0.jar`)[cite: 7]
+* **Biome Info** (`biomeinfo-1.12.2-v1.2.5.jar`)[cite: 7]
+* **Colorful Health Bar** (`colorfulhealthbar-0.0.4a.jar`)[cite: 7]
+* **Controlling** (`Controlling-3.0.12.4.jar`)[cite: 7]
+* **Corpse** (`corpse-1.12.2-1.0.8.jar`)[cite: 7]
+* **Custom Cursor Mod** (`CustomCursorMod-1.2.2.jar`)[cite: 7]
+* **Custom Skin Loader** (`CustomSkinLoader_Universal-15.0.1.jar`)[cite: 7]
+* **Default Options** (`DefaultOptions_1.12.2-9.2.8.jar`)[cite: 7]
+* **Durability Tooltip** (`durabilitytooltip-1.1.6-forge-mc1.12.jar`)[cite: 7]
+* **Dynamic Surroundings** (`DynamicSurroundings-1.12.2-3.6.1.0.jar`)[cite: 7]
+* **Enchantment Descriptions** (`EnchantmentDescriptions-1.12.2-1.1.15.jar`)[cite: 7]
+* **Falling Leaves** (`fallingleaves-2.1.2.2.jar`)[cite: 7]
+* **FancyMenu** (`fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar`)[cite: 7]
+* **Forced Resource Packs** (`forcedresourcepacks-1.1.jar`)[cite: 7]
+* **Friendly Fire** (`FriendlyFire-1.12.2-1.5.10.jar`)[cite: 7]
+* **FTB Utilities** (`FTBUtilities-5.4.1.131.jar`)[cite: 7]
+* **Good Skeletons Don't Strafe** (`GoodSkeletonsDontStrafe-v1.1.1-1.12.2.jar`)[cite: 7]
+* **Googly Eyes** (`GooglyEyes-1.12.2-7.1.1.jar`)[cite: 7]
+* **Highlighter** (`Highlighter-1.12.2-forge-1.1.7.jar`)[cite: 7]
+* **Hwyla** (`Hwyla-1.8.26-B41_1.12.2.jar`)[cite: 7]
+* **Instant Skin** (`InstantSkin.jar`)[cite: 7]
+* **Inventory HUD+** (`InventoryHUD-1.12.2.forge-3.4.4.jar`)[cite: 7]
+* **Inventory Tweaks** (`InventoryTweaks-1.63.jar`)[cite: 7]
+* **Item Borders** (`ItemBorders-1.12.2-forge-1.2.0.jar`)[cite: 7]
+* **Item Scroller** (`itemscroller-1.12.2-0.12.0.jar`)[cite: 7]
+* **Jade** (`Jade-0.1.0.jar`)[cite: 7]
+* **JEI (Just Enough Items)** (`jei_1.12.2-4.16.1.301.jar`)[cite: 7]
+* **Just Enough Botania** (`Just-Enough-Botania-1.12.2-v0.2.jar`)[cite: 7]
+* **Just Enough Resources (JER)** (`JustEnoughResources-1.12.2-0.9.2.60.jar`)[cite: 7]
+* **Map Tooltip** (`maptooltip-1.12.2-1.0.jar`)[cite: 7]
+* **MCEF (Minecraft Chromium Embedded Framework)** (`mcef-1.12.2-1.11.jar`)[cite: 7]
+* **Mouse Tweaks** (`MouseTweaks-2.10-mc1.12.2.jar`)[cite: 7]
+* **My Server Is Compatible** (`MyServerIsCompatible-1.12.2-1.0.jar`)[cite: 7]
+* **Name Pain** (`namepain-1.5.0 forge-1.12.x.jar`)[cite: 7]
+* **Nimble** (`Nimble-0.0.2.jar`)[cite: 7]
+* **Obscure Tooltips** (`obscure_tooltips-forge-1.12.2-3.10.2.jar`)[cite: 7]
+* **Overloaded Armor Bar** (`overloadedarmorbar-1.0.4g.jar`)[cite: 7]
+* **Pickup Notifier** (`PickUpNotifier-v1.1.5-1.12.2.jar`)[cite: 7]
+* **Server Tab Info** (`ServerTabInfo-1.12.2-1.2.6.jar`)[cite: 7]
+* **Smart Particles** (`smart_particles+mc1.12.2-12.02.9-Forge.jar`)[cite: 7]
+* **Sound Filters** (`SoundFilters-0.12.1_for_1.12.jar`)[cite: 7]
+* **ToroHealth Damage Indicators** (`torohealth-1.12.2-11.jar`)[cite: 7]
+* **Toughness Bar** (`toughnessbar-2.4.jar`)[cite: 7]
+* **TrashSlot** (`TrashSlot_1.12.2-8.4.10.jar`)[cite: 7]
+* **VisualOres** (`visualores-0.2.8.jar`)[cite: 7]
+* **WAILA Harvestability** (`WailaHarvestability-mc1.12-1.1.12.jar`)[cite: 7]
+* **Waystones** (`Waystones_1.12.2-4.1.0.jar`)[cite: 7]
+* **WI Zoom** (`wi-zoom-v1.1-MC1.12.2-release.jar`)[cite: 7]
+* **WTS (What's That Slot)** (`WTS-1.1.0.jar`)[cite: 7]
+* **Xaero's Minimap** (`xaerominimap-forge-1.12.2-26.4.2.jar`)[cite: 7]
+* **Xaero's World Map** (`xaeroworldmap-forge-1.12.2-1.44.2.jar`)[cite: 7]
