@@ -1,272 +1,292 @@
-# 📦 Lista de Mods del Modpack
+# 📦 Modpack — Lista de Mods
 
-> **Estado:** Fase Release[cite: 7]  
-> **Versión de Minecraft:** 1.12.2[cite: 7]  
-> **Cargador de Mods:** Minecraft Forge (14.23.5.2859+)[cite: 7]  
-> **Total de Mods:** 175[cite: 7]
-
----
-
-## ⚙️ Núcleo, Librerías y Frameworks Mixin
-* **`FermiumBooter** (`FermiumBooter-1.5.0.jar`)[cite: 7]
-* **!CrashAssistant** (`!CrashAssistant-forge-1.12.2-1.11.12.jar`)[cite: 7]
-* **!mixinbooter** (`!mixinbooter-11.14.jar`)[cite: 7]
-* **!Red-Core-MC** (`!Red-Core-MC-1.8-1.12-0.7.1.jar`)[cite: 7]
-* **_MixinBootstrap** (`_MixinBootstrap-1.1.0.jar`)[cite: 7]
-* **_supermartijn642corelib** (`_supermartijn642corelib-1.1.24a-forge-mc1.12.jar`)[cite: 7]
-* **___MixinCompat___** (`[___MixinCompat-1.1-1.12.2___].jar`)[cite: 7]
-* **Atlas-Lib** (`Atlas-Lib-1.12.2-1.1.11.jar`)[cite: 7]
-* **AutoRegLib** (`AutoRegLib-1.3-32.jar`)[cite: 7]
-* **CarbonConfig** (`CarbonConfig-1.12.2-2.0.2.1.jar`)[cite: 7]
-* **Chameleon** (`Chameleon-1.12-4.1.3.jar`)[cite: 7]
-* **Citadel** (`citadel-1.12.2-1.1.0.jar`)[cite: 7]
-* **CodeChickenLib** (`CodeChickenLib-1.12.2-3.2.3.358-universal.jar`)[cite: 7]
-* **Collective** (`collective-1.12.2-3.0.jar`)[cite: 7]
-* **CommonCapabilities** (`CommonCapabilities-1.12.2-2.4.8.jar`)[cite: 7]
-* **CoroUtil** (`coroutil-1.12.1-1.2.37.jar`)[cite: 7]
-* **CreativeCore** (`CreativeCore_v1.10.71_mc1.12.2.jar`)[cite: 7]
-* **CTM** (`CTM-MC1.12.2-1.0.2.31.jar`)[cite: 7]
-* **Cucumber Library** (`Cucumber-1.12.2-1.1.3.jar`)[cite: 7]
-* **CyclopsCore** (`CyclopsCore-1.12.2-1.6.7.jar`)[cite: 7]
-* **EnderCore** (`EnderCore-1.12.2-0.5.78.jar`)[cite: 7]
-* **Forgelin** (`Forgelin-1.8.4.jar`)[cite: 7]
-* **FTBLib** (`FTBLib-5.4.7.2.jar`)[cite: 7]
-* **FTB Utilities: Xaero Compat** (`ftbuxaerocompat-1.1.1.jar`)[cite: 7]
-* **GottschCore** (`GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar`)[cite: 7]
-* **iChunUtil** (`iChunUtil-1.12.2-7.2.2.jar`)[cite: 7]
-* **IronCore** (`IronCore1.12.2-V1.2.jar`)[cite: 7]
-* **Konkrete** (`konkrete_forge_1.6.1_MC_1.12-1.12.2.jar`)[cite: 7]
-* **LibraryEx** (`LibraryEx-1.12.2-1.2.2.jar`)[cite: 7]
-* **LLibrary** (`llibrary-1.7.20-1.12.2.jar`)[cite: 7]
-* **Mantle** (`Mantle-1.12-1.3.3.55.jar`)[cite: 7]
-* **MysticalLib** (`mysticallib-1.12.2-1.13.0.jar`)[cite: 7]
-* **Nether-API** (`Nether-API-v1.4.5-mc1.12.2.jar`)[cite: 7]
-* **OreLib** (`OreLib-1.12.2-3.6.0.1.jar`)[cite: 7]
-* **Patchouli** (`Patchouli-1.0-23.6.jar`)[cite: 7]
-* **Placebo** (`Placebo-1.12.2-1.6.1.jar`)[cite: 7]
-* **PTRLib** (`PTRLib-1.0.5.jar`)[cite: 7]
-* **RenderLib** (`RenderLib-1.12.2-1.4.5.jar`)[cite: 7]
-* **SuperMartijn642's Config Lib** (`supermartijn642configlib-1.1.8-forge-mc1.12.jar`)[cite: 7]
-* **SynLib** (`synlib-4.0.jar`)[cite: 7]
-* **XaeroLib** (`xaerolib-forge-1.12.2-1.7.1.jar`)[cite: 7]
+> **Estado:** Fase de lanzamiento
+> **Minecraft:** 1.12.2
+> **Mod Loader:** Minecraft Forge 14.23.5.2859+
+> **Total de mods:** 175
 
 ---
 
-## ⚡ Rendimiento, Optimizaciones y Correcciones
-* **AI Improvements** (`AIImprovements-1.12-0.0.1b3.jar`)[cite: 7]
-* **AttributeFix** (`AttributeFix-Forge-1.12.2-1.0.12.jar`)[cite: 7]
-* **Chunk-Pregenerator** (`Chunk-Pregenerator-1.12.2-4.4.9.2.jar`)[cite: 7]
-* **Clumps** (`Clumps-3.1.2.jar`)[cite: 7]
-* **Dynamic View Distance** (`dynviewdist-1.12-1.3.jar`)[cite: 7]
-* **Entity Culling** (`entityculling-1.12.2-1.6.3.jar`)[cite: 7]
-* **ExperienceBugFix** (`ExperienceBugFix-1.12.2-1.0.0.0.jar`)[cite: 7]
-* **Farsight** (`farsight-1.6.jar`)[cite: 7]
-* **FastFurnace** (`FastFurnace-1.12.2-1.3.1.jar`)[cite: 7]
-* **FastLeafDecay** (`FastLeafDecay-v14.jar`)[cite: 7]
-* **Get It Together Drops** (`getittogetherdrops-1.12.2-v1.0.2.jar`)[cite: 7]
-* **GPUTape** (`GPUTape-1.12.2-1.0.4.jar`)[cite: 7]
-* **LoliASM** (`loliasm-5.33.jar`)[cite: 7]
-* **NetherPortalFix** (`NetherPortalFix_1.12.1-5.3.17.jar`)[cite: 7]
-* **NoiseThreader** (`NoiseThreader-1.1.3.jar`)[cite: 7]
-* **Nothirium** (`Nothirium-1.12.2-0.4.9-beta.jar`)[cite: 7]
-* **Particle Culling** (`particleculling-1.12.2-v1.4.3.jar`)[cite: 7]
-* **RamGuard** (`RamGuard-1.12.2-1.0.0.jar`)[cite: 7]
-* **RoughlyEnoughIDs** (`RoughlyEnoughIDs-2.3.1.jar`)[cite: 7]
-* **Spark** (`spark-forge1122.jar`)[cite: 7]
-* **STG (SwingThroughGrass)** (`stg-1.12.2-1.2.3.jar`)[cite: 7]
-* **VintageFix** (`vintagefix-0.7.0.jar`)[cite: 7]
+Esta página contiene la lista completa de mods del modpack, organizada por categorías para que sea más fácil entender qué aporta cada parte del pack.
+
+La lista incluye tanto mods de contenido y jugabilidad como librerías y dependencias necesarias para otros mods. Para una instalación completa, utiliza exactamente las versiones indicadas a continuación.
+
+## ⚙️ Núcleo, Librerías y Frameworks de Mixin
+> Librerías, APIs, sistemas de configuración y componentes de Mixin/Bootstrap necesarios para otros mods. Son principalmente dependencias y no mods de contenido.
+
+* **`FermiumBooter** (`FermiumBooter-1.5.0.jar`)
+* **!CrashAssistant** (`!CrashAssistant-forge-1.12.2-1.11.12.jar`)
+* **!mixinbooter** (`!mixinbooter-11.14.jar`)
+* **!Red-Core-MC** (`!Red-Core-MC-1.8-1.12-0.7.1.jar`)
+* **_MixinBootstrap** (`_MixinBootstrap-1.1.0.jar`)
+* **_supermartijn642corelib** (`_supermartijn642corelib-1.1.24a-forge-mc1.12.jar`)
+* **___MixinCompat___** (`[___MixinCompat-1.1-1.12.2___].jar`)
+* **Atlas-Lib** (`Atlas-Lib-1.12.2-1.1.11.jar`)
+* **AutoRegLib** (`AutoRegLib-1.3-32.jar`)
+* **CarbonConfig** (`CarbonConfig-1.12.2-2.0.2.1.jar`)
+* **Chameleon** (`Chameleon-1.12-4.1.3.jar`)
+* **Citadel** (`citadel-1.12.2-1.1.0.jar`)
+* **CodeChickenLib** (`CodeChickenLib-1.12.2-3.2.3.358-universal.jar`)
+* **Collective** (`collective-1.12.2-3.0.jar`)
+* **CommonCapabilities** (`CommonCapabilities-1.12.2-2.4.8.jar`)
+* **CoroUtil** (`coroutil-1.12.1-1.2.37.jar`)
+* **CreativeCore** (`CreativeCore_v1.10.71_mc1.12.2.jar`)
+* **CTM** (`CTM-MC1.12.2-1.0.2.31.jar`)
+* **Cucumber Library** (`Cucumber-1.12.2-1.1.3.jar`)
+* **CyclopsCore** (`CyclopsCore-1.12.2-1.6.7.jar`)
+* **EnderCore** (`EnderCore-1.12.2-0.5.78.jar`)
+* **Forgelin** (`Forgelin-1.8.4.jar`)
+* **FTBLib** (`FTBLib-5.4.7.2.jar`)
+* **FTB Utilities: Xaero Compat** (`ftbuxaerocompat-1.1.1.jar`)
+* **GottschCore** (`GottschCore-mc1.12.2-f14.23.5.2859-v1.15.1.jar`)
+* **iChunUtil** (`iChunUtil-1.12.2-7.2.2.jar`)
+* **IronCore** (`IronCore1.12.2-V1.2.jar`)
+* **Konkrete** (`konkrete_forge_1.6.1_MC_1.12-1.12.2.jar`)
+* **LibraryEx** (`LibraryEx-1.12.2-1.2.2.jar`)
+* **LLibrary** (`llibrary-1.7.20-1.12.2.jar`)
+* **Mantle** (`Mantle-1.12-1.3.3.55.jar`)
+* **MysticalLib** (`mysticallib-1.12.2-1.13.0.jar`)
+* **Nether-API** (`Nether-API-v1.4.5-mc1.12.2.jar`)
+* **OreLib** (`OreLib-1.12.2-3.6.0.1.jar`)
+* **Patchouli** (`Patchouli-1.0-23.6.jar`)
+* **Placebo** (`Placebo-1.12.2-1.6.1.jar`)
+* **PTRLib** (`PTRLib-1.0.5.jar`)
+* **RenderLib** (`RenderLib-1.12.2-1.4.5.jar`)
+* **SuperMartijn642's Config Lib** (`supermartijn642configlib-1.1.8-forge-mc1.12.jar`)
+* **SynLib** (`synlib-4.0.jar`)
+* **XaeroLib** (`xaerolib-forge-1.12.2-1.7.1.jar`)
 
 ---
 
-## 🗺️ Dimensiones, Generación de Mundo y Mazmorras
-* **AbyssalCraft** (`AbyssalCraft-1.12.2-1.11.3.jar`)[cite: 7]
-* **Alfheim (Expansión de Botania)** (`Alfheim-1.6.jar`)[cite: 7]
-* **Basic Nether Ores** (`BasicNetherOres-1.12.2-1.0.5.0.jar`)[cite: 7]
-* **BetterEnd (Port No Oficial)** (`BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar`)[cite: 7]
-* **BetterNether** (`betternether-0.1.8.6.jar`)[cite: 7]
-* **Better Strongholds** (`BetterStronghold -0.1.jar`)[cite: 7]
-* **Blue Skies** (`blue_skies-1.12.2-v1.1.3.jar`)[cite: 7]
-* **Doomlike Dungeons** (`dldungeonsjbg-1.14.17-MC1.12.2.jar`)[cite: 7]
-* **Lost Aether Content** (`lost-aether-content-1.12.2-1.0.2.jar`)[cite: 7]
-* **NetherEx** (`NetherEx-1.12.2-2.2.5.jar`)[cite: 7]
-* **Novam Terram** (`NovamTerram-7.3.6.3.jar`)[cite: 7]
-* **Oceanic Expanse** (`OceanicExpanse-1.2.2.jar`)[cite: 7]
-* **Rex's Additional Structures** (`Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar`)[cite: 7]
-* **Roguelike Dungeons - Fnar Edition** (`RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar`)[cite: 7]
-* **The Aether** (`aether-1.12.2-v1.5.4.1.jar`)[cite: 7]
-* **The Twilight Forest** (`twilightforest-1.12.2-3.11.1021-universal.jar`)[cite: 7]
-* **Unseen's Nether Backport** (`unseens-nether-backport-0.7.jar`)[cite: 7]
-* **Wesley's Roguelike Dungeons** (`Wesley's Roguelike Dungeons V0.8.1.jar`)[cite: 7]
+## ⚡ Rendimiento, Correcciones y Optimización
+> Mejoras de rendimiento, correcciones de errores, optimizaciones de renderizado y utilidades para cliente y servidor destinadas a ofrecer una experiencia 1.12.2 más fluida y estable.
+
+* **AI Improvements** (`AIImprovements-1.12-0.0.1b3.jar`)
+* **AttributeFix** (`AttributeFix-Forge-1.12.2-1.0.12.jar`)
+* **Chunk-Pregenerator** (`Chunk-Pregenerator-1.12.2-4.4.9.2.jar`)
+* **Clumps** (`Clumps-3.1.2.jar`)
+* **Dynamic View Distance** (`dynviewdist-1.12-1.3.jar`)
+* **Entity Culling** (`entityculling-1.12.2-1.6.3.jar`)
+* **ExperienceBugFix** (`ExperienceBugFix-1.12.2-1.0.0.0.jar`)
+* **Farsight** (`farsight-1.6.jar`)
+* **FastFurnace** (`FastFurnace-1.12.2-1.3.1.jar`)
+* **FastLeafDecay** (`FastLeafDecay-v14.jar`)
+* **Get It Together Drops** (`getittogetherdrops-1.12.2-v1.0.2.jar`)
+* **GPUTape** (`GPUTape-1.12.2-1.0.4.jar`)
+* **LoliASM** (`loliasm-5.33.jar`)
+* **NetherPortalFix** (`NetherPortalFix_1.12.1-5.3.17.jar`)
+* **NoiseThreader** (`NoiseThreader-1.1.3.jar`)
+* **Nothirium** (`Nothirium-1.12.2-0.4.9-beta.jar`)
+* **Particle Culling** (`particleculling-1.12.2-v1.4.3.jar`)
+* **RamGuard** (`RamGuard-1.12.2-1.0.0.jar`)
+* **RoughlyEnoughIDs** (`RoughlyEnoughIDs-2.3.1.jar`)
+* **Spark** (`spark-forge1122.jar`)
+* **STG (SwingThroughGrass)** (`stg-1.12.2-1.2.3.jar`)
+* **VintageFix** (`vintagefix-0.7.0.jar`)
+
+---
+
+## 🗺️ Dimensiones, Generación del Mundo y Mazmorras
+> Mods que amplían la exploración mediante nuevas dimensiones, cambios en la generación del mundo, estructuras, minerales y contenido de mazmorras.
+
+* **AbyssalCraft** (`AbyssalCraft-1.12.2-1.11.3.jar`)
+* **Alfheim (Botania Addon)** (`Alfheim-1.6.jar`)
+* **Basic Nether Ores** (`BasicNetherOres-1.12.2-1.0.5.0.jar`)
+* **BetterEnd (Unofficial Port)** (`BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar`)
+* **BetterNether** (`betternether-0.1.8.6.jar`)
+* **Better Strongholds** (`BetterStronghold -0.1.jar`)
+* **Blue Skies** (`blue_skies-1.12.2-v1.1.3.jar`)
+* **Doomlike Dungeons** (`dldungeonsjbg-1.14.17-MC1.12.2.jar`)
+* **Lost Aether Content** (`lost-aether-content-1.12.2-1.0.2.jar`)
+* **NetherEx** (`NetherEx-1.12.2-2.2.5.jar`)
+* **Novam Terram** (`NovamTerram-7.3.6.3.jar`)
+* **Oceanic Expanse** (`OceanicExpanse-1.2.2.jar`)
+* **Rex's Additional Structures** (`Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar`)
+* **Roguelike Dungeons - Fnar Edition** (`RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar`)
+* **The Aether** (`aether-1.12.2-v1.5.4.1.jar`)
+* **The Twilight Forest** (`twilightforest-1.12.2-3.11.1021-universal.jar`)
+* **Unseen's Nether Backport** (`unseens-nether-backport-0.7.jar`)
+* **Wesley's Roguelike Dungeons** (`Wesley's Roguelike Dungeons V0.8.1.jar`)
 
 ---
 
 ## 🔮 Magia, Tecnología y Mecánicas
-* **Applied Energistics 2: Extended Life** (`ae2-uel-v0.56.6.jar`)[cite: 7]
-* **Astral Sorcery** (`astralsorcery-1.12.2-1.10.27.jar`)[cite: 7]
-* **Botania** (`Botania r1.10-364.4.jar`)[cite: 7]
-* **BuildCraft** (`buildcraft-all-8.0.0.jar`)[cite: 7]
-* **Ender IO** (`EnderIO-1.12.2-5.3.72.jar`)[cite: 7]
-* **Ender Storage** (`EnderStorage-1.12.2-2.4.6.137-universal.jar`)[cite: 7]
-* **Energy Converters** (`energyconverters_1.12.2-1.3.7.30.jar`)[cite: 7]
-* **Extra Utilities 2** (`extrautils2-1.12-1.9.9.jar`)[cite: 7]
-* **Galacticraft** (`Galacticraft-1.12.2-4.0.7.jar`)[cite: 7]
-* **IndustrialCraft 2** (`industrialcraft-2-2.8.170-ex112.jar`)[cite: 7]
-* **OpenBlocks Reopened** (`OpenBlocksReopened-1.12.2-1.8.3.1.jar`)[cite: 7]
-* **Quark** (`Quark-r1.6-179.jar`)[cite: 7]
-* **SecurityCraft** (`[1.12.2] SecurityCraft v1.10.1.jar`)[cite: 7]
-* **Storage Drawers** (`StorageDrawers-1.12.2-5.5.3.jar`)[cite: 7]
-* **Thaumcraft 6** (`Thaumcraft-1.12.2-6.1.BETA26.jar`)[cite: 7]
-* **Tinkers' Construct** (`TConstruct-1.12.2-2.13.0.183.jar`)[cite: 7]
-* **Tinkers' Tool Leveling** (`TinkerToolLeveling-1.12.2-1.1.0.jar`)[cite: 7]
-* **Witchery: Resurrected** (`WitcheryResurrected-1.12.2-0.5.2.4-forge-all.jar`)[cite: 7]
-* **Witchery Companion** (`witcherycompanion-0.36.2-beta.jar`)[cite: 7]
+> La principal capa de progresión y automatización del pack, combinando sistemas de magia, tecnología, almacenamiento, energía y utilidades mecánicas.
+
+* **Applied Energistics 2: Extended Life** (`ae2-uel-v0.56.6.jar`)
+* **Astral Sorcery** (`astralsorcery-1.12.2-1.10.27.jar`)
+* **Botania** (`Botania r1.10-364.4.jar`)
+* **BuildCraft** (`buildcraft-all-8.0.0.jar`)
+* **Ender IO** (`EnderIO-1.12.2-5.3.72.jar`)
+* **Ender Storage** (`EnderStorage-1.12.2-2.4.6.137-universal.jar`)
+* **Energy Converters** (`energyconverters_1.12.2-1.3.7.30.jar`)
+* **Extra Utilities 2** (`extrautils2-1.12-1.9.9.jar`)
+* **Galacticraft** (`Galacticraft-1.12.2-4.0.7.jar`)
+* **IndustrialCraft 2** (`industrialcraft-2-2.8.170-ex112.jar`)
+* **OpenBlocks Reopened** (`OpenBlocksReopened-1.12.2-1.8.3.1.jar`)
+* **Quark** (`Quark-r1.6-179.jar`)
+* **SecurityCraft** (`[1.12.2] SecurityCraft v1.10.1.jar`)
+* **Storage Drawers** (`StorageDrawers-1.12.2-5.5.3.jar`)
+* **Thaumcraft 6** (`Thaumcraft-1.12.2-6.1.BETA26.jar`)
+* **Tinkers' Construct** (`TConstruct-1.12.2-2.13.0.183.jar`)
+* **Tinkers' Tool Leveling** (`TinkerToolLeveling-1.12.2-1.1.0.jar`)
+* **Witchery: Resurrected** (`WitcheryResurrected-1.12.2-0.5.2.4-forge-all.jar`)
+* **Witchery Companion** (`witcherycompanion-0.36.2-beta.jar`)
 
 ---
 
-## 🐉 Mobs, Criaturas y Jefes
-* **Beast Slayer** (`beastslayer-not.2.0.03.release.jar`)[cite: 7]
-* **Champions** (`champions-1.12.2-1.0.11.10.jar`)[cite: 7]
-* **ChocoCraft Plus** (`ChocoCraftPlus-1.12.2-4.5.10.jar`)[cite: 7]
-* **Doggy Talents** (`DoggyTalents-1.12.2-1.15.1.6.jar`)[cite: 7]
-* **Dragon Mounts 2** (`DragonMounts2-1.12.2-2.1.2.jar`)[cite: 7]
-* **Eyes in the Darkness** (`EyesInTheDarkness-0.1.0.jar`)[cite: 7]
-* **Fish's Undead Rising** (`Fish's Undead Rising-1.6.2.jar`)[cite: 7]
-* **Fossils and Archaeology Revival** (`fossilsarcheology-8.0.6.jar`)[cite: 7]
-* **Frozen Fiend** (`Frozen-Fiend-1.5.3.jar`)[cite: 7]
-* **Ice and Fire: Dragons** (`iceandfire-1.9.1-1.12.2.jar`)[cite: 7]
-* **Illagers+** (`IllagersPlus-1.12.2-1.1.3.jar`)[cite: 7]
-* **Magma Monsters** (`MagmaMonsters-0.3.0.jar`)[cite: 7]
-* **Mo' Creatures** (`mocreatures-12.5.1.jar`)[cite: 7]
-* **Mowzie's Mobs** (`mowziesmobs-1.5.8.jar`)[cite: 7]
-* **MultiMob** (`multimob-1.0.5.jar`)[cite: 7]
-* **Mystical World** (`mysticalworld-1.12.2-1.11.0.jar`)[cite: 7]
-* **Primitive Mobs** (`primitivemobs-1.2.3a.jar`)[cite: 7]
-* **Rats** (`rats-3.2.14-1.12.2.jar`)[cite: 7]
-* **Simply Cats** (`simplycats-1.12.2-0.2.2.jar`)[cite: 7]
-* **Spiders 2.0** (`spiders-2.0-1.12.2-1.0.3.jar`)[cite: 7]
-* **Straw Golem Reborn** (`strawgolem-1.4.2.ED.jar`)[cite: 7]
-* **Two Players One Horse** (`twoplayersonehorse-1.12.2-1.0.3.jar`)[cite: 7]
-* **Wither Skeleton Tweaks** (`WitherSkeletonTweaks-1.12.2-2.6.3.jar`)[cite: 7]
-* **Wyrms of Nyrus** (`wyrmsofnyrus-0.9.3.jar`)[cite: 7]
+## 🐉 Mobs, Jefes y Criaturas
+> Nuevas criaturas, enemigos, jefes, compañeros y otras incorporaciones que hacen que el mundo sea más variado y peligroso.
+
+* **Beast Slayer** (`beastslayer-not.2.0.03.release.jar`)
+* **Champions** (`champions-1.12.2-1.0.11.10.jar`)
+* **ChocoCraft Plus** (`ChocoCraftPlus-1.12.2-4.5.10.jar`)
+* **Doggy Talents** (`DoggyTalents-1.12.2-1.15.1.6.jar`)
+* **Dragon Mounts 2** (`DragonMounts2-1.12.2-2.1.2.jar`)
+* **Eyes in the Darkness** (`EyesInTheDarkness-0.1.0.jar`)
+* **Fish's Undead Rising** (`Fish's Undead Rising-1.6.2.jar`)
+* **Fossils and Archaeology Revival** (`fossilsarcheology-8.0.6.jar`)
+* **Frozen Fiend** (`Frozen-Fiend-1.5.3.jar`)
+* **Ice and Fire: Dragons** (`iceandfire-1.9.1-1.12.2.jar`)
+* **Illagers+** (`IllagersPlus-1.12.2-1.1.3.jar`)
+* **Magma Monsters** (`MagmaMonsters-0.3.0.jar`)
+* **Mo' Creatures** (`mocreatures-12.5.1.jar`)
+* **Mowzie's Mobs** (`mowziesmobs-1.5.8.jar`)
+* **MultiMob** (`multimob-1.0.5.jar`)
+* **Mystical World** (`mysticalworld-1.12.2-1.11.0.jar`)
+* **Primitive Mobs** (`primitivemobs-1.2.3a.jar`)
+* **Rats** (`rats-3.2.14-1.12.2.jar`)
+* **Simply Cats** (`simplycats-1.12.2-0.2.2.jar`)
+* **Spiders 2.0** (`spiders-2.0-1.12.2-1.0.3.jar`)
+* **Straw Golem Reborn** (`strawgolem-1.4.2.ED.jar`)
+* **Two Players One Horse** (`twoplayersonehorse-1.12.2-1.0.3.jar`)
+* **Wither Skeleton Tweaks** (`WitherSkeletonTweaks-1.12.2-2.6.3.jar`)
+* **Wyrms of Nyrus** (`wyrmsofnyrus-0.9.3.jar`)
 
 ---
 
-## ⚔️ Equipamiento, Combate y Amuletos (Curios/Baubles)
-* **Armored Arms** (`ArmoredArms-v1.5.3-1.12.2-release.jar`)[cite: 7]
-* **Artifacts** (`artifacts-1.12.2-1.2.4.jar`)[cite: 7]
-* **Baubles** (`Baubles-1.12-1.5.2.jar`)[cite: 7]
-* **Bountiful Baubles** (`Bountiful Baubles-1.12.2-0.1.8.jar`)[cite: 7]
-* **Colytra** (`colytra-1.12.2-1.2.0.4.jar`)[cite: 7]
-* **Cosmetic Armor Reworked** (`CosmeticArmorReworked-1.12.2-v5a.jar`)[cite: 7]
-* **Easy Anvils** (`easyanvils-1.1.0.jar`)[cite: 7]
-* **Easy Elytra Takeoff** (`easyelytratakeoff_1.12.2-2.1.jar`)[cite: 7]
-* **Easy Magic** (`easymagic-1.2.4.jar`)[cite: 7]
-* **Forgiving Void** (`ForgivingVoid_1.12.2-1.1.0.jar`)[cite: 7]
-* **Grappling Hook Mod** (`grappling_hook_mod-1.12.2-v13.jar`)[cite: 7]
-* **Hammers** (`hammers-2.1.5-1.12.2-forge.jar`)[cite: 7]
-* **Improved Backpacks** (`ImprovedBackpacks-1.12.2-1.5.0.0.jar`)[cite: 7]
-* **Iron Jetpacks** (`IronJetpacks-1.12-2-1.1.0.jar`)[cite: 7]
-* **Paraglider** (`Paraglider-1.12.2-1.0.1.5.jar`)[cite: 7]
-* **Parry** (`parry-1.0-hotfix.jar`)[cite: 7]
-* **Responsive Shields** (`responsiveshields-2.3-mc1.12.x.jar`)[cite: 7]
-* **Spartan Shields** (`SpartanShields-1.12.2-1.5.5.jar`)[cite: 7]
-* **Spartan Twilight** (`spartantwilight-1.12.2-1.2.0.jar`)[cite: 7]
-* **Spartan Weaponry** (`SpartanWeaponry-1.12.2-1.6.1.jar`)[cite: 7]
-* **The Aether Baubles** (`TheAetherBaubles-2.0.1.jar`)[cite: 7]
-* **Weapon Master** (`weaponmaster_ydm-forge-1.12.2-4.2.3.jar`)[cite: 7]
-* **XP Tome** (`xptome-1.12.2-v2.0.1.jar`)[cite: 7]
+## ⚔️ Equipamiento, Combate y Accesorios
+> Armas, armaduras, escudos, accesorios, objetos de movilidad y mecánicas centradas en el combate que amplían la progresión del personaje y las opciones de combate.
+
+* **Armored Arms** (`ArmoredArms-v1.5.3-1.12.2-release.jar`)
+* **Artifacts** (`artifacts-1.12.2-1.2.4.jar`)
+* **Baubles** (`Baubles-1.12-1.5.2.jar`)
+* **Bountiful Baubles** (`Bountiful Baubles-1.12.2-0.1.8.jar`)
+* **Colytra** (`colytra-1.12.2-1.2.0.4.jar`)
+* **Cosmetic Armor Reworked** (`CosmeticArmorReworked-1.12.2-v5a.jar`)
+* **Easy Anvils** (`easyanvils-1.1.0.jar`)
+* **Easy Elytra Takeoff** (`easyelytratakeoff_1.12.2-2.1.jar`)
+* **Easy Magic** (`easymagic-1.2.4.jar`)
+* **Forgiving Void** (`ForgivingVoid_1.12.2-1.1.0.jar`)
+* **Grappling Hook Mod** (`grappling_hook_mod-1.12.2-v13.jar`)
+* **Hammers** (`hammers-2.1.5-1.12.2-forge.jar`)
+* **Improved Backpacks** (`ImprovedBackpacks-1.12.2-1.5.0.0.jar`)
+* **Iron Jetpacks** (`IronJetpacks-1.12-2-1.1.0.jar`)
+* **Paraglider** (`Paraglider-1.12.2-1.0.1.5.jar`)
+* **Parry** (`parry-1.0-hotfix.jar`)
+* **Responsive Shields** (`responsiveshields-2.3-mc1.12.x.jar`)
+* **Spartan Shields** (`SpartanShields-1.12.2-1.5.5.jar`)
+* **Spartan Twilight** (`spartantwilight-1.12.2-1.2.0.jar`)
+* **Spartan Weaponry** (`SpartanWeaponry-1.12.2-1.6.1.jar`)
+* **The Aether Baubles** (`TheAetherBaubles-2.0.1.jar`)
+* **Weapon Master** (`weaponmaster_ydm-forge-1.12.2-4.2.3.jar`)
+* **XP Tome** (`xptome-1.12.2-v2.0.1.jar`)
 
 ---
 
 ## 🍲 Agricultura, Comida y Construcción
-* **Aquaculture** (`Aquaculture-1.12.2-1.6.8.jar`)[cite: 7]
-* **Better Builder's Wands** (`BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar`)[cite: 7]
-* **Bountiful** (`Bountiful-2.2.2.jar`)[cite: 7]
-* **Comforts** (`comforts-1.12.2-1.4.1.3.jar`)[cite: 7]
-* **Culinary Construct** (`culinaryconstruct-1.3.4.jar`)[cite: 7]
-* **Ender Crop** (`endercrop-1.12.2-1.6.0.jar`)[cite: 7]
-* **End's Delight Legacy** (`ends-delight-legacy-1.0.3.jar`)[cite: 7]
-* **Farmer's Delight Legacy** (`FarmersDelightLegacy-1.1.6.jar`)[cite: 7]
-* **Future MC** (`Future-MC-0.2.21.jar`)[cite: 7]
-* **Gnetum** (`gnetum-1.4.3.jar`)[cite: 7]
-* **Healing Bed** (`HealingBed 1.12.2 forge.jar`)[cite: 7]
-* **Iron Barrels** (`IronBarrels1.12.2-V2.0.jar`)[cite: 7]
-* **Iron Chests** (`ironchest-1.12.2-7.0.72.847.jar`)[cite: 7]
-* **Iron Furnaces** (`ironfurnaces-1.3.5.jar`)[cite: 7]
-* **KleeSlabs** (`KleeSlabs_1.12.2-5.4.12.jar`)[cite: 7]
-* **Lootr** (`lootr-1.12.2-0.6.2.jar`)[cite: 7]
-* **Macaw's Bridges** (`mcw-bridges-1.0.6b-mc1.12.2.jar`)[cite: 7]
-* **Macaw's Doors** (`mcw-doors-1.0.3-mc1.12.2.jar`)[cite: 7]
-* **Macaw's Fences** (`mcw-fences-1.0.0-mc1.12.2.jar`)[cite: 7]
-* **Macaw's Windows** (`mcw-windows-1.0.0-mc1.12.2.jar`)[cite: 7]
-* **MmmMmmMmmMmm (Muñeco de Pruebas)** (`MmmMmmMmmMmm-1.12-2.0.7.jar`)[cite: 7]
-* **Ne-Carpenters-Blocks** (`Ne-Carpenters-Blocks-0.1.4-fix.jar`)[cite: 7]
-* **Nether's Delight Legacy** (`nethers-delight-legacy-1.0.7.jar`)[cite: 7]
-* **Sulfur & Potassium** (`sulfur-potassium-1.12-1.1.jar`)[cite: 7]
-* **Torchmaster** (`torchmaster_1.12.2-1.8.5.0.jar`)[cite: 7]
-* **TreeChop** (`TreeChop-1.12.2-0.14.7.jar`)[cite: 7]
-* **Twilight Delight Legacy** (`TwilightDelightLegacy-1.2.0.jar`)[cite: 7]
-* **YARCF** (`YARCF-0.14(1.12.2).jar`)[cite: 7]
+> Agricultura, comida, almacenamiento, utilidades de construcción y bloques decorativos diseñados para hacer más flexible la supervivencia, construcción y gestión de recursos.
+
+* **Aquaculture** (`Aquaculture-1.12.2-1.6.8.jar`)
+* **Better Builder's Wands** (`BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar`)
+* **Bountiful** (`Bountiful-2.2.2.jar`)
+* **Comforts** (`comforts-1.12.2-1.4.1.3.jar`)
+* **Culinary Construct** (`culinaryconstruct-1.3.4.jar`)
+* **Ender Crop** (`endercrop-1.12.2-1.6.0.jar`)
+* **End's Delight Legacy** (`ends-delight-legacy-1.0.3.jar`)
+* **Farmer's Delight Legacy** (`FarmersDelightLegacy-1.1.6.jar`)
+* **Future MC** (`Future-MC-0.2.21.jar`)
+* **Gnetum** (`gnetum-1.4.3.jar`)
+* **Healing Bed** (`HealingBed 1.12.2 forge.jar`)
+* **Iron Barrels** (`IronBarrels1.12.2-V2.0.jar`)
+* **Iron Chests** (`ironchest-1.12.2-7.0.72.847.jar`)
+* **Iron Furnaces** (`ironfurnaces-1.3.5.jar`)
+* **KleeSlabs** (`KleeSlabs_1.12.2-5.4.12.jar`)
+* **Lootr** (`lootr-1.12.2-0.6.2.jar`)
+* **Macaw's Bridges** (`mcw-bridges-1.0.6b-mc1.12.2.jar`)
+* **Macaw's Doors** (`mcw-doors-1.0.3-mc1.12.2.jar`)
+* **Macaw's Fences** (`mcw-fences-1.0.0-mc1.12.2.jar`)
+* **Macaw's Windows** (`mcw-windows-1.0.0-mc1.12.2.jar`)
+* **MmmMmmMmmMmm (Target Dummy)** (`MmmMmmMmmMmm-1.12-2.0.7.jar`)
+* **Ne-Carpenters-Blocks** (`Ne-Carpenters-Blocks-0.1.4-fix.jar`)
+* **Nether's Delight Legacy** (`nethers-delight-legacy-1.0.7.jar`)
+* **Sulfur & Potassium** (`sulfur-potassium-1.12-1.1.jar`)
+* **Torchmaster** (`torchmaster_1.12.2-1.8.5.0.jar`)
+* **TreeChop** (`TreeChop-1.12.2-0.14.7.jar`)
+* **Twilight Delight Legacy** (`TwilightDelightLegacy-1.2.0.jar`)
+* **YARCF** (`YARCF-0.14(1.12.2).jar`)
 
 ---
 
-## 🖥️ Interfaz, Efectos Visuales, Sonido y Calidad de Vida (QoL)
-* **3D Skin Layers** (`3dSkinLayers-forge-mc1.12.2-1.2.0.jar`)[cite: 7]
-* **Ambient Environment** (`AmbientEnvironment-1.0.2.jar`)[cite: 7]
-* **AmbientSounds** (`AmbientSounds_v3.1.7_mc1.12.2.jar`)[cite: 7]
-* **AppleSkin** (`AppleSkin-mc1.12-1.0.14.jar`)[cite: 7]
-* **Aqua Acrobatics** (`AquaAcrobatics-1.15.4.jar`)[cite: 7]
-* **Armor Sound Tweak** (`ArmorSoundTweak-2.1.0.jar`)[cite: 7]
-* **Better Advancements** (`BetterAdvancements-1.12.2-0.1.0.77.jar`)[cite: 7]
-* **Better Chat** (`betterchat-1.4.jar`)[cite: 7]
-* **Better Third Person** (`BetterThirdPerson-Forge-1.12.2-1.9.0.jar`)[cite: 7]
-* **Biome Info** (`biomeinfo-1.12.2-v1.2.5.jar`)[cite: 7]
-* **Colorful Health Bar** (`colorfulhealthbar-0.0.4a.jar`)[cite: 7]
-* **Controlling** (`Controlling-3.0.12.4.jar`)[cite: 7]
-* **Corpse (Cadáveres)** (`corpse-1.12.2-1.0.8.jar`)[cite: 7]
-* **Custom Cursor Mod** (`CustomCursorMod-1.2.2.jar`)[cite: 7]
-* **Custom Skin Loader** (`CustomSkinLoader_Universal-15.0.1.jar`)[cite: 7]
-* **Default Options** (`DefaultOptions_1.12.2-9.2.8.jar`)[cite: 7]
-* **Durability Tooltip** (`durabilitytooltip-1.1.6-forge-mc1.12.jar`)[cite: 7]
-* **Dynamic Surroundings** (`DynamicSurroundings-1.12.2-3.6.1.0.jar`)[cite: 7]
-* **Enchantment Descriptions** (`EnchantmentDescriptions-1.12.2-1.1.15.jar`)[cite: 7]
-* **Falling Leaves** (`fallingleaves-2.1.2.2.jar`)[cite: 7]
-* **FancyMenu** (`fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar`)[cite: 7]
-* **Forced Resource Packs** (`forcedresourcepacks-1.1.jar`)[cite: 7]
-* **Friendly Fire** (`FriendlyFire-1.12.2-1.5.10.jar`)[cite: 7]
-* **FTB Utilities** (`FTBUtilities-5.4.1.131.jar`)[cite: 7]
-* **Good Skeletons Don't Strafe** (`GoodSkeletonsDontStrafe-v1.1.1-1.12.2.jar`)[cite: 7]
-* **Googly Eyes** (`GooglyEyes-1.12.2-7.1.1.jar`)[cite: 7]
-* **Highlighter** (`Highlighter-1.12.2-forge-1.1.7.jar`)[cite: 7]
-* **Hwyla** (`Hwyla-1.8.26-B41_1.12.2.jar`)[cite: 7]
-* **Instant Skin** (`InstantSkin.jar`)[cite: 7]
-* **Inventory HUD+** (`InventoryHUD-1.12.2.forge-3.4.4.jar`)[cite: 7]
-* **Inventory Tweaks** (`InventoryTweaks-1.63.jar`)[cite: 7]
-* **Item Borders** (`ItemBorders-1.12.2-forge-1.2.0.jar`)[cite: 7]
-* **Item Scroller** (`itemscroller-1.12.2-0.12.0.jar`)[cite: 7]
-* **Jade** (`Jade-0.1.0.jar`)[cite: 7]
-* **JEI (Just Enough Items)** (`jei_1.12.2-4.16.1.301.jar`)[cite: 7]
-* **Just Enough Botania** (`Just-Enough-Botania-1.12.2-v0.2.jar`)[cite: 7]
-* **Just Enough Resources (JER)** (`JustEnoughResources-1.12.2-0.9.2.60.jar`)[cite: 7]
-* **Map Tooltip** (`maptooltip-1.12.2-1.0.jar`)[cite: 7]
-* **MCEF (Minecraft Chromium Embedded Framework)** (`mcef-1.12.2-1.11.jar`)[cite: 7]
-* **Mouse Tweaks** (`MouseTweaks-2.10-mc1.12.2.jar`)[cite: 7]
-* **My Server Is Compatible** (`MyServerIsCompatible-1.12.2-1.0.jar`)[cite: 7]
-* **Name Pain** (`namepain-1.5.0 forge-1.12.x.jar`)[cite: 7]
-* **Nimble** (`Nimble-0.0.2.jar`)[cite: 7]
-* **Obscure Tooltips** (`obscure_tooltips-forge-1.12.2-3.10.2.jar`)[cite: 7]
-* **Overloaded Armor Bar** (`overloadedarmorbar-1.0.4g.jar`)[cite: 7]
-* **Pickup Notifier** (`PickUpNotifier-v1.1.5-1.12.2.jar`)[cite: 7]
-* **Server Tab Info** (`ServerTabInfo-1.12.2-1.2.6.jar`)[cite: 7]
-* **Smart Particles** (`smart_particles+mc1.12.2-12.02.9-Forge.jar`)[cite: 7]
-* **Sound Filters** (`SoundFilters-0.12.1_for_1.12.jar`)[cite: 7]
-* **ToroHealth Damage Indicators** (`torohealth-1.12.2-11.jar`)[cite: 7]
-* **Toughness Bar** (`toughnessbar-2.4.jar`)[cite: 7]
-* **TrashSlot** (`TrashSlot_1.12.2-8.4.10.jar`)[cite: 7]
-* **VisualOres** (`visualores-0.2.8.jar`)[cite: 7]
-* **WAILA Harvestability** (`WailaHarvestability-mc1.12-1.1.12.jar`)[cite: 7]
-* **Waystones** (`Waystones_1.12.2-4.1.0.jar`)[cite: 7]
-* **WI Zoom** (`wi-zoom-v1.1-MC1.12.2-release.jar`)[cite: 7]
-* **WTS (What's That Slot)** (`WTS-1.1.0.jar`)[cite: 7]
-* **Xaero's Minimap** (`xaerominimap-forge-1.12.2-26.4.2.jar`)[cite: 7]
-* **Xaero's World Map** (`xaeroworldmap-forge-1.12.2-1.44.2.jar`)[cite: 7]
+## 🖥️ Interfaz, Visuales, Audio y Calidad de Vida
+> Mejoras de interfaz, información en pantalla, mejoras visuales y de sonido, utilidades para el inventario, mapas y otras funciones de calidad de vida.
+
+* **3D Skin Layers** (`3dSkinLayers-forge-mc1.12.2-1.2.0.jar`)
+* **Ambient Environment** (`AmbientEnvironment-1.0.2.jar`)
+* **AmbientSounds** (`AmbientSounds_v3.1.7_mc1.12.2.jar`)
+* **AppleSkin** (`AppleSkin-mc1.12-1.0.14.jar`)
+* **Aqua Acrobatics** (`AquaAcrobatics-1.15.4.jar`)
+* **Armor Sound Tweak** (`ArmorSoundTweak-2.1.0.jar`)
+* **Better Advancements** (`BetterAdvancements-1.12.2-0.1.0.77.jar`)
+* **Better Chat** (`betterchat-1.4.jar`)
+* **Better Third Person** (`BetterThirdPerson-Forge-1.12.2-1.9.0.jar`)
+* **Biome Info** (`biomeinfo-1.12.2-v1.2.5.jar`)
+* **Colorful Health Bar** (`colorfulhealthbar-0.0.4a.jar`)
+* **Controlling** (`Controlling-3.0.12.4.jar`)
+* **Corpse** (`corpse-1.12.2-1.0.8.jar`)
+* **Custom Cursor Mod** (`CustomCursorMod-1.2.2.jar`)
+* **Custom Skin Loader** (`CustomSkinLoader_Universal-15.0.1.jar`)
+* **Default Options** (`DefaultOptions_1.12.2-9.2.8.jar`)
+* **Durability Tooltip** (`durabilitytooltip-1.1.6-forge-mc1.12.jar`)
+* **Dynamic Surroundings** (`DynamicSurroundings-1.12.2-3.6.1.0.jar`)
+* **Enchantment Descriptions** (`EnchantmentDescriptions-1.12.2-1.1.15.jar`)
+* **Falling Leaves** (`fallingleaves-2.1.2.2.jar`)
+* **FancyMenu** (`fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar`)
+* **Forced Resource Packs** (`forcedresourcepacks-1.1.jar`)
+* **Friendly Fire** (`FriendlyFire-1.12.2-1.5.10.jar`)
+* **FTB Utilities** (`FTBUtilities-5.4.1.131.jar`)
+* **Good Skeletons Don't Strafe** (`GoodSkeletonsDontStrafe-v1.1.1-1.12.2.jar`)
+* **Googly Eyes** (`GooglyEyes-1.12.2-7.1.1.jar`)
+* **Highlighter** (`Highlighter-1.12.2-forge-1.1.7.jar`)
+* **Hwyla** (`Hwyla-1.8.26-B41_1.12.2.jar`)
+* **Instant Skin** (`InstantSkin.jar`)
+* **Inventory HUD+** (`InventoryHUD-1.12.2.forge-3.4.4.jar`)
+* **Inventory Tweaks** (`InventoryTweaks-1.63.jar`)
+* **Item Borders** (`ItemBorders-1.12.2-forge-1.2.0.jar`)
+* **Item Scroller** (`itemscroller-1.12.2-0.12.0.jar`)
+* **Jade** (`Jade-0.1.0.jar`)
+* **JEI (Just Enough Items)** (`jei_1.12.2-4.16.1.301.jar`)
+* **Just Enough Botania** (`Just-Enough-Botania-1.12.2-v0.2.jar`)
+* **Just Enough Resources (JER)** (`JustEnoughResources-1.12.2-0.9.2.60.jar`)
+* **Map Tooltip** (`maptooltip-1.12.2-1.0.jar`)
+* **MCEF (Minecraft Chromium Embedded Framework)** (`mcef-1.12.2-1.11.jar`)
+* **Mouse Tweaks** (`MouseTweaks-2.10-mc1.12.2.jar`)
+* **My Server Is Compatible** (`MyServerIsCompatible-1.12.2-1.0.jar`)
+* **Name Pain** (`namepain-1.5.0 forge-1.12.x.jar`)
+* **Nimble** (`Nimble-0.0.2.jar`)
+* **Obscure Tooltips** (`obscure_tooltips-forge-1.12.2-3.10.2.jar`)
+* **Overloaded Armor Bar** (`overloadedarmorbar-1.0.4g.jar`)
+* **Pickup Notifier** (`PickUpNotifier-v1.1.5-1.12.2.jar`)
+* **Server Tab Info** (`ServerTabInfo-1.12.2-1.2.6.jar`)
+* **Smart Particles** (`smart_particles+mc1.12.2-12.02.9-Forge.jar`)
+* **Sound Filters** (`SoundFilters-0.12.1_for_1.12.jar`)
+* **ToroHealth Damage Indicators** (`torohealth-1.12.2-11.jar`)
+* **Toughness Bar** (`toughnessbar-2.4.jar`)
+* **TrashSlot** (`TrashSlot_1.12.2-8.4.10.jar`)
+* **VisualOres** (`visualores-0.2.8.jar`)
+* **WAILA Harvestability** (`WailaHarvestability-mc1.12-1.1.12.jar`)
+* **Waystones** (`Waystones_1.12.2-4.1.0.jar`)
+* **WI Zoom** (`wi-zoom-v1.1-MC1.12.2-release.jar`)
+* **WTS (What's That Slot)** (`WTS-1.1.0.jar`)
+* **Xaero's Minimap** (`xaerominimap-forge-1.12.2-26.4.2.jar`)
+* **Xaero's World Map** (`xaeroworldmap-forge-1.12.2-1.44.2.jar`)
