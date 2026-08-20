@@ -6,6 +6,7 @@
 &l&c▬ &7Eliminado &fIce and Fire
 &l&c▬ &7Eliminado &fCitadel
 &l&2✚ &7Añadido &fRamGuard
+&l&2✚ &7Añadido &fInventory Totem
 &l&2✚ &7Añadido &fSpiritualComeBack 2
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
 &l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
