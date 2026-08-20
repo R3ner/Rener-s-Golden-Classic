@@ -4,6 +4,7 @@
 &l&c▬ &7Eliminado &fFoamFix
 &l&c▬ &7Eliminado &fWyrms of Nyrus
 &l&c▬ &7Eliminado &fIce and Fire
+&l&c▬ &7Eliminado &fInventory HUD+
 &l&c▬ &7Eliminado &fCitadel
 &l&2✚ &7Añadido &fRamGuard
 &l&2✚ &7Añadido &fInventory Totem
