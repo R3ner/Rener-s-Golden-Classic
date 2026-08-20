@@ -7,6 +7,9 @@
 &l&c▬ &7Eliminado &fInventory HUD+
 &l&c▬ &7Eliminado &fCitadel
 &l&2✚ &7Añadido &fRamGuard
+&l&2✚ &7Añadido &fCrossbows Backport
+&l&2✚ &7Añadido &fRaids Backport
+&l&2✚ &7Añadido &fDeeper Depths
 &l&2✚ &7Añadido &fInventory Totem
 &l&2✚ &7Añadido &fSpiritualComeBack 2
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
