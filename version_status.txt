@@ -3,6 +3,8 @@
 &9&lCHANGELOG V1.1.1:
 &l&c▬ &7Eliminado &fFoamFix
 &l&c▬ &7Eliminado &fWyrms of Nyrus
+&l&c▬ &7Eliminado &fIce and Fire
+&l&c▬ &7Eliminado &fCitadel
 &l&2✚ &7Añadido &fRamGuard
 &l&2✚ &7Añadido &fSpiritualComeBack 2
 &l&d▼ &7Actualizado &fFarmer's Delight Legacy
