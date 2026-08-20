@@ -25,7 +25,7 @@ La lista incluye tanto mods de contenido y jugabilidad como librerías y depende
 * **AutoRegLib** (`AutoRegLib-1.3-32.jar`)
 * **CarbonConfig** (`CarbonConfig-1.12.2-2.0.2.1.jar`)
 * **Chameleon** (`Chameleon-1.12-4.1.3.jar`)
-* **Citadel** (`citadel-1.12.2-1.1.0.jar`)
+
 * **CodeChickenLib** (`CodeChickenLib-1.12.2-3.2.3.358-universal.jar`)
 * **Collective** (`collective-1.12.2-3.0.jar`)
 * **CommonCapabilities** (`CommonCapabilities-1.12.2-2.4.8.jar`)
@@ -100,7 +100,7 @@ La lista incluye tanto mods de contenido y jugabilidad como librerías y depende
 * **Lost Aether Content** (`lost-aether-content-1.12.2-1.0.2.jar`)
 * **NetherEx** (`NetherEx-1.12.2-2.2.5.jar`)
 * **Novam Terram** (`NovamTerram-7.3.6.3.jar`)
-* **Oceanic Expanse** (`OceanicExpanse-1.2.2.jar`)
+* **Oceanic Expanse** (`Oceanxpanse-1.2.2.jar`)
 * **Rex's Additional Structures** (`Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar`)
 * **Roguelike Dungeons - Fnar Edition** (`RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar`)
 * **The Aether** (`aether-1.12.2-v1.5.4.1.jar`)
@@ -147,7 +147,7 @@ La lista incluye tanto mods de contenido y jugabilidad como librerías y depende
 * **Fish's Undead Rising** (`Fish's Undead Rising-1.6.2.jar`)
 * **Fossils and Archaeology Revival** (`fossilsarcheology-8.0.6.jar`)
 * **Frozen Fiend** (`Frozen-Fiend-1.5.3.jar`)
-* **Ice and Fire: Dragons** (`iceandfire-1.9.1-1.12.2.jar`)
+
 * **Illagers+** (`IllagersPlus-1.12.2-1.1.3.jar`)
 * **Magma Monsters** (`MagmaMonsters-0.3.0.jar`)
 * **Mo' Creatures** (`mocreatures-12.5.1.jar`)
@@ -161,7 +161,7 @@ La lista incluye tanto mods de contenido y jugabilidad como librerías y depende
 * **Straw Golem Reborn** (`strawgolem-1.4.2.ED.jar`)
 * **Two Players One Horse** (`twoplayersonehorse-1.12.2-1.0.3.jar`)
 * **Wither Skeleton Tweaks** (`WitherSkeletonTweaks-1.12.2-2.6.3.jar`)
-* **Wyrms of Nyrus** (`wyrmsofnyrus-0.9.3.jar`)
+
 
 ---
 
