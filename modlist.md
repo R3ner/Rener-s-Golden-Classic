@@ -25,7 +25,6 @@ The list includes both gameplay/content mods and dependency libraries required b
 * **AutoRegLib** (`AutoRegLib-1.3-32.jar`)
 * **CarbonConfig** (`CarbonConfig-1.12.2-2.0.2.1.jar`)
 * **Chameleon** (`Chameleon-1.12-4.1.3.jar`)
-* **Citadel** (`citadel-1.12.2-1.1.0.jar`)
 * **CodeChickenLib** (`CodeChickenLib-1.12.2-3.2.3.358-universal.jar`)
 * **Collective** (`collective-1.12.2-3.0.jar`)
 * **CommonCapabilities** (`CommonCapabilities-1.12.2-2.4.8.jar`)
@@ -147,7 +146,7 @@ The list includes both gameplay/content mods and dependency libraries required b
 * **Fish's Undead Rising** (`Fish's Undead Rising-1.6.2.jar`)
 * **Fossils and Archaeology Revival** (`fossilsarcheology-8.0.6.jar`)
 * **Frozen Fiend** (`Frozen-Fiend-1.5.3.jar`)
-* **Ice and Fire: Dragons** (`iceandfire-1.9.1-1.12.2.jar`)
+
 * **Illagers+** (`IllagersPlus-1.12.2-1.1.3.jar`)
 * **Magma Monsters** (`MagmaMonsters-0.3.0.jar`)
 * **Mo' Creatures** (`mocreatures-12.5.1.jar`)
@@ -161,7 +160,6 @@ The list includes both gameplay/content mods and dependency libraries required b
 * **Straw Golem Reborn** (`strawgolem-1.4.2.ED.jar`)
 * **Two Players One Horse** (`twoplayersonehorse-1.12.2-1.0.3.jar`)
 * **Wither Skeleton Tweaks** (`WitherSkeletonTweaks-1.12.2-2.6.3.jar`)
-* **Wyrms of Nyrus** (`wyrmsofnyrus-0.9.3.jar`)
 
 ---
 
