@@ -1,6 +1,6 @@
-&e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1.1
+&e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1.2
 
-&9&lCHANGELOG V1.1.1:
+&9&lCHANGELOG V1.1.2:
 &l&c▬ &7Eliminado &fFoamFix
 &l&c▬ &7Eliminado &fWyrms of Nyrus
 &l&c▬ &7Eliminado &fIce and Fire
@@ -8,6 +8,7 @@
 &l&c▬ &7Eliminado &fCitadel
 &l&2✚ &7Añadido &fRamGuard
 &l&2✚ &7Añadido &fCrossbows Backport
+&l&2✚ &7Añadido &fCraftTweaker
 &l&2✚ &7Añadido &fRaids Backport
 &l&2✚ &7Añadido &fDeeper Depths
 &l&2✚ &7Añadido &fInventory Totem
