@@ -1,19 +1,26 @@
 &e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1.2
 
 &9&lCHANGELOG V1.1.2:
-&l&c▬ &7Eliminado &fFoamFix
-&l&c▬ &7Eliminado &fWyrms of Nyrus
-&l&c▬ &7Eliminado &fIce and Fire
-&l&c▬ &7Eliminado &fInventory HUD+
-&l&c▬ &7Eliminado &fCitadel
-&l&2✚ &7Añadido &fRamGuard
-&l&2✚ &7Añadido &fCrossbows Backport
-&l&2✚ &7Añadido &fCraftTweaker
-&l&2✚ &7Añadido &fRaids Backport
-&l&2✚ &7Añadido &fDeeper Depths
-&l&2✚ &7Añadido &fInventory Totem
-&l&2✚ &7Añadido &fSpiritualComeBack 2
-&l&d▼ &7Actualizado &fFarmer's Delight Legacy
-&l&d▼ &7Actualizado &fSuperMartijn642's Core Lib
-&l&d▼ &7Actualizado &fWitchery
-&l&b✔ &7Arreglado &fError de texturas en efectos
+&l&c▬ &7Eliminado &l&c▬
+&fFoamFix
+&fWyrms of Nyrus
+&fIce and Fire
+&fInventory HUD+
+&fCitadel
+
+&l&2✚ &7Añadido &l&2✚
+&fRamGuard
+&fCrossbows Backport
+&fRaids Backport
+&fDeeper Depths
+&fInventory Totem
+&fSpiritualComeBack 2
+&fCraftTweaker
+
+&l&d▼ &7Actualizado &l&d▼
+&fFarmer's Delight Legacy
+&fSuperMartijn642's Core Lib
+ &fWitchery
+&l&b✔ &7Arreglado &l&b✔
+&fError de texturas en efectos
+&fCrafteo de Angel Rings
