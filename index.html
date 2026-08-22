@@ -4,6 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rener's Golden: Classic - Minecraft Modpack 1.12.2</title>
+
+  <!-- META TAGS PARA REDES SOCIALES (Discord, Twitter, Instagram/Threads) -->
+  <meta property="og:title" content="Rener's Golden: Classic - Minecraft Modpack 1.12.2">
+  <meta property="og:description" content="¡Bienvenido/a a la versión oficial v1.1.2 de Rener's Golden: Classic! Fusionando la era dorada de Forge 1.12.2 con magia, tecnología y exploraciones dimensionales.">
+  <meta property="og:image" content="rener-s-golden-classic-icon.png">
+  <meta property="og:url" content="https://mcuniverse.net/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FFD700">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rener's Golden: Classic - Minecraft Modpack 1.12.2">
+  <meta name="twitter:description" content="¡Bienvenido/a a la versión oficial v1.1.2 de Rener's Golden: Classic! Fusionando la era dorada de Forge 1.12.2 con magia, tecnología y exploraciones dimensionales.">
+  <meta name="twitter:image" content="rener-s-golden-classic-icon.png">
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="rener-s-golden-classic-icon.png" id="favicon">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
@@ -911,6 +928,41 @@
 
   <!-- JAVASCRIPT FOR LIVE STATUS FETCH & INTERACTION -->
   <script>
+    // Fuction para actualizar el icono segun el estado online
+    function updateFavicon(isOnline) {
+      const favicon = document.getElementById('favicon');
+      const originalSrc = 'rener-s-golden-classic-icon.png';
+
+      if (isOnline) {
+        favicon.href = originalSrc;
+      } else {
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width;
+          canvas.height = img.height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
+          
+          try {
+            const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < imgData.data.length; i += 4) {
+              const grayscale = imgData.data[i] * 0.3 + imgData.data[i+1] * 0.59 + imgData.data[i+2] * 0.11;
+              imgData.data[i] = grayscale;     // R
+              imgData.data[i+1] = grayscale;   // G
+              imgData.data[i+2] = grayscale;   // B
+            }
+            ctx.putImageData(imgData, 0, 0);
+            favicon.href = canvas.toDataURL('image/png');
+          } catch (e) {
+            console.error("No se pudo aplicar el filtro gris al favicon.");
+          }
+        };
+        img.src = originalSrc;
+      }
+    }
+
     async function fetchServerStatus() {
       const ip = 'play.mcuniverse.net';
       const statusOnline = document.getElementById('status-online');
@@ -922,6 +974,7 @@
         const data = await response.json();
 
         if (data && data.online) {
+          updateFavicon(true);
           statusOnline.innerHTML = `
             <span class="indicator-dot dot-online"></span>
             <span style="color: var(--mc-emerald);">EN LÍNEA</span>
@@ -934,6 +987,7 @@
             statusMotd.innerText = 'Servidor listo para jugar.';
           }
         } else {
+          updateFavicon(false);
           statusOnline.innerHTML = `
             <span class="indicator-dot dot-offline"></span>
             <span style="color: var(--mc-redstone);">FUERA DE LÍNEA</span>
@@ -942,6 +996,7 @@
           statusMotd.innerText = 'El servidor no responde actualmente.';
         }
       } catch (error) {
+        updateFavicon(false);
         statusOnline.innerHTML = `
           <span class="indicator-dot dot-offline"></span>
           <span style="color: var(--mc-redstone);">ERROR</span>
