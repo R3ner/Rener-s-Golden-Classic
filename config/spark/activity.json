@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "_Rener",
+      "uniqueId": "65f7820a-0e9a-40e4-ab88-2ae84c8a7040"
+    },
+    "time": 1786109814574,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8qoFNHxxnS"
+    }
+  }
+]

@@ -1,4 +1,6 @@
 download_assets.py
+build_gallery_html.py
+inject_gallery.py
 __pycache__/
 *.pyc
 .venv/

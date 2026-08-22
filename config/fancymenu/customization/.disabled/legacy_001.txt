@@ -1,0 +1,522 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = rener_panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  action = setscale
+  scale = 5
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 140
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_2.png
+  backgroundnormal = config/fancymenu/assets/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 156
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 140
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_2.png
+  backgroundnormal = config/fancymenu/assets/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 188
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 140
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_2.png
+  backgroundnormal = config/fancymenu/assets/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 67
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 20
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 140
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_2.png
+  backgroundnormal = config/fancymenu/assets/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 124
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 140
+  action = resizebutton
+  height = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_2.png
+  backgroundnormal = config/fancymenu/assets/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = config/fancymenu/assets/wav/button_tap.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 0
+  width = 10
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 8beb29af-8f0e-4ad1-b1b6-c83ca9becc331786616792069
+  y = 0
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 0
+  width = 10
+  action = deep_customization_element:title_screen_branding
+  actionid = 39447f62-8bed-487e-86e5-9c703eeda46d1786616792069
+  y = 0
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 0
+  width = 10
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = bb6df186-3b81-40ff-b1e6-b8cd0e8cc2651786616792069
+  y = 0
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 0
+  width = 10
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = df384693-916d-4ab4-96ec-f7a0bfe4df211786616792070
+  y = 0
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 0
+  width = 10
+  action = deep_customization_element:title_screen_logo
+  actionid = 7ca1127f-d074-4b24-b0ba-541a779a35d81786616792070
+  y = 0
+  height = 10
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 10
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 563f9df7-b1bd-4a27-b8fc-5197496b44291786616792070
+  y = 0
+  height = 10
+}
+
+customization {
+  path = config/fancymenu/assets/card_3.png
+  orientation = top-right
+  x = -163
+  width = 148
+  actionid = 4e346205-959e-4bee-922a-26fb3383f61f1786630077406
+  action = addtexture
+  y = 49
+  height = 146
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &6Rener's Golden&f: &eClassic &f-
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 5
+  width = 219
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c3fc24c2-1434-4140-a5d9-83d91f69208e1786617809921
+  y = 273
+  alignment = left
+  height = 11
+}
+
+customization {
+  orientation = top-right
+  grabber_texture_normal = config/fancymenu/assets/button_1.png
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 1.0
+  scale = 0.6
+  source = https://raw.githubusercontent.com/R3ner/Rener-s-Golden-Classic/main/version_status.txt
+  grabber_texture_hover = config/fancymenu/assets/button_2.png
+  text_border = 1
+  case_mode = normal
+  fadein = true
+  source_mode = web
+  line_spacing = 1
+  fadeinspeed = 1.0
+  x = -154
+  width = 131
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 829f7cc8-2512-46b7-87e3-a074f84b45c51786617036565
+  y = 91
+  delayappearance = true
+  alignment = left
+  delayappearanceeverytime = false
+  height = 90
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 0.5
+  path = config/fancymenu/assets/reners_golde_classic.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 12
+  width = 159
+  actionid = fc27ed70-0007-474d-bdba-efea134471401786618691722
+  action = addtexture
+  y = 7
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 35
+}
+
+customization {
+  orientation = top-left
+  basecolor = #00D4FF
+  shadow = true
+  splashfilepath = MODPACK-VERSION.txt
+  rotation = 0.0
+  scale = 0.4
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 138
+  actionid = ac5489cd-ee88-4e0e-a4e2-86ac46739c681786631006473
+  action = addsplash
+  y = 271
+}
+
+customization {
+  orientation = top-left
+  basecolor = #00D4FF
+  shadow = false
+  splashfilepath = MODPACK-VERSION.txt
+  rotation = 0.0
+  scale = 0.4
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  x = 432
+  actionid = 09136ef8-91b5-4190-abbb-73dac24acfde1786631197505
+  action = addsplash
+  y = 70
+}
+
+customization {
+  showname = false
+  orientation = mid-centered
+  crouching = false
+  x = -62
+  slim = false
+  actionid = c8fc4d81-2292-45cb-aa51-560e0cace85f1786630971422
+  action = addentity
+  y = 18
+  scale = 25
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  path = config/fancymenu/assets/frame_cristal.png
+  orientation = top-left
+  x = 167
+  width = 53
+  actionid = d345ee21-a682-41e0-b757-4d551908efac1786640642271
+  action = addtexture
+  y = 81
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = {"placeholder":"playername"}
+  text_border = 1
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 178
+  width = 150
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0296478b-3107-4bc9-9915-823ab255f0ff1786633876319
+  y = 82
+  alignment = left
+  base_color = #00FF40
+  height = 12
+}
+
+customization {
+  path = config/fancymenu/assets/pile_of_blocks_shadown.png
+  orientation = top-left
+  x = 318
+  width = 265
+  actionid = ae86705a-2f7c-4b84-9c3e-d8ae2f21c9b11786648605421
+  action = addtexture
+  y = 167
+  height = 144
+}
+
+customization {
+  hoversound = config/fancymenu/assets/wav/beep_1.wav
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/R3ner/Rener-s-Golden-Classic/releases%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/github_hover.png
+  description = &7[ES] &eClick &fpara &bactualizar%n%&fel &6MODPACK &fen caso%n%&fde ser necesario.%n%%n%&7[EN] &eClick &fto &bupdate%n%&6MODPACK &fin case%n%if necessary.
+  label = 
+  clicksound = config/fancymenu/assets/wav/beep_2.wav
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 417
+  width = 17
+  action = addbutton
+  actionid = f396f318-4a5f-4002-abc1-79fe1f894b621786649163821
+  y = 32
+  backgroundnormal = config/fancymenu/assets/github.png
+  height = 16
+}
+
+customization {
+  path = config/fancymenu/assets/arrow.png
+  orientation = top-left
+  x = 417
+  width = 17
+  actionid = b09db6a0-a38a-499a-9469-4714319f4f871786652207716
+  action = addtexture
+  y = 42
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/download.png
+  orientation = top-left
+  x = 418
+  width = 34
+  actionid = 81dfcc34-eaf9-4287-bb07-1d44d53df7c31786652372768
+  action = addtexture
+  y = 25
+  height = 34
+}
+
+customization {
+  path = config/fancymenu/assets/llama.gif
+  orientation = top-left
+  x = 176
+  width = 34
+  actionid = 65d5a9f2-315a-43f8-9066-d27ed1a0ee671786654497518
+  action = addtexture
+  y = 50
+  height = 34
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = &6&lMODPACK%n%&fTu version es:%n%&fYour version is:%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 360
+  width = 65
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 88a677ea-f36b-4b74-9445-ad1e987d72921786656320874
+  y = 61
+  alignment = left
+  height = 26
+}
+
+customization {
+  path = config/fancymenu/assets/1.12.2.png
+  orientation = top-left
+  x = 71
+  width = 35
+  actionid = f37fb95d-cef7-4c23-9fb9-32aeddebb6371786657004612
+  action = addtexture
+  y = 41
+  height = 9
+}
+
