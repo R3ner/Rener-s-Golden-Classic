@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rener's Golden: Classic - Minecraft Modpack 1.12.2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    /* ==========================================================================
+       MC UNIVERSE - DARK NEO-BRUTALISM STYLING
+       ========================================================================== */
+    :root {
+      --bg-color: #121214;
+      --text-primary: #F4F4F5;
+      --text-secondary: #A1A1AA;
+
+      --border-color: #000000;
+      --border-thick: 4px solid var(--border-color);
+
+      --card-bg: #27272A;
+      --card-shadow: 8px 8px 0px #000000;
+      --card-radius: 0px;
+
+      /* Minecraft Accent Colors */
+      --mc-emerald: #50C878;
+      --mc-redstone: #FF3333;
+      --mc-lapis: #2A52BE;
+      --mc-gold: #FFD700;
+      --mc-purple: #89499E;
+
+      --font-heading: 'Space Grotesk', sans-serif;
+      --font-body: 'JetBrains Mono', monospace;
+      --font-display: var(--font-heading);
+      --font-mono: var(--font-body);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .btn, .badge, .badge-tag, .nav-link, .card-title, .status-title {
+      font-family: var(--font-heading);
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+    }
+
+    .page-wrapper {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      position: relative;
+      padding: 20px 0;
+    }
+
+    .hero-title-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-img-title {
+      max-width: 100%;
+      height: auto;
+      max-height: 180px;
+      filter: drop-shadow(6px 6px 0px #000000);
+    }
+
+    .hero-subtitle {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+      max-width: 850px;
+      line-height: 1.6;
+      background: var(--card-bg);
+      border: var(--border-thick);
+      box-shadow: 6px 6px 0px #000;
+      padding: 16px 24px;
+      margin-top: 10px;
+    }
+
+    .splash-text {
+      position: absolute;
+      top: -15px;
+      right: -30px;
+      color: var(--mc-gold);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 800;
+      text-shadow: 2px 2px 0px #000000;
+      transform: rotate(12deg);
+      animation: splash-pulse 0.5s infinite alternate ease-in-out;
+      z-index: 10;
+      white-space: nowrap;
+      background: #000;
+      padding: 4px 10px;
+      border: 2px solid var(--mc-gold);
+    }
+
+    @keyframes splash-pulse {
+      0% { transform: rotate(12deg) scale(1); }
+      100% { transform: rotate(12deg) scale(1.08); }
+    }
+
+    /* Buttons & Links */
+    .sitemap-node {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .btn {
+      position: relative;
+      z-index: 2;
+      background-color: var(--card-bg);
+      color: var(--text-primary);
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding: 14px 24px;
+      border: var(--border-thick);
+      box-shadow: 4px 4px 0px #000000;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 8px 8px 0px #000000;
+      background-color: var(--mc-emerald);
+      color: #121214;
+    }
+
+    .btn-primary {
+      background-color: var(--mc-emerald);
+      color: #121214;
+    }
+
+    .btn-primary:hover {
+      background-color: #55FF55;
+    }
+
+    .btn-redstone {
+      background-color: var(--mc-redstone);
+      color: #FFF;
+    }
+
+    .btn-redstone:hover {
+      background-color: #FF5555;
+      color: #000;
+    }
+
+    /* ==========================================================================
+       SERVER STATUS MONITOR CARD
+       ========================================================================== */
+    .status-card {
+      background-color: var(--card-bg);
+      border: var(--border-thick);
+      box-shadow: 12px 12px 0px #000000;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+      background-image: linear-gradient(135deg, rgba(39, 39, 42, 0.9), rgba(20, 20, 22, 0.95));
+    }
+
+    .status-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid var(--text-primary);
+      padding-bottom: 14px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .status-title {
+      font-size: 22px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .server-ip-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #000;
+      border: 2px solid #333;
+      padding: 8px 14px;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--mc-gold);
+    }
+
+    .copy-btn {
+      background: var(--mc-emerald);
+      color: #000;
+      border: 2px solid #000;
+      padding: 4px 8px;
+      cursor: pointer;
+      font-weight: 800;
+      font-family: var(--font-heading);
+      font-size: 12px;
+      transition: transform 0.1s;
+    }
+
+    .copy-btn:active {
+      transform: scale(0.92);
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .status-box {
+      background: #18181B;
+      border: var(--border-thick);
+      padding: 16px;
+      box-shadow: 4px 4px 0px #000;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .status-label {
+      font-size: 11px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .status-value {
+      font-size: 18px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .indicator-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 0%;
+      border: 2px solid #000;
+      display: inline-block;
+    }
+
+    .dot-online { background-color: var(--mc-emerald); box-shadow: 0 0 8px var(--mc-emerald); }
+    .dot-offline { background-color: var(--mc-redstone); box-shadow: 0 0 8px var(--mc-redstone); }
+    .dot-loading { background-color: var(--mc-gold); animation: pulse 1s infinite alternate; }
+
+    @keyframes pulse { 0% { opacity: 0.3; } 100% { opacity: 1; } }
+
+    /* ==========================================================================
+       GRID CONTAINER & CARDS
+       ========================================================================== */
+    .section-title {
+      font-size: 26px;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #000;
+      border-bottom: 4px solid var(--border-color);
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .grid-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .module-card {
+      background-color: var(--card-bg);
+      border: var(--border-thick);
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s ease-out;
+    }
+
+    .module-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 14px 14px 0px #000000;
+    }
+
+    .module-card.highlight {
+      grid-column: span 2;
+      background-color: #3D2817;
+      border-top: 10px solid var(--mc-emerald);
+    }
+
+    .card-header-banner {
+      height: 8px;
+      width: 100%;
+      background: var(--mc-emerald);
+      border-bottom: 3px solid #000;
+    }
+
+    .banner-tech { background: var(--mc-lapis); }
+    .banner-magic { background: var(--mc-purple); }
+    .banner-world { background: #2E7D32; }
+    .banner-combat { background: var(--mc-redstone); }
+    .banner-qol { background: var(--mc-gold); }
+
+    .card-content {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-primary);
+      border-bottom: 3px solid var(--text-primary);
+      padding-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .badge-tag {
+      font-size: 11px;
+      font-weight: 800;
+      background: #000;
+      color: #fff;
+      padding: 4px 8px;
+      border: 2px solid #333;
+    }
+
+    .badge-count {
+      position: absolute;
+      top: -14px;
+      right: -14px;
+      background-color: var(--mc-redstone);
+      color: white;
+      font-family: var(--font-mono);
+      font-weight: 800;
+      font-size: 13px;
+      padding: 6px 12px;
+      border: var(--border-thick);
+      box-shadow: 3px 3px 0px #000;
+      transform: rotate(3deg);
+    }
+
+    /* ==========================================================================
+       SPECIFICATIONS & INSTALLATION
+       ========================================================================== */
+    .install-box {
+      background-color: var(--card-bg);
+      border: var(--border-thick);
+      box-shadow: var(--card-shadow);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .warning-callout {
+      background-color: #3A2500;
+      border: 3px solid var(--mc-gold);
+      box-shadow: 4px 4px 0px #000;
+      padding: 16px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .warning-callout i {
+      font-size: 24px;
+      color: var(--mc-gold);
+      margin-top: 2px;
+    }
+
+    .install-methods-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+      margin-top: 10px;
+    }
+
+    .method-card {
+      background: #18181B;
+      border: var(--border-thick);
+      box-shadow: 6px 6px 0px #000;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .method-card h3 {
+      font-size: 18px;
+      color: var(--mc-gold);
+      border-bottom: 2px solid #333;
+      padding-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .install-steps {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    .install-steps strong {
+      color: var(--text-primary);
+    }
+
+    .ram-badge {
+      background: var(--mc-emerald);
+      color: #000;
+      font-weight: 800;
+      padding: 2px 6px;
+      border: 1px solid #000;
+    }
+
+    .code-block {
+      background: #000;
+      border: 2px solid #333;
+      padding: 14px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--mc-emerald);
+      white-space: pre;
+      overflow-x: auto;
+      box-shadow: 3px 3px 0px #000;
+      margin-top: 8px;
+    }
+
+    .download-links-bar {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    /* ==========================================================================
+       COMPOSITION TABLE
+       ========================================================================== */
+    .comp-table-wrapper {
+      overflow-x: auto;
+      border: var(--border-thick);
+      box-shadow: var(--card-shadow);
+    }
+
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      background: var(--card-bg);
+    }
+
+    .comp-table th, .comp-table td {
+      padding: 14px 18px;
+      border: 2px solid #000;
+      text-align: left;
+    }
+
+    .comp-table th {
+      background-color: #000;
+      color: var(--mc-gold);
+      font-family: var(--font-display);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .comp-table tr:nth-child(even) {
+      background-color: #1E1E21;
+    }
+
+    .comp-table tr.total-row {
+      background-color: #000;
+      font-weight: 800;
+      color: var(--mc-emerald);
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .footer-pregen {
+      background: #0d0d0f;
+      padding: 40px 24px;
+      border-top: var(--border-thick);
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-secondary);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .footer-pregen a {
+      color: var(--mc-emerald);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .footer-pregen a:hover {
+      text-decoration: underline;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1100px) {
+      .grid-container, .install-methods-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .module-card.highlight {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .page-wrapper {
+        padding: 30px 16px;
+        gap: 40px;
+      }
+      .grid-container, .install-methods-grid {
+        grid-template-columns: 1fr;
+      }
+      .module-card.highlight {
+        grid-column: span 1;
+      }
+      .status-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+      <div class="hero-title-wrapper">
+        <span class="splash-text">Forge 1.12.2 v1.1.2</span>
+        <img class="hero-img-title" src="https://github.com/user-attachments/assets/813f7b65-2cc9-4dd7-9f8a-00bb5371e217" alt="Rener's Golden: Classic Logo">
+      </div>
+
+      <p class="hero-subtitle">
+        ¡Bienvenido/a a la versión oficial v1.1.2 de <strong>Rener's Golden: Classic</strong>! Fusionando la era dorada de Forge 1.12.2 con magia, tecnología, exploración dimensional y optimizaciones de rendimiento avanzadas.
+      </p>
+
+      <div class="sitemap-node">
+        <a href="#server-status" class="btn btn-primary"><i class="fa-solid fa-server"></i> Estado del Servidor</a>
+        <a href="#installation" class="btn btn-redstone"><i class="fa-solid fa-download"></i> Instalación v1.1.2</a>
+        <a href="#key-features" class="btn"><i class="fa-solid fa-star"></i> Características</a>
+        <a href="#modlist" class="btn"><i class="fa-solid fa-list-check"></i> Modlist (237)</a>
+      </div>
+    </header>
+
+    <!-- LIVE SERVER STATUS MONITOR SECTION -->
+    <section id="server-status">
+      <div class="status-card">
+        <div class="status-header">
+          <div class="status-title">
+            <i class="fa-solid fa-signal" style="color: var(--mc-emerald);"></i> MONITOREO DE SERVIDOR EN VIVO
+          </div>
+          <div class="server-ip-box">
+            <i class="fa-solid fa-network-wired"></i>
+            <span id="server-ip-text">play.mcuniverse.net</span>
+            <button class="copy-btn" onclick="copyIP()"><i class="fa-regular fa-copy"></i> COPIAR</button>
+          </div>
+        </div>
+
+        <div class="status-grid">
+          <div class="status-box">
+            <span class="status-label">ESTADO DEL SERVIDOR</span>
+            <div class="status-value" id="status-online">
+              <span class="indicator-dot dot-loading"></span>
+              <span>Consultando...</span>
+            </div>
+          </div>
+
+          <div class="status-box">
+            <span class="status-label">JUGADORES ONLINE</span>
+            <div class="status-value" id="status-players">-- / --</div>
+          </div>
+
+          <div class="status-box">
+            <span class="status-label">VERSIÓN & CORE</span>
+            <div class="status-value" style="font-size: 15px; color: var(--mc-gold);">
+              <i class="fa-solid fa-cube"></i> Forge 14.23.5.2864
+            </div>
+          </div>
+
+          <div class="status-box">
+            <span class="status-label">MOTD / MENSAJE</span>
+            <div class="status-value" id="status-motd" style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">
+              Cargando descripción...
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTALLATION & INSTRUCTIONS SECTION -->
+    <section id="installation">
+      <h2 class="section-title"><i class="fa-solid fa-download" style="color: var(--mc-redstone);"></i> 🛠️ Guía de Instalación - v1.1.2</h2>
+
+      <div class="install-box">
+        
+        <!-- WARNING CALLOUT -->
+        <div class="warning-callout">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <div>
+            <strong style="color: var(--mc-gold); display: block; margin-bottom: 4px;">⚠️ NOTA IMPORTANTE / IMPORTANT NOTE:</strong>
+            <p style="font-size: 13px; line-height: 1.5; color: var(--text-primary);">
+              El paquete <code>Rener.s.Golden-.Classic-1.1.2.zip</code> es un <strong>perfil exportado de CurseForge</strong> diseñado <strong>únicamente para cuentas Premium</strong> utilizando la app de CurseForge (no incluye archivos <code>.jar</code> directos). Para Launchers No-Premium, utiliza la versión <strong>FULL</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- IMAGE ATTACHMENT DISPLAY -->
+        <div style="text-align: center; margin: 10px 0;">
+          <img src="https://github.com/user-attachments/assets/377a7969-d896-4678-b918-fed87530c34a" alt="CurseForge Import Warning" style="max-width: 284px; width: 100%; border: var(--border-thick); box-shadow: 6px 6px 0px #000;">
+        </div>
+
+        <!-- METHODS GRID -->
+        <div class="install-methods-grid">
+          
+          <!-- PREMIUM CURSEFORGE -->
+          <div class="method-card">
+            <h3><i class="fa-solid fa-crown"></i> 🇪🇸 Jugadores Premium (CurseForge App)</h3>
+            <ol class="install-steps">
+              <li>Descarga el perfil <a href="https://github.com/R3ner/Rener-s-Golden-Classic/releases/download/v1.1.2/Rener.s.Golden-.Classic-1.1.2.zip" style="color: var(--mc-emerald); font-weight: bold;">Rener.s.Golden-.Classic-1.1.2.zip</a>.</li>
+              <li>Abre la aplicación de <strong>CurseForge</strong>.</li>
+              <li>En la sección de Minecraft, haz clic en el botón <strong>Import</strong> (Importar), al lado de <em>Create Custom Profile</em>.</li>
+              <li>Selecciona <strong>Choose a .zip file</strong> y elige el archivo descargado.</li>
+              <li><strong>¡Atención al aviso!</strong> Ante el mensaje <em>"This modpack contains files that aren't on CurseForge"</em>, ignora la advertencia y marca <strong>"I understand that installing all files is at my own risk"</strong>.</li>
+              <li>Haz clic en el botón <strong>"All files"</strong> para continuar.</li>
+              <li>Espera a que CurseForge importe el perfil y presiona <strong>Play</strong>.</li>
+              <li><em>Recomendación RAM:</em> Asigna de <span class="ram-badge">6 GB a 8 GB de RAM</span> en los ajustes del perfil dentro de CurseForge.</li>
+            </ol>
+          </div>
+
+          <!-- NO PREMIUM -->
+          <div class="method-card">
+            <h3><i class="fa-solid fa-user-shield"></i> Jugadores NO PREMIUM (Cualquier Launcher)</h3>
+            <ol class="install-steps">
+              <li>Crea una instancia de Forge versión exacta <code>Forge-14.23.5.2864</code> para Minecraft <code>1.12.2</code>.</li>
+              <li>Descarga el paquete <a href="https://github.com/R3ner/Rener-s-Golden-Classic/releases/download/v1.1.2/Rener.s.Golden-.Classic-1.1.2-FULL.zip" style="color: var(--mc-gold); font-weight: bold;">Rener.s.Golden-.Classic-1.1.2-FULL.zip</a>.</li>
+              <li>Copia todo su contenido y pégalo dentro de la carpeta de la instancia de Forge que creaste.</li>
+              <li>Verifica que la estructura de la carpeta quede exactamente así:</li>
+            </ol>
+            <div class="code-block">+---[Carpeta de la instancia forge 1.12.2]
+|     +---config
+|     +---local
+|     +---MODPACK-VERSION.txt
+|     +---mods
+|     +---options.txt
+|     +---resourcepacks
+|     +---servers.dat</div>
+            <p style="font-size: 12px; color: var(--text-secondary); margin-top: 6px;">
+              <em>Nota:</em> Recuerda asignar entre <span class="ram-badge">6 GB y 8 GB de RAM</span> en los ajustes de tu launcher preferido.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- DOWNLOAD BUTTONS -->
+        <div class="download-links-bar">
+          <a href="https://github.com/R3ner/Rener-s-Golden-Classic/releases/download/v1.1.2/Rener.s.Golden-.Classic-1.1.2.zip" class="btn btn-primary">
+            <i class="fa-solid fa-file-zipper"></i> Descargar CurseForge Profile (Premium)
+          </a>
+          <a href="https://github.com/R3ner/Rener-s-Golden-Classic/releases/download/v1.1.2/Rener.s.Golden-.Classic-1.1.2-FULL.zip" class="btn btn-redstone">
+            <i class="fa-solid fa-box-archive"></i> Descargar FULL Zip (No-Premium)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- OVERVIEW HIGHLIGHT & FEATURES -->
+    <section id="key-features">
+      <h2 class="section-title"><i class="fa-solid fa-bolt" style="color: var(--mc-gold);"></i> Núcleo del Modpack</h2>
+      
+      <div class="grid-container">
+        
+        <!-- Highlight Box -->
+        <div class="module-card highlight">
+          <div class="card-content">
+            <div class="card-title">
+              <span><i class="fa-solid fa-compass"></i> Rener's Golden Philosophy</span>
+              <span class="badge-tag" style="background: var(--mc-emerald); color: #000;">1.12.2 ERA</span>
+            </div>
+            <p class="card-desc">
+              Minecraft 1.12.2 se mantiene como la era dorada de la automatización técnica y la magia profunda. Este modpack rinde homenaje a esta herencia reuniendo mods legendarios junto a backports modernos del motor gráfico, generación multihilo y optimizaciones de memoria avanzadas.
+            </p>
+            <div class="card-tags">
+              <span class="badge-tag">ENGINE OVERHAUL</span>
+              <span class="badge-tag">ASYNC RENDER</span>
+              <span class="badge-tag">NOISE THREADING</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Card -->
+        <div class="module-card">
+          <div class="card-header-banner banner-tech"></div>
+          <span class="badge-count">TECH</span>
+          <div class="card-content">
+            <div class="card-title"><i class="fa-solid fa-microchip"></i> Tecnología</div>
+            <p class="card-desc">Logística digital con Applied Energistics 2, automatización modular mediante Ender IO, y energía clásica con IndustrialCraft 2, BuildCraft y Extra Utilities 2.</p>
+            <div class="card-tags">
+              <span class="badge-tag">AE2 Extended</span>
+              <span class="badge-tag">Ender IO</span>
+              <span class="badge-tag">IC2</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Magic Card -->
+        <div class="module-card">
+          <div class="card-header-banner banner-magic"></div>
+          <span class="badge-count">MAGIC</span>
+          <div class="card-content">
+            <div class="card-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Artes Arcanas</div>
+            <p class="card-desc">Dominio estelar con Astral Sorcery, alquimia y vis en Thaumcraft 6, magia botánica con Botania & Alfheim, y rituales oscuros en Witchery: Resurrected.</p>
+            <div class="card-tags">
+              <span class="badge-tag">Thaumcraft 6</span>
+              <span class="badge-tag">Astral Sorcery</span>
+              <span class="badge-tag">Witchery</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- World Card -->
+        <div class="module-card">
+          <div class="card-header-banner banner-world"></div>
+          <span class="badge-count">WORLD</span>
+          <div class="card-content">
+            <div class="card-title"><i class="fa-solid fa-globe"></i> Dimensiones</div>
+            <p class="card-desc">Explora The Aether, The Twilight Forest, Blue Skies y Galacticraft. Overhaul completo del Nether y The End con estructuras roguelike masivas.</p>
+            <div class="card-tags">
+              <span class="badge-tag">Aether</span>
+              <span class="badge-tag">Galacticraft</span>
+              <span class="badge-tag">Twilight Forest</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Combat Card -->
+        <div class="module-card">
+          <div class="card-header-banner banner-combat"></div>
+          <span class="badge-count">COMBAT</span>
+          <div class="card-content">
+            <div class="card-title"><i class="fa-solid fa-shield-halved"></i> Combate & Jefes</div>
+            <p class="card-desc">Enfrentamientos dinámicos con Mowzie's Mobs, Ice and Fire Dragons, y Champions. Arsenal expandido con Spartan Weaponry y Tinkers' Construct.</p>
+            <div class="card-tags">
+              <span class="badge-tag">Ice & Fire</span>
+              <span class="badge-tag">Tinkers'</span>
+              <span class="badge-tag">Mowzie's</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COMPOSITION TABLE -->
+    <section id="modlist">
+      <h2 class="section-title"><i class="fa-solid fa-layer-group" style="color: var(--mc-lapis);"></i> Composición del Modpack (237 Mods)</h2>
+      
+      <div class="comp-table-wrapper">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Cantidad</th>
+              <th>Enfoque Principal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>UI, Quality of Life (QoL) & Visuals</strong></td>
+              <td><span class="badge-tag">61</span></td>
+              <td>HUDs, Minimapas, Física de Sonido, Efectos de Partículas y Ajustes de Cliente.</td>
+            </tr>
+            <tr>
+              <td><strong>Core Libraries & APIs</strong></td>
+              <td><span class="badge-tag">41</span></td>
+              <td>Loaders de Mixins, Frameworks de Compatibilidad y Librerías Base.</td>
+            </tr>
+            <tr>
+              <td><strong>Building, Farming & Food</strong></td>
+              <td><span class="badge-tag">28</span></td>
+              <td>Serie Delight, Bloques de Macaw, Aquaculture y Almacenamiento.</td>
+            </tr>
+            <tr>
+              <td><strong>Combat, Equipment & Curios</strong></td>
+              <td><span class="badge-tag">24</span></td>
+              <td>Baubles, Spartan Weaponry, Escudos, Artefactos y Backports.</td>
+            </tr>
+            <tr>
+              <td><strong>Mobs, Bosses & Creatures</strong></td>
+              <td><span class="badge-tag">22</span></td>
+              <td>Dragones, Mo' Creatures, Undead Rising e Inteligencia Artificial.</td>
+            </tr>
+            <tr>
+              <td><strong>Performance & Optimization</strong></td>
+              <td><span class="badge-tag">22</span></td>
+              <td>Multihilo, Culling, Parches de Memoria y Estabilización de TPS.</td>
+            </tr>
+            <tr>
+              <td><strong>Magic, Technology & Mechanics</strong></td>
+              <td><span class="badge-tag">21</span></td>
+              <td>AE2, EnderIO, IC2, Thaumcraft, Botania, Witchery y Tinkers'.</td>
+            </tr>
+            <tr>
+              <td><strong>World Generation & Dimensions</strong></td>
+              <td><span class="badge-tag">18</span></td>
+              <td>Aether, Twilight Forest, Galacticraft, BetterEnd y Roguelike Dungeons.</td>
+            </tr>
+            <tr class="total-row">
+              <td><strong>TOTAL LOADED MODS</strong></td>
+              <td><span class="badge-tag" style="background: var(--mc-emerald); color:#000;">237</span></td>
+              <td>Build Oficial Totalmente Integrado sin Conflictos de Crafteo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer-pregen">
+    <p><strong>Rener's Golden: Classic - v1.1.2</strong> &copy; Curado y Mantenido por <strong>Rener</strong>.</p>
+    <p>Todos los derechos pertenecen a los respectivos autores de cada mod en el paquete.</p>
+    <p>
+      Documentación: 
+      <a href="modlist.md">English Modlist</a> | 
+      <a href="modlist_es.md">Lista de Mods (Español)</a>
+    </p>
+  </footer>
+
+  <!-- JAVASCRIPT FOR LIVE STATUS FETCH & INTERACTION -->
+  <script>
+    async function fetchServerStatus() {
+      const ip = 'play.mcuniverse.net';
+      const statusOnline = document.getElementById('status-online');
+      const statusPlayers = document.getElementById('status-players');
+      const statusMotd = document.getElementById('status-motd');
+
+      try {
+        const response = await fetch(`https://api.mcstatus.io/v2/status/java/${ip}`);
+        const data = await response.json();
+
+        if (data && data.online) {
+          statusOnline.innerHTML = `
+            <span class="indicator-dot dot-online"></span>
+            <span style="color: var(--mc-emerald);">EN LÍNEA</span>
+          `;
+          statusPlayers.innerText = `${data.players.online} / ${data.players.max}`;
+          
+          if (data.motd && data.motd.clean) {
+            statusMotd.innerText = data.motd.clean.trim();
+          } else {
+            statusMotd.innerText = 'Servidor listo para jugar.';
+          }
+        } else {
+          statusOnline.innerHTML = `
+            <span class="indicator-dot dot-offline"></span>
+            <span style="color: var(--mc-redstone);">FUERA DE LÍNEA</span>
+          `;
+          statusPlayers.innerText = `0 / 0`;
+          statusMotd.innerText = 'El servidor no responde actualmente.';
+        }
+      } catch (error) {
+        statusOnline.innerHTML = `
+          <span class="indicator-dot dot-offline"></span>
+          <span style="color: var(--mc-redstone);">ERROR</span>
+        `;
+        statusPlayers.innerText = `-- / --`;
+        statusMotd.innerText = 'No se pudo obtener el estado de la API.';
+      }
+    }
+
+    function copyIP() {
+      const ipText = document.getElementById('server-ip-text').innerText;
+      navigator.clipboard.writeText(ipText).then(() => {
+        alert('¡IP Copiada al portapapeles: ' + ipText + '!');
+      });
+    }
+
+    // Initialize Server Check
+    fetchServerStatus();
+    // Refresh status every 60 seconds
+    setInterval(fetchServerStatus, 60000);
+  </script>
+</body>
+</html>
