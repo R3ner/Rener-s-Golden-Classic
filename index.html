@@ -356,6 +356,70 @@
     @keyframes pulse { 0% { opacity: 0.3; } 100% { opacity: 1; } }
 
     /* ==========================================================================
+       PLAYERS LIST PANEL (NEO-BRUTALISM)
+       ========================================================================== */
+    .players-container {
+      background: #18181B;
+      border: var(--border-thick);
+      box-shadow: 4px 4px 0px #000;
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .players-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #27272A;
+      padding-bottom: 8px;
+    }
+
+    .players-list-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      min-height: 38px;
+      align-items: center;
+    }
+
+    .player-chip {
+      background: #000;
+      border: 2px solid #333;
+      padding: 4px 10px 4px 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+      box-shadow: 2px 2px 0px #000;
+      transition: transform 0.12s ease, border-color 0.12s ease;
+    }
+
+    .player-chip:hover {
+      transform: translateY(-2px);
+      border-color: var(--mc-emerald);
+      color: var(--mc-gold);
+    }
+
+    .player-avatar {
+      width: 22px;
+      height: 22px;
+      image-rendering: pixelated;
+      border: 1px solid #222;
+      background: #27272A;
+    }
+
+    .players-empty {
+      font-size: 13px;
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
+    /* ==========================================================================
        GRID CONTAINER & CARDS
        ========================================================================== */
     .section-title {
@@ -1007,7 +1071,7 @@
       }
     }
 
-      /* ==========================================================================
+    /* ==========================================================================
        HERO PHOTO CAROUSELS (GALERY - INFINITE MARQUEE)
        ========================================================================== */
     .hero-carousel-container {
@@ -1186,120 +1250,12 @@
 
   <div class="page-wrapper">
 
-        <!-- HERO SECTION WITH DUAL GALERY CAROUSELS -->
+    <!-- HERO SECTION WITH DUAL GALERY CAROUSELS -->
     <header class="hero">
       
       <!-- TOP PHOTO CAROUSEL (FLOWS LEFT) -->
       <div class="hero-carousel-container" aria-label="Galería del Modpack - Fila Superior">
         <div class="hero-carousel-track scroll-left">
-          <div class="hero-carousel-item" onclick="openLightbox('galery/0.png')" title="Captura #0">
-            <img src="galery/0.png" alt="Rener's Golden Classic #0" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/1.png')" title="Captura #1">
-            <img src="galery/1.png" alt="Rener's Golden Classic #1" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/2.png')" title="Captura #2">
-            <img src="galery/2.png" alt="Rener's Golden Classic #2" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/3.webp')" title="Captura #3">
-            <img src="galery/3.webp" alt="Rener's Golden Classic #3" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/4.png')" title="Captura #4">
-            <img src="galery/4.png" alt="Rener's Golden Classic #4" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/5.png')" title="Captura #5">
-            <img src="galery/5.png" alt="Rener's Golden Classic #5" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/6.png')" title="Captura #6">
-            <img src="galery/6.png" alt="Rener's Golden Classic #6" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/7.png')" title="Captura #7">
-            <img src="galery/7.png" alt="Rener's Golden Classic #7" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/8.png')" title="Captura #8">
-            <img src="galery/8.png" alt="Rener's Golden Classic #8" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/9.png')" title="Captura #9">
-            <img src="galery/9.png" alt="Rener's Golden Classic #9" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/10.jpg')" title="Captura #10">
-            <img src="galery/10.jpg" alt="Rener's Golden Classic #10" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/11.png')" title="Captura #11">
-            <img src="galery/11.png" alt="Rener's Golden Classic #11" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/12.jpg')" title="Captura #12">
-            <img src="galery/12.jpg" alt="Rener's Golden Classic #12" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/13.png')" title="Captura #13">
-            <img src="galery/13.png" alt="Rener's Golden Classic #13" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/14.jpg')" title="Captura #14">
-            <img src="galery/14.jpg" alt="Rener's Golden Classic #14" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/15.png')" title="Captura #15">
-            <img src="galery/15.png" alt="Rener's Golden Classic #15" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/16.png')" title="Captura #16">
-            <img src="galery/16.png" alt="Rener's Golden Classic #16" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/17.png')" title="Captura #17">
-            <img src="galery/17.png" alt="Rener's Golden Classic #17" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/18.jpg')" title="Captura #18">
-            <img src="galery/18.jpg" alt="Rener's Golden Classic #18" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/19.png')" title="Captura #19">
-            <img src="galery/19.png" alt="Rener's Golden Classic #19" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/20.jpg')" title="Captura #20">
-            <img src="galery/20.jpg" alt="Rener's Golden Classic #20" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/21.webp')" title="Captura #21">
-            <img src="galery/21.webp" alt="Rener's Golden Classic #21" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/22.png')" title="Captura #22">
-            <img src="galery/22.png" alt="Rener's Golden Classic #22" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/23.png')" title="Captura #23">
-            <img src="galery/23.png" alt="Rener's Golden Classic #23" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/24.jpg')" title="Captura #24">
-            <img src="galery/24.jpg" alt="Rener's Golden Classic #24" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/25.png')" title="Captura #25">
-            <img src="galery/25.png" alt="Rener's Golden Classic #25" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/26.webp')" title="Captura #26">
-            <img src="galery/26.webp" alt="Rener's Golden Classic #26" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/27.png')" title="Captura #27">
-            <img src="galery/27.png" alt="Rener's Golden Classic #27" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/28.jpg')" title="Captura #28">
-            <img src="galery/28.jpg" alt="Rener's Golden Classic #28" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/29.png')" title="Captura #29">
-            <img src="galery/29.png" alt="Rener's Golden Classic #29" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/30.jpg')" title="Captura #30">
-            <img src="galery/30.jpg" alt="Rener's Golden Classic #30" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/31.png')" title="Captura #31">
-            <img src="galery/31.png" alt="Rener's Golden Classic #31" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/32.jpg')" title="Captura #32">
-            <img src="galery/32.jpg" alt="Rener's Golden Classic #32" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/33.png')" title="Captura #33">
-            <img src="galery/33.png" alt="Rener's Golden Classic #33" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/34.png')" title="Captura #34">
-            <img src="galery/34.png" alt="Rener's Golden Classic #34" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/35.png')" title="Captura #35">
-            <img src="galery/35.png" alt="Rener's Golden Classic #35" loading="lazy">
-          </div>
           <div class="hero-carousel-item" onclick="openLightbox('galery/0.png')" title="Captura #0">
             <img src="galery/0.png" alt="Rener's Golden Classic #0" loading="lazy">
           </div>
@@ -1544,117 +1500,6 @@
           <div class="hero-carousel-item" onclick="openLightbox('galery/72.avif')" title="Captura #72">
             <img src="galery/72.avif" alt="Rener's Golden Classic #72" loading="lazy">
           </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/36.png')" title="Captura #36">
-            <img src="galery/36.png" alt="Rener's Golden Classic #36" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/37.jpg')" title="Captura #37">
-            <img src="galery/37.jpg" alt="Rener's Golden Classic #37" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/38.png')" title="Captura #38">
-            <img src="galery/38.png" alt="Rener's Golden Classic #38" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/39.png')" title="Captura #39">
-            <img src="galery/39.png" alt="Rener's Golden Classic #39" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/40.png')" title="Captura #40">
-            <img src="galery/40.png" alt="Rener's Golden Classic #40" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/41.png')" title="Captura #41">
-            <img src="galery/41.png" alt="Rener's Golden Classic #41" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/42.jpg')" title="Captura #42">
-            <img src="galery/42.jpg" alt="Rener's Golden Classic #42" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/43.png')" title="Captura #43">
-            <img src="galery/43.png" alt="Rener's Golden Classic #43" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/44.jpg')" title="Captura #44">
-            <img src="galery/44.jpg" alt="Rener's Golden Classic #44" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/45.png')" title="Captura #45">
-            <img src="galery/45.png" alt="Rener's Golden Classic #45" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/46.png')" title="Captura #46">
-            <img src="galery/46.png" alt="Rener's Golden Classic #46" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/47.png')" title="Captura #47">
-            <img src="galery/47.png" alt="Rener's Golden Classic #47" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/48.png')" title="Captura #48">
-            <img src="galery/48.png" alt="Rener's Golden Classic #48" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/49.png')" title="Captura #49">
-            <img src="galery/49.png" alt="Rener's Golden Classic #49" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/50.png')" title="Captura #50">
-            <img src="galery/50.png" alt="Rener's Golden Classic #50" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/51.jpg')" title="Captura #51">
-            <img src="galery/51.jpg" alt="Rener's Golden Classic #51" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/52.jpg')" title="Captura #52">
-            <img src="galery/52.jpg" alt="Rener's Golden Classic #52" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/53.jpg')" title="Captura #53">
-            <img src="galery/53.jpg" alt="Rener's Golden Classic #53" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/54.png')" title="Captura #54">
-            <img src="galery/54.png" alt="Rener's Golden Classic #54" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/55.png')" title="Captura #55">
-            <img src="galery/55.png" alt="Rener's Golden Classic #55" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/56.jpg')" title="Captura #56">
-            <img src="galery/56.jpg" alt="Rener's Golden Classic #56" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/57.png')" title="Captura #57">
-            <img src="galery/57.png" alt="Rener's Golden Classic #57" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/58.jpg')" title="Captura #58">
-            <img src="galery/58.jpg" alt="Rener's Golden Classic #58" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/59.jpg')" title="Captura #59">
-            <img src="galery/59.jpg" alt="Rener's Golden Classic #59" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/60.png')" title="Captura #60">
-            <img src="galery/60.png" alt="Rener's Golden Classic #60" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/61.png')" title="Captura #61">
-            <img src="galery/61.png" alt="Rener's Golden Classic #61" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/62.png')" title="Captura #62">
-            <img src="galery/62.png" alt="Rener's Golden Classic #62" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/63.jpg')" title="Captura #63">
-            <img src="galery/63.jpg" alt="Rener's Golden Classic #63" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/64.png')" title="Captura #64">
-            <img src="galery/64.png" alt="Rener's Golden Classic #64" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/65.jpg')" title="Captura #65">
-            <img src="galery/65.jpg" alt="Rener's Golden Classic #65" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/66.jpg')" title="Captura #66">
-            <img src="galery/66.jpg" alt="Rener's Golden Classic #66" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/67.png')" title="Captura #67">
-            <img src="galery/67.png" alt="Rener's Golden Classic #67" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/68.webp')" title="Captura #68">
-            <img src="galery/68.webp" alt="Rener's Golden Classic #68" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/69.jpg')" title="Captura #69">
-            <img src="galery/69.jpg" alt="Rener's Golden Classic #69" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/70.png')" title="Captura #70">
-            <img src="galery/70.png" alt="Rener's Golden Classic #70" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/71.avif')" title="Captura #71">
-            <img src="galery/71.avif" alt="Rener's Golden Classic #71" loading="lazy">
-          </div>
-          <div class="hero-carousel-item" onclick="openLightbox('galery/72.avif')" title="Captura #72">
-            <img src="galery/72.avif" alt="Rener's Golden Classic #72" loading="lazy">
-          </div>
         </div>
       </div>
 
@@ -1707,6 +1552,17 @@
             <div class="status-value" id="status-motd" style="font-size: 13px; font-weight: 500; color: var(--text-secondary);">
               Cargando descripción...
             </div>
+          </div>
+        </div>
+
+        <!-- LISTA DE JUGADORES EN TIEMPO REAL -->
+        <div class="players-container">
+          <div class="players-header">
+            <span class="status-label"><i class="fa-solid fa-users" style="color: var(--mc-gold); margin-right: 6px;"></i> JUGADORES CONECTADOS</span>
+            <span id="players-counter" class="badge-tag" style="background: var(--mc-emerald); color: #000;">0 ONLINE</span>
+          </div>
+          <div class="players-list-wrap" id="players-list">
+            <span class="players-empty">Consultando lista de jugadores...</span>
           </div>
         </div>
       </div>
@@ -1990,7 +1846,7 @@
     </div>
   </div>
 
-    <!-- GALLERY LIGHTBOX MODAL -->
+  <!-- GALLERY LIGHTBOX MODAL -->
   <div id="gallery-lightbox" class="gallery-lightbox" onclick="closeLightbox(event)" role="dialog" aria-modal="true" aria-label="Vista previa de captura">
     <div class="lightbox-content" onclick="event.stopPropagation()">
       <button class="lightbox-close" onclick="closeLightbox()" aria-label="Cerrar modal"><i class="fa-solid fa-xmark"></i></button>
@@ -2018,7 +1874,6 @@
   </footer>
 
   <!-- JAVASCRIPT FOR LIVE STATUS FETCH & INTERACTION -->
-
   <script src="vendor/marked/marked.min.js"></script>
   <script>
     async function fetchServerStatus() {
@@ -2026,8 +1881,10 @@
       const statusOnline = document.getElementById('status-online');
       const statusPlayers = document.getElementById('status-players');
       const statusMotd = document.getElementById('status-motd');
+      const playersList = document.getElementById('players-list');
+      const playersCounter = document.getElementById('players-counter');
       
-      // Elementos del nuevo marco y logo dinamico
+      // Elementos del marco y logo dinamico
       const statusIcon = document.getElementById('dynamic-status-icon');
       const statusFrame = document.getElementById('dynamic-status-frame');
 
@@ -2053,6 +1910,29 @@
           } else {
             statusMotd.innerText = 'Servidor listo para jugar.';
           }
+
+          // Renderizado de lista de jugadores
+          if (playersCounter) {
+            playersCounter.innerText = `${data.players.online} ONLINE`;
+          }
+
+          if (data.players.list && data.players.list.length > 0) {
+            playersList.innerHTML = data.players.list.map(player => {
+              const cleanName = typeof player === 'string' ? player : (player.name_clean || player.name_raw || 'Player');
+              const uuid = player.uuid || cleanName;
+              return `
+                <div class="player-chip" title="Jugador: ${cleanName}">
+                  <img class="player-avatar" src="https://minotar.net/avatar/${encodeURIComponent(cleanName)}/24" alt="${cleanName}" loading="lazy" onerror="this.src='https://minotar.net/avatar/MHF_Steve/24'">
+                  <span>${cleanName}</span>
+                </div>
+              `;
+            }).join('');
+          } else if (data.players.online > 0) {
+            playersList.innerHTML = `<span class="players-empty">${data.players.online} jugador(es) conectado(s) (lista anónima o deshabilitada en server.properties).</span>`;
+          } else {
+            playersList.innerHTML = `<span class="players-empty">No hay jugadores conectados actualmente. ¡Sé el primero en entrar!</span>`;
+          }
+
         } else {
           // Servidor Offline: Volver a clases gris y sin brillo
           statusIcon.classList.remove('icon-online');
@@ -2066,6 +1946,8 @@
           `;
           statusPlayers.innerText = `0 / 0`;
           statusMotd.innerText = 'El servidor no responde actualmente.';
+          if (playersCounter) playersCounter.innerText = '0 ONLINE';
+          if (playersList) playersList.innerHTML = `<span class="players-empty">El servidor está fuera de línea.</span>`;
         }
       } catch (error) {
         // Error / Offline
@@ -2080,6 +1962,8 @@
         `;
         statusPlayers.innerText = `-- / --`;
         statusMotd.innerText = 'No se pudo obtener el estado de la API.';
+        if (playersCounter) playersCounter.innerText = 'ERROR';
+        if (playersList) playersList.innerHTML = `<span class="players-empty">No se pudo consultar la lista de jugadores.</span>`;
       }
     }
 
@@ -2204,7 +2088,7 @@
       }
     }
 
-        function openLightbox(src) {
+    function openLightbox(src) {
       const modal = document.getElementById('gallery-lightbox');
       const img = document.getElementById('lightbox-img');
       if (modal && img) {
