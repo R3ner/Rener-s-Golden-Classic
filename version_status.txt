@@ -6,6 +6,10 @@
 &fSpiders 2.0
 &fHammers(marvvinekk)
 &fChunk-Pregenerator
+&fFarsight
+&fDynamic View and Simulation Distances
+&fBeast Slayer
+
 
 
 &l&2✚ &7Añadido &l&2✚
@@ -13,4 +17,4 @@
 &fSparks Hammers
 &fGraveStone Mod
 &fLet Me Despawn
-
+&fSimple Discord RPC
