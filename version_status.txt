@@ -1,26 +1,16 @@
-&e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1.2
+&e&lULTIMA VERSION EN GITHUB ES: &a&lV1.1.3
 
-&9&lCHANGELOG V1.1.2:
+&9&lCHANGELOG V1.1.3:
 &l&c▬ &7Eliminado &l&c▬
-&fFoamFix
-&fWyrms of Nyrus
-&fIce and Fire
-&fInventory HUD+
-&fCitadel
+&fCorpse
+&fSpiders 2.0
+&fHammers(marvvinekk)
+&fChunk-Pregenerator
+
 
 &l&2✚ &7Añadido &l&2✚
-&fRamGuard
-&fCrossbows Backport
-&fRaids Backport
-&fDeeper Depths
-&fInventory Totem
-&fSpiritualComeBack 2
-&fCraftTweaker
+&e- &dRenerModCore &e-
+&fSparks Hammers
+&fGraveStone Mod
+&fLet Me Despawn
 
-&l&d▼ &7Actualizado &l&d▼
-&fFarmer's Delight Legacy
-&fSuperMartijn642's Core Lib
- &fWitchery
-&l&b✔ &7Arreglado &l&b✔
-&fError de texturas en efectos
-&fCrafteo de Angel Rings
